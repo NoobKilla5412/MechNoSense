@@ -13,7 +13,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/ico" href="./favicon.ico" />
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<!-- Bootstrap CSS -->
@@ -21,14 +21,13 @@
 
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="/style.css"/>
 		<link rel="prerender" href="/">
-		<link rel="prerender" href="about-us">
-		<link rel="prerender" href="workshops">
-		<link rel="prerender" href="robots">
-		<link rel="prerender" href="#">
+		<link rel="prerender" href="/about-us">
+		<link rel="prerender" href="/workshops">
+		<link rel="prerender" href="/robots">
 		<!-- Custom CSS -->
-		<title>Robots &#8211; MechNoSense</title>
+		<title>Titan Robot &#8211; MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -46,17 +45,17 @@
 				</div>
 				<ul class="nav navbar-nav">
 					<li class=""><a href="/">Home</a></li>
-					<li class=""><a href="about-us">About Us</a></li>
-					<li class=""><a href="workshops">Workshops</a>
-					<li class=""><a href="daily-log">Daily Log</a>
+					<li class=""><a href="/about-us">About Us</a></li>
+					<li class=""><a href="/workshops">Workshops</a>
+					<li class=""><a href="/daily-log">Daily Log</a>
 					<li class="dropdown active">
 						<a class="dropdown-toggle" data-toggle="dropdown">
 							Robots <span class="caret"/>
 						</a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href="robots"><b>Robots</b></a></li>
-							<li class=""><a href="robots#titans">Titans</a></li>
-							<li class=""><a href="robots#atlas">Atlas</a></li>
+							<li class="active"><a href="/robots"><b>Robots</b></a></li>
+							<li class=""><a href="titans#titans">Titans</a></li>
+							<li class=""><a href="atlas#atlas">Atlas</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -64,9 +63,9 @@
 							Buy <span class="caret"/>
 						</a>
 						<ul class="dropdown-menu">
-							<li class=""><a href="buy"><b>Buy</b></a></li>
-							<li class=""><a href="buy#titans">Titans</a></li>
-							<li class=""><a href="buy#atlas">Atlas</a></li>
+							<li class=""><a href="/buy"><b>Buy</b></a></li>
+							<li class=""><a href="/buy#titans">Titans</a></li>
+							<li class=""><a href="/buy#atlas">Atlas</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -82,12 +81,6 @@
 				</p>
 				<p>
 					Our intake is a spinny with starfish wheels to put freight and ducks up a ramp. The problem is the starfish wheels were about the size of a caterpillar and very squishy so we just used some stiff foam… After about ten seconds of running over a duck, it will get picked up by the foam and end up in our bucket. Funny story, we could not figure out what to do for our bucket and one of our teammates comes up and installs an isopropyl-alcohol container and it works flawlessly. After a couple more cad fails we came up with our permanent bucket.
-				</p>
-			</div>
-			<div id="atlas">
-				<h1 id="head123">Atlas</h1>
-				<p>
-					This is our fast robot.
 				</p>
 			</div>
 		</div>

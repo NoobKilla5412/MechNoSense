@@ -13,7 +13,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" type="image/ico" href="./favicon.ico" />
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
 		<link rel="apple-touch-icon" href="./favicon.png">
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -36,7 +36,7 @@
 		<div class="container-fluid">
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					MechNoSense Robotics<br/><img src="favicon.svg" height="200px;" alt="Logo"/>
+					Daily Log
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew</span>
@@ -57,8 +57,8 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li class=""><a href="robots"><b>Robots</b></a></li>
-							<li class=""><a href="robots#titans">Titans</a></li>
-							<li class=""><a href="robots#atlas">Atlas</a></li>
+							<li class=""><a href="robots/titans#titans">Titans</a></li>
+							<li class=""><a href="robots/atlas#atlas">Atlas</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
