@@ -37,7 +37,7 @@
 		<div class="container-fluid">
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					MechNoSense Robotics<br/><img src="favicon.svg" height="250px" alt="Logo"/>
+					Videos
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew</span>
@@ -48,12 +48,12 @@
 					<a href="/" class="navbar-brand">MechNoSense Robotics</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="/">Home</a></li>
+					<li class=""><a href="/">Home</a></li>
 					<li class=""><a href="about-us">About Us</a></li>
 					<li class=""><a href="workshops">Workshops</a>
 					<li class=""><a href="daily-log">Daily Log</a>
 					<li class=""><a href="signup">Sign Up</a>
-					<li class=""><a href="videos">Videos</a></li>
+					<li class="active"><a href="videos">Videos</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown">
 							Robots <span class="caret"/>
