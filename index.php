@@ -1,4 +1,4 @@
-<?php $doc = "home";?>
+<?php $doc = "Home";?>
 <!DOCTYPE html>
 <html lang="en-us">
 
