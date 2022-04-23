@@ -1,4 +1,10 @@
 <?php $doc = "Home";?>
+<?php function active($doc1) {
+	global $doc;
+	if ($doc === $doc1) {
+		return "active";
+	}
+}?>
 <!DOCTYPE html>
 <html lang="en-us">
 
