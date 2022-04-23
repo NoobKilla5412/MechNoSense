@@ -48,7 +48,14 @@
 						<li class=""><a href="daily-log">Daily Log</a>
 						<li class="active"><a href="signup">Sign Up</a>
 						<li class=""><a href="videos">Videos</a></li>
-						<li class=""><a href="/sponsors">Sponsors</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">
+								Sponsors <span class="caret"/>
+							</a>
+							<ul class="dropdown-menu" style="background-color:#183820;">
+								<li class=""><a href="/sponsors/hp"><b>HP</b></a></li>
+							</ul>
+						</li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown">
 								Robots <span class="caret"/>
