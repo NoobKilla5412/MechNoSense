@@ -1,7 +1,7 @@
 <?php function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
-		echo "active";
+		return "active";
 	}
 }?>
 <nav class="navbar navbar-inverse">
@@ -16,7 +16,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
-							<li class="" ><a href="/">Home</a></li>
+							<li class="<?=active('Home');?>" ><a href="/">Home</a></li>
 							<li class="" ><a href="about-us">About Us</a></li>
 							<li class="" ><a href="workshops">Workshops</a>
 							<li class="" ><a href="daily-log">Daily Log</a>
