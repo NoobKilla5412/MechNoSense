@@ -24,13 +24,13 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/style.css"/>
 		<!-- Custom CSS -->
-		<title>Atlas Robot &#8211; MechNoSense</title>
+		<title>HP &#8211; Sponsors | MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					Robots
+					HP
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew</span>
