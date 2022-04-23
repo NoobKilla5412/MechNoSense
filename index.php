@@ -1,5 +1,6 @@
-<?php $doc = "Home";?>
-<?php function active($doc1) {
+<?php
+$doc = "Home";
+function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
 		return "active";
