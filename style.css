@@ -67,6 +67,6 @@ a.dropdown-toggle {
 	border:1px solid transparent;
 	border-radius:4px
 }
-ul.dropdown-menu li {
+ul.dropdown-menu li a {
 	color: #6F8F72;
 }
