@@ -13,8 +13,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
-		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<link rel="icon" type="image/ico" href="./favicon.ico" />
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		
 		<!-- Bootstrap CSS -->
@@ -22,7 +21,7 @@
 		
 		<!-- Bootstrap JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="/style.css"/>
+		<link rel="stylesheet" href="style.css"/>
 		<!-- Custom CSS -->
 		<title>About Us &#8211; MechNoSense</title>
 	</head>
@@ -33,7 +32,7 @@
 				About Our Team
 			</h1>
 			<hr/>
-			<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#liana" class="names-link">Liana</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a> | <a href="mailto:mechnosense@gmail.com" class="names-link">Our email</a></span>
+			<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#liana" class="names-link">Liana</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:mechnosense@gmail.com" class="names-link">Our email</a></span>
 			<hr/>
 			<!-- Navbar -->
 			<nav class="navbar navbar-inverse">
@@ -45,16 +44,14 @@
 					<li class="active"><a href="about-us">About Us</a></li>
 					<li class=""><a href="workshops">Workshops</a>
 					<li class=""><a href="daily-log">Daily Log</a>
-					<li class=""><a href="signup">Sign Up</a>
-					<li class=""><a href="videos">Videos</a></li>
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown">
 							Robots <span class="caret"/>
 						</a>
 						<ul class="dropdown-menu">
 							<li class=""><a href="robots"><b>Robots</b></a></li>
-							<li class=""><a href="robots/titans#titans">Titans</a></li>
-							<li class=""><a href="robots/atlas#atlas">Atlas</a></li>
+							<li class=""><a href="robots#titans">Titans</a></li>
+							<li class=""><a href="robots#atlas">Atlas</a></li>
 						</ul>
 					</li>
 					<li class="dropdown">
@@ -77,25 +74,31 @@
 			Hi my name is Brandon. I do the coding of this webapge.
 		</p>
 		<p id="liana">
-			Hi my name is Liana.
+			I am the creative input for our website, a builder, and I also work on the engineering notebook/note taking. I joined in 2021 as a builder, and I worked on the robot. This year I want to learn more about building, and maybe learn about coding. The website is my first big project, and I’m very excited about it. 
 		</p>
 		<p id="ismael">
-			Hi my name is Ismael.
+			I am i can't type very well this is so bad and i am so sad too sad to be happy.
 		</p>
 		<p id="dane">
-			Hi my name is Dane.
+			I am Dane. I am our head builder and I joined in 2021. I have loved building things for all my life. I was also the lead builder for last year's robotics challenge (freight frenzy). Probably the biggest reason I joined was to pit my hard work against others who also love to build.
 		</p>
 		<p id="vibhav">
-			Hi my name is Vibhav.
+			I am Vibhav. The co-team leader, and co-lead programmer. I have been doing Robotics for 2+ years now and have been programming for most of the time as well. I became interested in Robotics partly because of my parents. They are both software engineers and I was very interested in their work. The other part was that I had played around with coding for some time and I found that I enjoyed making small games and programs with it; so that’s how I became interested in robotics and programming specifically. This year, I am very excited to learn more, work harder, and do better!
 		</p>
 		<p id="isaac">
-			Hi my name is Isaac.
+			My name is Isaac and this is my second season of robotics in this club. I am one of our groups builders but i have been woorking in many areas of robotics this season. I have really enjoyed robotics and i want to show its greatness to anyone who wants it. My favorite color is orange, i like robotics and soccer, im in middle school and pizza is good. Goodbyeeeee. 
 		</p>
 		<p id="grae">
 			Hi my name is Grae.
 		</p>
 		<p id="matthew">
 			Hi my name is Matthew.
+		</p>
+		<p id="will">
+			My name is Will I., programmer for team mechnosense. I was leader for one of the two sub-teams last year: team 13749 atlas. I am currently a midline programmer for mechnosense, as well as assistant coordinator for mechnosense.
+		</p>
+		<p id="linnaea">
+			I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket robotics and have been part of this for about 3 years now. I enjoy managing our repo, making plans and coding. Outside of robotics I like to Hike, camp and all things outdoors. I'm a team leader and am strong at long term planning and short term emergencies. And I really 
 		</p>
 		<p id="email">
 			Our email is <a href="mailto:mechnosense@gmail.com">mechnosense@gmail.com</a>
