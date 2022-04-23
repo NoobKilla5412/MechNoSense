@@ -15,9 +15,6 @@ p {
 	font-size: 16pt;
 	color: #6F8F72;
 }
-ul.dropdown-menu li {
-	color: #6F8F72;
-}
 .text {
 	color: #6F8F72;
 }
@@ -69,4 +66,7 @@ a.dropdown-toggle {
 	cursor:text;
 	border:1px solid transparent;
 	border-radius:4px
+}
+ul.dropdown-menu li {
+	color: #6F8F72;
 }
