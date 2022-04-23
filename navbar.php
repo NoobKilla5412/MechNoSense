@@ -1,3 +1,9 @@
+<?php function active($doc1) {
+	global $doc;
+	if ($doc === $doc1) {
+		echo "active";
+	}
+}?>
 <nav class="navbar navbar-inverse">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#links" aria-expanded="false">
@@ -10,19 +16,19 @@
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
-							<li class=<?php if ($doc === "Home"){echo "active";}else{}?>><a href="/">Home</a></li>
-							<li class=<?php if ($doc === "About Us"){echo "active";}else{}?>><a href="about-us">About Us</a></li>
-							<li class=<?php if ($doc === "Workshops"){echo "active";}else{}?>><a href="workshops">Workshops</a>
-							<li class=<?php if ($doc === "Daily Log"){echo "active";}else{}?>><a href="daily-log">Daily Log</a>
-							<li class=<?php if ($doc === "Sign Up"){echo "active";}else{}?>><a href="signup">Sign Up</a>
-							<li class=<?php if ($doc === "Videos"){echo "active";}else{}?>><a href="videos">Videos</a></li>
-							<li class="dropdown <?php if ($doc === "Sponsors"){echo "active";}else{}?>">
+							<li class=<?php active("Home");?>><a href="/">Home</a></li>
+							<li class="<?php active("About Us");?>"><a href="about-us">About Us</a></li>
+							<li class="<?php active("Workshops");?>"><a href="workshops">Workshops</a>
+							<li class="<?php active("Daily Log");?>"><a href="daily-log">Daily Log</a>
+							<li class="<?php active("Sign Up");?>"><a href="signup">Sign Up</a>
+							<li class="<?php active("Videos");?>"><a href="videos">Videos</a></li>
+							<li class="dropdown <?php active("Sponsors");?>">
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Sponsors <span class="caret"/>
 								</a>
 								<ul class="dropdown-menu" style="background-color:#183820;">
-									<li class="<?php if ($doc === "Sponsors"){echo "active";}else{}?>"><a href="/sponsors"><b>Sponsors</b></a></li>
-									<li class="<?php if ($doc === "Sponsors-HP"){echo "active";}else{}?>"><a href="/sponsors/hp">HP</a></li>
+									<li class="<?php active("Sponsors");?>"><a href="/sponsors"><b>Sponsors</b></a></li>
+									<li class="<?php active("Sponsors-HP");?>"><a href="/sponsors/hp">HP</a></li>
 								</ul>
 							</li>
 							<li class="dropdown">
