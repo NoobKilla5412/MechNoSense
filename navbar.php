@@ -10,12 +10,12 @@
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
-							<li class="<?php if ($doc === "Home"){echo "active";}?>"><a href="/">Home</a></li>
-							<li class="<?php if ($doc === "About Us"){echo "active";}?>"><a href="about-us">About Us</a></li>
-							<li class="<?php if ($doc === "Workshops"){echo "active";}?>"><a href="workshops">Workshops</a>
-							<li class="<?php if ($doc === "Daily Log"){echo "active";}?>"><a href="daily-log">Daily Log</a>
-							<li class="<?php if ($doc === "Sign Up"){echo "active";}?>"><a href="signup">Sign Up</a>
-							<li class="<?php if ($doc === "Videos"){echo "active";}?>"><a href="videos">Videos</a></li>
+							<li class=<?php if ($doc === "Home"){echo "active";}?>><a href="/">Home</a></li>
+							<li class=<?php if ($doc === "About Us"){echo "active";}?>><a href="about-us">About Us</a></li>
+							<li class=<?php if ($doc === "Workshops"){echo "active";}?>><a href="workshops">Workshops</a>
+							<li class=<?php if ($doc === "Daily Log"){echo "active";}?>><a href="daily-log">Daily Log</a>
+							<li class=<?php if ($doc === "Sign Up"){echo "active";}?>><a href="signup">Sign Up</a>
+							<li class=<?php if ($doc === "Videos"){echo "active";}?>><a href="videos">Videos</a></li>
 							<li class="dropdown <?php if ($doc === "Sponsors"){echo "active";}?>">
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Sponsors <span class="caret"/>
