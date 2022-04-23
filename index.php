@@ -50,7 +50,7 @@ function active($doc1) {
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
 			<hr />
-			<?php echo file('.\navbar.php');?>
+			<?php echo print_r(file('.\navbar.php'));?>
 		</div>
 			<main>
 				<h3 id="team">
