@@ -1,3 +1,6 @@
+<?php
+$doc = "Sponsors";
+?>
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
@@ -13,8 +16,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="MechNoSense Robotics Home Page">
 		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="./favicon.png">
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<!-- Bootstrap CSS -->
@@ -24,54 +29,24 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/style.css"/>
 		<!-- Custom CSS -->
-		<title>HP &#8211; Sponsors | MechNoSense</title>
+		<title>Sponsors &#8211; MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					HP
+					Sponsors
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
 				<hr/>
 				<!-- Navbar -->
-				<nav class="navbar navbar-inverse">
-				<div class="navbar-header">
-					<a href="/" class="navbar-brand">MechNoSense Robotics</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li class=""><a href="/">Home</a></li>
-					<li class=""><a href="/about-us">About Us</a></li>
-					<li class=""><a href="/workshops">Workshops</a>
-					<li class=""><a href="/daily-log">Daily Log</a>
-					<li class=""><a href="/signup">Sign Up</a>
-					<li class=""><a href="/videos">Videos</a></li>
-					<li class="active"><a href="/sponsors">Sponsors</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Robots <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="/robots"><b>Robots</b></a></li>
-							<li class=""><a href="titans#titans">Titans</a></li>
-							<li class=""><a href="atlas#atlas">Atlas</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Buy <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="/buy"><b>Buy</b></a></li>
-							<li class=""><a href="/buy#titans">Titans</a></li>
-							<li class=""><a href="/buy#atlas">Atlas</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
+				<?php include '..\navbar.php';?>
 			</div>
-			<!-- add content here -->
+			<!-- add stuff here -->
+			<p>
+				<a href="hp">HP</a>
+			</p>
 		</div>
 	</body>
 </html>
