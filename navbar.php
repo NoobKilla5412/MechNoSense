@@ -2,7 +2,9 @@
 function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
-		return "class=\" "."active\"";
+		return "<li class=\" "."active\">";
+	}else {
+		return "<li>";
 	}
 }?>
 <nav class="navbar navbar-inverse">
@@ -17,7 +19,7 @@ function active($doc1) {
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
-							<li <?php echo active('Home'); exit;?> ><a href="/">Home</a></li>
+							<?php echo active('Home'); exit; ?><a href="/">Home</a></li>
 							<li><a href="about-us">About Us</a></li>
 							<li><a href="workshops">Workshops</a>
 							<li><a href="daily-log">Daily Log</a>
