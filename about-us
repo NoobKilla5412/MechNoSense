@@ -1,3 +1,6 @@
+<?php
+$doc = "About Us";
+?>
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -40,47 +43,7 @@
 			<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#liana" class="names-link">Liana</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:mechnosense@gmail.com" class="names-link">Our email</a></span>
 			<hr />
 			<!-- Navbar -->
-			<nav class="navbar navbar-inverse">
-				<div class="navbar-header">
-					<a href="/" class="navbar-brand">MechNoSense Robotics</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li class=""><a href="/">Home</a></li>
-					<li class="active"><a href="about-us">About Us</a></li>
-					<li class=""><a href="workshops">Workshops</a>
-					<li class=""><a href="daily-log">Daily Log</a>
-					<li class=""><a href="signup">Sign Up</a>
-					<li class=""><a href="videos">Videos</a></li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Sponsors <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="/sponsors/hp"><b>HP</b></a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Robots <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="robots"><b>Robots</b></a></li>
-							<li class=""><a href="robots#titans">Titans</a></li>
-							<li class=""><a href="robots#atlas">Atlas</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Buy <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="buy"><b>Buy</b></a></li>
-							<li class=""><a href="buy#titans">Titans</a></li>
-							<li class=""><a href="buy#atlas">Atlas</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
+			<?php include '.\navbar.php';?>
 			</div>
 		<!-- <h2 style="font-size: 200pt;"> -->
 			<!-- This is our about page -->
