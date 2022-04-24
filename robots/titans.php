@@ -1,5 +1,6 @@
 <?php
-$doc = "Robots-Atlas";
+$doc = "Robots-Titans";
+$subdoc = "Robots";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -27,7 +28,7 @@ $doc = "Robots-Atlas";
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/style.css"/>
 		<!-- Custom CSS -->
-		<title>Atlas Robot &#8211; MechNoSense</title>
+		<title>Titan Robot &#8211; MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -41,10 +42,16 @@ $doc = "Robots-Atlas";
 				<!-- Navbar -->
 				<?php include '..\navbar.php';?>
 			</div>
-			<div id="atlas">
-				<h1 id="head123">Atlas</h1>
+			<div id="titans">
+				<h1 id="head123">Titans</h1>
 				<p>
-					This is our fast robot.
+					This is a robot that has these massive treads and has a sideways blender to shoot cubes and ducks into an isopropyl-alcohol-inspired bucket to be dumped onto a small platform and score us six points.
+				</p>
+				<p>
+					The drive base is two tank treads about a third of our robot tall powered by two motors each. The motors are back to back in two U-channels, hooked to the treads using a gearbox, with a big mess of wires in the middle that nobody wants to organize. The maximum size for the drive base is eighteen by eighteen by eighteen inches large. The first time we made this drive base specifically it was eighteen inches and two millimeters large so we (Dane) had to dismantle the entire thing and put it back together saving two millimeters so it is exactly eighteen inches long.
+				</p>
+				<p>
+					Our intake is a spinny with starfish wheels to put freight and ducks up a ramp. The problem is the starfish wheels were about the size of a caterpillar and very squishy so we just used some stiff foam… After about ten seconds of running over a duck, it will get picked up by the foam and end up in our bucket. Funny story, we could not figure out what to do for our bucket and one of our teammates comes up and installs an isopropyl-alcohol container and it works flawlessly. After a couple more cad fails we came up with our permanent bucket.
 				</p>
 			</div>
 		</div>
