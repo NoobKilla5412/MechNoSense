@@ -18,11 +18,11 @@ function active($doc1) {
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
 							<li <?php echo active('Home'); exit;?> ><a href="/">Home</a></li>
-							<li class="" ><a href="about-us">About Us</a></li>
-							<li class="" ><a href="workshops">Workshops</a>
-							<li class="" ><a href="daily-log">Daily Log</a>
-							<li class="" ><a href="signup">Sign Up</a>
-							<li class="" ><a href="videos">Videos</a></li>
+							<li><a href="about-us">About Us</a></li>
+							<li><a href="workshops">Workshops</a>
+							<li><a href="daily-log">Daily Log</a>
+							<li><a href="signup">Sign Up</a>
+							<li><a href="videos">Videos</a></li>
 							<li class="dropdown" >
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Sponsors <span class="caret"/>
