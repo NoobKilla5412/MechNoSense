@@ -1,13 +1,6 @@
 <?php
 $doc = "Home";
-function active($doc1) {
-	global $doc;
-	if ($doc === $doc1) {
-		echo "<li class=active>";
-	}else {
-		echo "<li>";
-	}
-}?>
+?>
 <!DOCTYPE html>
 <html lang="en-us">
 

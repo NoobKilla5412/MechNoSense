@@ -1,3 +1,12 @@
+<?php
+function active($doc1) {
+	global $doc;
+	if ($doc === $doc1) {
+		echo "<li class=active>";
+	}else {
+		echo "<li>";
+	}
+}?>
 <nav class="navbar navbar-inverse">
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#links" aria-expanded="false">
