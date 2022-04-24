@@ -1,5 +1,6 @@
 <?php
 $doc = "Sponsors-HP";
+$subdoc = "Sponsors";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
