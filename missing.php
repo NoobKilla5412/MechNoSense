@@ -40,37 +40,7 @@
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
 			<hr />
 			<!-- Navbar -->
-			<nav class="navbar navbar-inverse">
-				<div class="navbar-header">
-					<a href="/" class="navbar-brand">MechNoSense Robotics</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li class=""><a href="/">Home</a></li>
-					<li class=""><a href="about-us">About Us</a></li>
-					<li class=""><a href="workshops">Workshops</a>
-					<li class=""><a href="daily-log">Daily Log</a>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Robots <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="robots"><b>Robots</b></a></li>
-							<li class=""><a href="robots/titans#titans">Titans</a></li>
-							<li class=""><a href="robots/atlas#atlas">Atlas</a></li>
-						</ul>
-					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">
-							Buy <span class="caret"/>
-						</a>
-						<ul class="dropdown-menu" style="background-color:#183820;">
-							<li class=""><a href="buy"><b>Buy</b></a></li>
-							<li class=""><a href="buy#titans">Titans</a></li>
-							<li class=""><a href="buy#atlas">Atlas</a></li>
-						</ul>
-					</li>
-				</ul>
-			</nav>
+			<?php include '.\navbar.php';?>
 			</div>
 			<p class="text-center">
 				It looks like you are lost. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
