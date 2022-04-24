@@ -9,7 +9,8 @@ function active($doc1) {
 }
 function activeDrop($doc1) {
 	global $doc;
-	if ($doc === $doc1) {
+	global $subdoc;
+	if ($doc === $doc1 || $subdoc === $doc1) {
 		echo "<li class=\"dropdown active\">";
 	}else {
 		echo "<li class=dropdown>";
