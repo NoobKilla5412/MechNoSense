@@ -2,9 +2,9 @@
 function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
-		return "<li class=\" "."active\">";
+		return "\<li class=\" "."active\"\>";
 	}else {
-		return "<li>";
+		return "\<li\>";
 	}
 }?>
 <nav class="navbar navbar-inverse">
