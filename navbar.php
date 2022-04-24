@@ -39,7 +39,7 @@ function activeDrop($doc1) {
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Sponsors <span class="caret"/>
 								</a>
-								<ul class="dropdown-menu" style="background-color:#183820;">
+								<ul class="dropdown-menu text-center" style="background-color:#183820;">
 									<?php echo active('Sponsors');?><a href="/sponsors"><b>Sponsors</b></a></li>
 									<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
 								</ul>
@@ -48,7 +48,7 @@ function activeDrop($doc1) {
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Robots <span class="caret"/>
 								</a>
-								<ul class="dropdown-menu" style="background-color:#183820;">
+								<ul class="dropdown-menu text-center" style="background-color:#183820;">
 									<?php echo active('Robots');?><a href="/robots"><b>Robots</b></a></li>
 									<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
 									<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
@@ -58,7 +58,7 @@ function activeDrop($doc1) {
 								<a class="dropdown-toggle" data-toggle="dropdown">
 									Buy <span class="caret"/>
 								</a>
-								<ul class="dropdown-menu" style="background-color:#183820;">
+								<ul class="dropdown-menu text-center" style="background-color:#183820;">
 									<?php echo active('Buy');?><a href="/buy"><b>Buy</b></a></li>
 									<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
 									<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>
