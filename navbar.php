@@ -19,7 +19,7 @@ function active($doc1) {
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
-							<?php echo active('Home'); exit; ?><a href="/">Home</a></li>
+							<?php echo active('Home');?><a href="/">Home</a></li>
 							<li><a href="about-us">About Us</a></li>
 							<li><a href="workshops">Workshops</a>
 							<li><a href="daily-log">Daily Log</a>
