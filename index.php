@@ -3,9 +3,9 @@ $doc = "Home";
 function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
-		return "<li class=\" active\">";
+		echo "<li class=\" active\">";
 	}else {
-		return "<li>";
+		echo "<li>";
 	}
 }?>
 <!DOCTYPE html>
