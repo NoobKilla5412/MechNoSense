@@ -25,7 +25,7 @@ function activeDrop($doc1) {
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="/" class="navbar-brand">MechNoSense Robotics</a>
+						<a href="/" class="navbar-brand">MechNoSense</a>
 					</div>
 					<div class="collapse navbar-collapse" id="links">
 						<ul class="nav navbar-nav">
