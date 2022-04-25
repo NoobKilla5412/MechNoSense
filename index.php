@@ -48,15 +48,13 @@ $doc = "Home";
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
 		</div>
-			<main>
-				<h3 id="team">
-					About Our Team:
-				</h3>
-				<p>
-				Hello, we are MechNoSense
-an
-Etc robots team located in
-Linn-County we work on
-teaching robotics, buissness
-and programming skills. We
-love all things robots!
+		<h3 id="team">
+			About Our Team:
+		</h3>
+		<p>
+			Hello, we are MechNoSense, an FTC robotics team located in Linn County. We work on teaching robotics, business, and programming skills. We love all things robots!
+		</p>
+	</div>
+</body>
+
+</html>
