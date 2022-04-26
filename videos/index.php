@@ -42,7 +42,7 @@ $doc = "Videos";
 				<!-- Navbar -->
 				<?php include '..\navbar.php';?>
 			</div>
-			<video width="100vw" type="video/mov" src="IMG_3118.mov" controls />
+			<video width="100vw" type="video/mov" src="../../IMG_3118.mov" controls />
 		</div>
 	</body>
 </html>
