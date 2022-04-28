@@ -19,13 +19,7 @@ $doc = "Buy";
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 	</script>
-	<link rel="stylesheet" href="style.css" />
-	<link rel="prerender" href="/">
-	<link rel="prerender" href="about-us">
-	<link rel="prerender" href="workshops">
-	<link rel="prerender" href="robots">
-	<link rel="prerender" href="buy">
-	<link rel="prerender" href="signup">
+	<link rel="stylesheet" href="/style.css" />
 	<!-- Custom CSS -->
 	<title>Buy &#8211; MechNoSense</title>
 </head>
@@ -40,7 +34,7 @@ $doc = "Buy";
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
 			<hr />
 			<!-- Navbar -->
-			<?php include '.\navbar.php';?>
+			<?php include '..\navbar.php';?>
 			</div>
 		</div>
 	</body>
