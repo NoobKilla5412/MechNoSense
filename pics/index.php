@@ -46,7 +46,7 @@ $doc = "Pictures";
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
 			<hr />
 			<!-- Navbar -->
-			<?php include '.\navbar.php';?>
+			<?php include '..\navbar.php';?>
 		</div>
 		
 	</div>
