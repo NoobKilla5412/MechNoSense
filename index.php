@@ -52,10 +52,10 @@ $doc = "Home";
 			About Our Team:
 		</h3>
 		<p>
-			Hello, we are MechNoSense, an FTC robotics team located in Linn County. We work on teaching robotics, business, and programming skills. We love all things robots!
+			Hello, we are MechNoSense, an FTC robotics team located in Linn County. We work on teaching robotics, business, and programming skills. We love all things robots! Our team is committed to equity and diversity and welcomes all no matter skill level, past experience, or current ability. We are made up of 6-8th graders but are flexible and excited to meet new members.
 		</p><br />
 		<p>
-			
+			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made improvements over that time and are excited to continue to learn and grow together. Depending on recruitment size we have around 1-3 teams a year. Our name has been recently changed but has been a constant in past years and with a team of dedicated mentors, we plan on expanding our team growth and size. We hope you'll give us a chance to expand your horizons no matter the skill level. And we want to send a big thank you from the team behind Mechnosense.
 		</p><br />
 	</div>
 </body>
