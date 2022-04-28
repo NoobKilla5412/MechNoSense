@@ -1,5 +1,6 @@
 <?php
-$doc = "Sponsors";
+$doc = "Sponsors-First";
+$subdoc = "Sponsors";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -16,10 +17,8 @@ $doc = "Sponsors";
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="MechNoSense Robotics Home Page">
 		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="./favicon.png">
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<!-- Bootstrap CSS -->
@@ -29,13 +28,13 @@ $doc = "Sponsors";
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/style.css"/>
 		<!-- Custom CSS -->
-		<title>Sponsors &#8211; MechNoSense</title>
+		<title>First Robotics &#8211; Sponsors | MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					Sponsors
+					First Robotics
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
@@ -43,10 +42,7 @@ $doc = "Sponsors";
 				<!-- Navbar -->
 				<?php include '..\navbar.php';?>
 			</div>
-			<!-- add stuff here -->
-			<p>
-				We have various sponsors including <a href="hp">HP</a>, <a href="4h">4H</a>, and <a href="first">First Robotics</a>. We have used funds given by our sponsors to purchase various kinds of equipment for our teams including small parts, robot base kits, and our website upkeep. For HP we were awarded the imagine grant which is discussed more on our dedicated tab for them. This grant has allowed us to expand and grow at a larger rate than we ever have before and has aided us in our mission to share robotics with the world.
-			</p>
+			<!-- add content here -->
 		</div>
 	</body>
 </html>
