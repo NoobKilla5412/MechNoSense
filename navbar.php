@@ -30,13 +30,13 @@ function activeDrop($doc1) {
 	<div class="collapse navbar-collapse" id="links">
 		<ul class="nav navbar-nav">
 			<?php echo active('Home');?><a href="/">Home</a></li>
-			<?php echo active('About Us');?><a href="/about-us">About Us</a></li>
-			<?php echo active('Workshops');?><a href="/workshops">Workshops</a>
-			<?php echo active('Daily Log');?><a href="/daily-log">Daily Log</a>
-			<?php echo active('Sign Up');?><a href="/signup">Sign Up</a>
+			<?php echo active('About Us');?><a href="/about-us/">About Us</a></li>
+			<?php echo active('Workshops');?><a href="/workshops/">Workshops</a>
+			<?php echo active('Daily Log');?><a href="/daily-log/">Daily Log</a>
+			<?php echo active('Sign Up');?><a href="/signup/">Sign Up</a>
 			<?php echo active('Videos');?><a href="/videos/">Videos</a></li>
-			<?php echo active('Pictures');?><a href="/pics">Pictures</a></li>
-			<?php echo active('Buy');?><a href="/buy">Buy</a></li>
+			<?php echo active('Pictures');?><a href="/pics/">Pictures</a></li>
+			<?php echo active('Buy');?><a href="/buy/">Buy</a></li>
 			<?php echo activeDrop('Sponsors');?>
 				<a class="dropdown-toggle" data-toggle="dropdown">
 					Sponsors <span class="caret"/>
