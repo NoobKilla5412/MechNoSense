@@ -48,17 +48,17 @@ $doc = "Pictures";
 			<!-- Navbar -->
 			<?php include '..\navbar.php';?>
 		</div>
-		<img src="/pics/images/IMG_6502.HEIC" /><br />
-		<img src="/pics/images/IMG_6503.HEIC" /><br />
-		<img src="/pics/images/IMG_6504.HEIC" /><br />
-		<img src="/pics/images/IMG_6505.HEIC" /><br />
-		<img src="/pics/images/IMG_6506.HEIC" /><br />
-		<img src="/pics/images/IMG_6507.HEIC" /><br />
-		<img src="/pics/images/IMG_6508.HEIC" /><br />
-		<img src="/pics/images/IMG_6510.HEIC" /><br />
-		<img src="/pics/images/IMG_6511.HEIC" /><br />
-		<img src="/pics/images/IMG_6512.HEIC" /><br />
-		<img src="/pics/images/IMG_6513.HEIC" /><br />
+		<img src="/pics/images/IMG_6502.png" /><br />
+		<img src="/pics/images/IMG_6503.png" /><br />
+		<img src="/pics/images/IMG_6504.png" /><br />
+		<img src="/pics/images/IMG_6505.png" /><br />
+		<img src="/pics/images/IMG_6506.png" /><br />
+		<img src="/pics/images/IMG_6507.png" /><br />
+		<img src="/pics/images/IMG_6508.png" /><br />
+		<img src="/pics/images/IMG_6510.png" /><br />
+		<img src="/pics/images/IMG_6511.png" /><br />
+		<img src="/pics/images/IMG_6512.png" /><br />
+		<img src="/pics/images/IMG_6513.png" /><br />
 	</div>
 </body>
 
