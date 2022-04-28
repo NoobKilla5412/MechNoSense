@@ -49,18 +49,11 @@ $doc = "Pictures";
 			<?php include '..\navbar.php';?>
 		</div>
 		<div class="row">
-			<div class="col-md-7">
+			<div class="col-md-5">
 				<img width="750px"src="/pics/images/IMG_6502.png" />
 				<img width="750px"src="/pics/images/IMG_6503.png" />
-				<img width="750px"src="/pics/images/IMG_6504.png" />
-				<img width="750px"src="/pics/images/IMG_6505.png" />
-				<img width="750px"src="/pics/images/IMG_6506.png" />
-				<img width="750px"src="/pics/images/IMG_6507.png" />
-				<img width="750px"src="/pics/images/IMG_6508.png" />
 				<img width="750px"src="/pics/images/IMG_6510.png" />
 				<img width="750px"src="/pics/images/IMG_6511.png" />
-				<img width="750px"src="/pics/images/IMG_6512.png" />
-				<img width="750px"src="/pics/images/IMG_6513.png" />
 			</div>
 		</div>
 	</div>
