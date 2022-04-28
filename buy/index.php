@@ -36,8 +36,4 @@ $doc = "Buy";
 			<!-- Navbar -->
 			<?php include '..\navbar.php';?>
 			</div>
-			<script type="text/javascript" src="https://www.redbubble.com/assets/external_portfolio.js"></script>
-			<script id="rb-xzfcxvzx" type="text/javascript">new RBExternalPortfolio('www.redbubble.com', 'mechnosense', 5, 5).renderIframe();</script>
-		</div>
-	</body>
-</html>
+		<a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">The Merch</a>
