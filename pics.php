@@ -1,5 +1,5 @@
 <?php
-$doc = "Home";
+$doc = "Pictures";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
