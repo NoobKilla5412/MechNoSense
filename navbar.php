@@ -35,6 +35,7 @@ function activeDrop($doc1) {
 			<?php echo active('Daily Log');?><a href="/daily-log">Daily Log</a>
 			<?php echo active('Sign Up');?><a href="/signup">Sign Up</a>
 			<?php echo active('Videos');?><a href="/videos">Videos</a></li>
+			<?php echo active('Pictures');?><a href="/pics">Pictures</a></li>
 			<?php echo active('Buy');?><a href="/buy">Buy</a></li>
 			<?php echo activeDrop('Sponsors');?>
 				<a class="dropdown-toggle" data-toggle="dropdown">
