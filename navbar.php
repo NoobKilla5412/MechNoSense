@@ -52,8 +52,8 @@ function activeDrop($doc1) {
 				</a>
 				<ul class="dropdown-menu text-center" style="background-color:#183820;">
 					<?php echo active('Robots');?><a href="/robots"><b>Robots</b></a></li>
-					<!--<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
-					<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>-->
+					<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
+					<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
 				</ul>
 			</li>
 			<?php echo activeDrop('Buy');?>
@@ -62,8 +62,8 @@ function activeDrop($doc1) {
 				</a>
 				<ul class="dropdown-menu text-center" style="background-color:#183820;">
 					<?php echo active('Buy');?><a href="/buy"><b>Buy</b></a></li>
-					<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
-					<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>
+					<!--<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
+					<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>-->
 				</ul>
 			</li>
 		</ul>
