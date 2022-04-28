@@ -27,14 +27,14 @@ $doc = "Buy";
 	<link rel="prerender" href="buy">
 	<link rel="prerender" href="signup">
 	<!-- Custom CSS -->
-	<title>Buy our Robots &#8211; MechNoSense</title>
+	<title>Buy &#8211; MechNoSense</title>
 </head>
 
 <body>
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				Buy our Robots
+				Buy
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
