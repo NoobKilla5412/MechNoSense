@@ -54,6 +54,9 @@ $doc = "Home";
 		<p>
 			Hello, we are MechNoSense, an FTC robotics team located in Linn County. We work on teaching robotics, business, and programming skills. We love all things robots!
 		</p><br />
+		<p>
+			
+		</p><br />
 	</div>
 </body>
 
