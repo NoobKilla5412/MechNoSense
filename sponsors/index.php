@@ -45,7 +45,7 @@ $doc = "Sponsors";
 			</div>
 			<!-- add stuff here -->
 			<p>
-				<a href="hp">HP</a>
+				We have various sponsors including <a href="hp">HP</a>, 4H, and First Robotics. We have used funds given by our sponsors to purchase various kinds of equipment for our teams including small parts robot base kits and our website upkeep.
 			</p>
 		</div>
 	</body>
