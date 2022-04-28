@@ -48,17 +48,31 @@ $doc = "Pictures";
 			<!-- Navbar -->
 			<?php include '..\navbar.php';?>
 		</div>
-		<img src="/pics/images/IMG_6502.png" /><br />
-		<img src="/pics/images/IMG_6503.png" /><br />
-		<img src="/pics/images/IMG_6504.png" /><br />
-		<img src="/pics/images/IMG_6505.png" /><br />
-		<img src="/pics/images/IMG_6506.png" /><br />
-		<img src="/pics/images/IMG_6507.png" /><br />
-		<img src="/pics/images/IMG_6508.png" /><br />
-		<img src="/pics/images/IMG_6510.png" /><br />
-		<img src="/pics/images/IMG_6511.png" /><br />
-		<img src="/pics/images/IMG_6512.png" /><br />
-		<img src="/pics/images/IMG_6513.png" /><br />
+		<div class="row">
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6502.png" />
+				<img width="750px"src="/pics/images/IMG_6503.png" />
+			</div>
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6504.png" />
+				<img width="750px"src="/pics/images/IMG_6505.png" />
+			</div>
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6506.png" />
+				<img width="750px"src="/pics/images/IMG_6507.png" />
+			</div>
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6508.png" />
+				<img width="750px"src="/pics/images/IMG_6510.png" />
+			</div>
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6511.png" />
+				<img width="750px"src="/pics/images/IMG_6512.png" />
+			</div>
+			<div class="col-md-4">
+				<img width="750px"src="/pics/images/IMG_6513.png" />
+			</div>
+		</div>
 	</div>
 </body>
 
