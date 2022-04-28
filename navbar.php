@@ -34,7 +34,7 @@ function activeDrop($doc1) {
 			<?php echo active('Workshops');?><a href="/workshops">Workshops</a>
 			<?php echo active('Daily Log');?><a href="/daily-log">Daily Log</a>
 			<?php echo active('Sign Up');?><a href="/signup">Sign Up</a>
-			<?php echo active('Videos');?><a href="/videos">Videos</a></li>
+			<?php echo active('Videos');?><a href="/videos/">Videos</a></li>
 			<?php echo active('Pictures');?><a href="/pics">Pictures</a></li>
 			<?php echo active('Buy');?><a href="/buy">Buy</a></li>
 			<?php echo activeDrop('Sponsors');?>
@@ -42,7 +42,7 @@ function activeDrop($doc1) {
 					Sponsors <span class="caret"/>
 				</a>
 				<ul class="dropdown-menu text-center" style="background-color:#183820;">
-					<?php echo active('Sponsors');?><a href="/sponsors"><b>Sponsors</b></a></li>
+					<?php echo active('Sponsors');?><a href="/sponsors/"><b>Sponsors</b></a></li>
 					<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
 					<?php echo active('Sponsors-4H');?><a href="/sponsors/4h">4H</a></li>
 					<?php echo active('Sponsors-First');?><a href="/sponsors/first">First Robotics</a></li>
@@ -53,7 +53,7 @@ function activeDrop($doc1) {
 					Robots <span class="caret"/>
 				</a>
 				<ul class="dropdown-menu text-center" style="background-color:#183820;">
-					<?php echo active('Robots');?><a href="/robots"><b>Robots</b></a></li>
+					<?php echo active('Robots');?><a href="/robots/"><b>Robots</b></a></li>
 					<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
 					<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
 				</ul>
