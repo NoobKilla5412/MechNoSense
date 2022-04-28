@@ -42,8 +42,8 @@ function activeDrop($doc1) {
 				<ul class="dropdown-menu text-center" style="background-color:#183820;">
 					<?php echo active('Sponsors');?><a href="/sponsors"><b>Sponsors</b></a></li>
 					<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
-					<?php echo active('Sponsors-4H');?><a href="/sponsors/hp">4H</a></li>
-					<?php echo active('Sponsors-First');?><a href="/sponsors/hp">First Robotics</a></li>
+					<?php echo active('Sponsors-4H');?><a href="/sponsors/4h">4H</a></li>
+					<?php echo active('Sponsors-First');?><a href="/sponsors/first">First Robotics</a></li>
 				</ul>
 			</li>
 			<?php echo activeDrop('Robots');?>
