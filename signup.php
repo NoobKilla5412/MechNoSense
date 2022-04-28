@@ -51,13 +51,13 @@ $doc = "Sign Up";
 			<div class="input-group">
 				<span class="text">What is your name?</span><br />
 				<label for="first" class="text">First Name</label>
-				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;"><br />
+				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required><br />
 				<label for="last" class="text">Last Name</label>
-				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;"><br />
+				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;" required><br />
 			</div>
 			<div class="input-group">
 				<span class="text">What is your email?</span><br />
-				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;"><br/><br />
+				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;" required><br/><br />
 			</div>
 			<input type="submit" value="Submit" class="btn btn-default" style="background-color: #185020;">
 		</form>
