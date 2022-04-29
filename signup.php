@@ -39,7 +39,7 @@ $doc = "Sign Up";
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				Sign Up for Our Email List
+				Sign Up for Our Team
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
@@ -47,22 +47,27 @@ $doc = "Sign Up";
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
 		</div>
-		<form action="signup.php" method="post">
+		<?php if (isset($_GET['error'])) { ?>
+		<span class="error"><?=strip_tags($_GET["error"])?></span>
+		<?php } ?>
+		<form action="/signup_data.php" method="post">
 			<div class="input-group">
 				<span class="text">What is your name?</span><br />
 				<label for="first" class="text">First Name</label>
-				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required><br />
+				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="20"><br />
 				<label for="last" class="text">Last Name</label>
-				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;" required><br />
+				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="25"><br />
 			</div>
 			<div class="input-group">
-				<span class="text">What is your email?</span><br />
-				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;" required><br/><br />
+				<label for="email" class="text">Enter your email:</label><br />
+				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="40"><br />
+				<label for="phone" class="text">Enter your phone number:</label><br />
+				<input type="tel" id="phone" name="phone" style="background-color: #185020;" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br/><br />
 			</div>
 			<input type="submit" value="Submit" class="btn btn-default" style="background-color: #185020;">
 		</form>
-		<p>&nbsp;</p>
-		<p>&nbsp;</p>
+		<br />
+		<br />
 	</div>
 </body>
 

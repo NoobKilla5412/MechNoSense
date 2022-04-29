@@ -73,3 +73,7 @@ ul.dropdown-menu li a {
 img {
 	margin:5px;
 }
+.error {
+	color: #f00;
+	font-size:16pt;
+}
