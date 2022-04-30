@@ -54,13 +54,13 @@ $doc = "Sign Up";
 			<div class="input-group">
 				<span class="text">What is your name?</span><br />
 				<label for="first" class="text">First Name</label>
-				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="20"><br />
+				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required pattern="[^,<>]*" max="20"><br />
 				<label for="last" class="text">Last Name</label>
-				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="25"><br />
+				<input type="text" id="last" name="last" class="input-group" style="background-color: #185020;" required pattern="[^,<>]*" max="25"><br />
 			</div>
 			<div class="input-group">
 				<label for="email" class="text">Enter your email:</label><br />
-				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;" required pattern="[^,]*" max="40"><br />
+				<input type="email" id="email" name="email" class="input-group" style="background-color: #185020;" required pattern="[^,<>]*" max="40"><br />
 				<label for="phone" class="text">Enter your phone number:</label><br />
 				<input type="tel" id="phone" name="phone" style="background-color: #185020;" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required><br/><br />
 			</div>
