@@ -48,7 +48,7 @@ $doc = "Sign Up";
 			<?php include '.\navbar.php';?>
 		</div>
 		<?php if (isset($_GET['error'])) { ?>
-		<span class="error"><?=strip_tags($_GET["error"])?></span>
+		<span class="error"><?=htmlspecialchars($_GET["error"]);?></span>
 		<?php } ?>
 		<form action="/signup_data.php" method="post">
 			<div class="input-group">
