@@ -19,7 +19,7 @@ $doc = "Workshops";
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
-	
+	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -51,7 +51,6 @@ $doc = "Workshops";
 			Learn <a href="html">HTML</a>
 		</p>
 	</div>
-	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>

@@ -21,6 +21,7 @@ $doc = "Home";
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/favicon.png">
+	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -57,7 +58,6 @@ $doc = "Home";
 			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made improvements over that time and are excited to continue to learn and grow together. Depending on recruitment size we have around 1-3 teams a year. Our name has been recently changed but has been a constant in past years and with a team of dedicated mentors, we plan on expanding our team growth and size. We hope you'll give us a chance to expand your horizons no matter the skill level. And we want to send a big thank you from the team behind Mechnosense.
 		</p><br />
 	</div>
-	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </body>
 
 </html>
