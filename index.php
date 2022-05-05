@@ -21,7 +21,6 @@ $doc = "Home";
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="./favicon.png">
-	
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
