@@ -11,9 +11,9 @@ function activeDrop($doc1) {
 	global $doc;
 	global $subdoc;
 	if ($doc === $doc1 || $subdoc === $doc1) {
-		echo "<li class=\"dropdown active\">\n";
+		echo "<li class=\"dropdown active\">";
 	}else {
-		echo "<li class=dropdown>\n";
+		echo "<li class=dropdown>";
 	}
 }
 ?>
