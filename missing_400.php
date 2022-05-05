@@ -34,7 +34,7 @@
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				404 Page not Found
+				400 Bad Request
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
@@ -43,7 +43,7 @@
 			<?php include '.\navbar.php';?>
 		</div>
 		<p class="text-center">
-			It looks like you are lost. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
+			It looks your request is bad. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
 	</div>
 	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
