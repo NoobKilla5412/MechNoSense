@@ -37,7 +37,7 @@ h3 {
 .names-link {
 	color: #6F8F72;
 }
-a {
+!h3 a {
 	color: #6FBF72;
 }
 a:hover {
