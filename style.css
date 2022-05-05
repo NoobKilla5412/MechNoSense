@@ -18,6 +18,10 @@ p {
 .text {
 	color: #6F8F72;
 }
+h3 {
+	font-size: 24pt;
+	color: #6F8F72;
+}
 h1, h2, h3, h4, h5, h6 {
 	color: #6F8F72;
 }
@@ -38,10 +42,6 @@ a {
 }
 a:hover {
 	color: #6FFF72;
-}
-h3 {
-	font-size: 24pt;
-	color: #6F8F72;
 }
 #head123 {
 	color: #A48C38;
