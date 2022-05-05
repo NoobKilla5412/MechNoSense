@@ -27,7 +27,7 @@
 	</script>
 	<link rel="stylesheet" href="/style.css" />
 	<!-- Custom CSS -->
-	<title>404 &#8211; MechNoSense</title>
+	<title>403 &#8211; MechNoSense</title>
 </head>
 
 <body>
