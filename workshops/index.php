@@ -46,7 +46,7 @@ $doc = "Workshops";
 		<!-- Navbar -->
 		<?php include '..\navbar.php';?>
 		</div>
-		<h3>HTML Workshop</h3>
+		<h3>HTML Workshop:</h3>
 		<p>
 			Learn <a href="html">HTML</a>
 		</p>
