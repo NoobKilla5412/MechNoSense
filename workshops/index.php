@@ -46,9 +46,9 @@ $doc = "Workshops";
 		<!-- Navbar -->
 		<?php include '..\navbar.php';?>
 		</div>
-		<h3><a href="html">HTML Workshop</a></h3>
+		<h3>HTML Workshop</h3>
 		<p>
-			Learn HTML
+			Learn <a href="html">HTML</a>
 		</p>
 	</div>
 	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
