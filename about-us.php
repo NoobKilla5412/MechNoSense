@@ -48,6 +48,7 @@ $doc = "About Us";
 		<!-- <h2 style="font-size: 200pt;"> -->
 			<!-- This is our about page -->
 		<!-- </h2> -->
+		<h3>Team Biographies</h3>
 		<h4>Brandon:</h4>
 		<p id="brandon">
 			Hi, my name is Brandon. I do the coding of this webapge.
