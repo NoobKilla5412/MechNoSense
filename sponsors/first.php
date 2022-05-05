@@ -19,7 +19,7 @@ $subdoc = "Sponsors";
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -44,5 +44,6 @@ $subdoc = "Sponsors";
 			</div>
 			<!-- add content here -->
 		</div>
+		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</body>
 </html>

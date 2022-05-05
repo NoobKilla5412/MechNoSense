@@ -35,5 +35,9 @@ $doc = "Buy";
 			<hr />
 			<!-- Navbar -->
 			<?php include '..\navbar.php';?>
-			</div>
+		</div>
 		<a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">The Merch</a>
+	</div>
+</body>
+
+</html>

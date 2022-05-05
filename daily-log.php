@@ -20,7 +20,7 @@ $doc = "Daily Log";
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="./favicon.png">
-	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -121,5 +121,6 @@ $doc = "Daily Log";
 				On the engineering notebook side we have most of the days logged and put away so that when the time comes and we have to make our portfolio I hope to include things we have logged and done through the various sessions. This means giving more attention to outreach. We do a decent amount of outreach events but not enough to really qualify as a stable outreach schedule and we hope to get more in as we have rigorously tested and tried to keep events going. Our next event is a workshop coming up in the next few weeks. I believe I have mentioned it but the details have been lost on me since we had to put a pin in it a few months ago due to timing issues. You see where transfering facilities and since that has come up we have had to hit pause on many projects but are stoked to get moved into the new place that has more space and we can keep the field out each session. AND MOST IMPORTANTLY HEATING. Which means we don't freeze to death on cold Oregon nights.
 			</p>
 		</div>
+		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</body>
 </html>
