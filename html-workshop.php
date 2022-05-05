@@ -37,7 +37,7 @@
 				404 Page not Found
 			</h1>
 			<hr />
-			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will, Linnaea</span>
+			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr />
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
