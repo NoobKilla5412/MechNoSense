@@ -44,9 +44,9 @@ $doc = "Workshops";
 		<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 		<hr />
 		<!-- Navbar -->
-		<?php include '.\navbar.php';?>
+		<?php include '..\navbar.php';?>
 		</div>
-		<h3>HTML Workshop</h3>
+		<h3><a href="html">HTML Workshop</a></h3>
 		<p>
 			Learn HTML
 		</p>
