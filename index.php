@@ -20,7 +20,7 @@ $doc = "Home";
 	<meta name="description" content="MechNoSense Robotics Home Page">
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
-	<link rel="apple-touch-icon" href="/favicon.png">
+	<link rel="apple-touch-icon" href="/favicon.min.png">
 	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 	<!-- Bootstrap CSS -->
@@ -40,7 +40,7 @@ $doc = "Home";
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				MechNoSense Robotics<br /><img src="favicon.svg" height="250px" alt="Logo"/>
+				MechNoSense Robotics<br /><img src="favicon.min.png" height="250px" alt="Logo"/>
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
