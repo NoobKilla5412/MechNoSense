@@ -11,7 +11,7 @@ function activeDrop($doc1) {
 	global $doc;
 	global $subdoc;
 	if ($doc === $doc1 || $subdoc === $doc1) {
-		echo "<li class=\"dropdown active\">";
+		echo "active\">";
 	}else {
 		echo "<li class=dropdown>";
 	}
@@ -33,7 +33,7 @@ function activeDrop($doc1) {
 				<li class="nav-item"><?php echo active('Videos');?>href="/videos/">Videos</a></li>
 				<li class="nav-item"><?php echo active('Pictures');?>href="/pics/">Pictures</a></li>
 				<li class="nav-item"><?php echo active('Buy');?>href="/buy/">Buy</a></li>
-				<li class="nav-item"><?php echo activeDrop('Sponsors');?>
+				<li class="nav-item dropdown <?php echo activeDrop('Sponsors');?>
 					<a class="dropdown-toggle" data-toggle="dropdown">
 						Sponsors <span class="caret"/>
 					</a>
