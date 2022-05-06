@@ -25,15 +25,15 @@ function activeDrop($doc1) {
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li><?php echo active('Home');?>href="/">Home</a></li>
-				<li><?php echo active('About Us');?>href="/about-us/">About Us</a></li>
-				<li><?php echo active('Workshops');?>href="/workshops/">Workshops</a>
-				<li><?php echo active('Daily Log');?>href="/daily-log/">Daily Log</a>
-				<li><?php echo active('Sign Up');?>href="/signup/">Sign Up</a>
-				<li><?php echo active('Videos');?>href="/videos/">Videos</a></li>
-				<li><?php echo active('Pictures');?>href="/pics/">Pictures</a></li>
-				<li><?php echo active('Buy');?>href="/buy/">Buy</a></li>
-				<li><?php echo activeDrop('Sponsors');?>
+				<li class="nav-item"><?php echo active('Home');?>href="/">Home</a></li>
+				<li class="nav-item"><?php echo active('About Us');?>href="/about-us/">About Us</a></li>
+				<li class="nav-item"><?php echo active('Workshops');?>href="/workshops/">Workshops</a>
+				<li class="nav-item"><?php echo active('Daily Log');?>href="/daily-log/">Daily Log</a>
+				<li class="nav-item"><?php echo active('Sign Up');?>href="/signup/">Sign Up</a>
+				<li class="nav-item"><?php echo active('Videos');?>href="/videos/">Videos</a></li>
+				<li class="nav-item"><?php echo active('Pictures');?>href="/pics/">Pictures</a></li>
+				<li class="nav-item"><?php echo active('Buy');?>href="/buy/">Buy</a></li>
+				<li class="nav-item"><?php echo activeDrop('Sponsors');?>
 					<a class="dropdown-toggle" data-toggle="dropdown">
 						Sponsors <span class="caret"/>
 					</a>
