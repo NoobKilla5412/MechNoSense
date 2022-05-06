@@ -2,9 +2,9 @@
 function active($doc1) {
 	global $doc;
 	if ($doc === $doc1) {
-		echo "<li class=active>";
+		echo "<a class=\"nav-link active\" aria-current=\"page\" ";
 	}else {
-		echo "<li>";
+		echo "<a class=\"nav-link\" ";
 	}
 }
 function activeDrop($doc1) {
@@ -17,57 +17,54 @@ function activeDrop($doc1) {
 	}
 }
 ?>
-<nav class="navbar navbar-inverse">
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#links" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span> <!-- only appears for screen readers -->
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
+<nav class="navbar navbar-expand-lg navbar-inverse">
+	<div class="container-fluid">
 		<a href="/" class="navbar-brand">MechNoSense</a>
-	</div>
-	<div class="collapse navbar-collapse" id="links">
-		<ul class="nav navbar-nav">
-			<?php echo active('Home');?><a href="/">Home</a></li>
-			<?php echo active('About Us');?><a href="/about-us/">About Us</a></li>
-			<?php echo active('Workshops');?><a href="/workshops/">Workshops</a>
-			<?php echo active('Daily Log');?><a href="/daily-log/">Daily Log</a>
-			<?php echo active('Sign Up');?><a href="/signup/">Sign Up</a>
-			<?php echo active('Videos');?><a href="/videos/">Videos</a></li>
-			<?php echo active('Pictures');?><a href="/pics/">Pictures</a></li>
-			<?php echo active('Buy');?><a href="/buy/">Buy</a></li>
-			<?php echo activeDrop('Sponsors');?>
-				<a class="dropdown-toggle" data-toggle="dropdown">
-					Sponsors <span class="caret"/>
-				</a>
-				<ul class="dropdown-menu text-center" style="background-color:#183820;">
-					<?php echo active('Sponsors');?><a href="/sponsors/"><b>Sponsors</b></a></li>
-					<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
-					<?php echo active('Sponsors-4H');?><a href="/sponsors/4h">4H</a></li>
-					<?php echo active('Sponsors-First');?><a href="/sponsors/first">First Robotics</a></li>
-				</ul>
-			</li>
-			<?php echo activeDrop('Robots');?>
-				<a class="dropdown-toggle" data-toggle="dropdown">
-					Robots <span class="caret"/>
-				</a>
-				<ul class="dropdown-menu text-center" style="background-color:#183820;">
-					<?php echo active('Robots');?><a href="/robots/"><b>Robots</b></a></li>
-					<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
-					<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
-				</ul>
-			</li>
-			<!--<?php echo activeDrop('Buy');?>
-				<a class="dropdown-toggle" data-toggle="dropdown">
-					Buy <span class="caret"/>
-				</a>
-				<ul class="dropdown-menu text-center" style="background-color:#183820;">
-					<?php echo active('Buy');?><a href="/buy"><b>Buy</b></a></li>
-					<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
-					<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>
-				</ul>
-			</li>-->
-		</ul>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li><?php echo active('Home');?>href="/">Home</a></li>
+				<li><?php echo active('About Us');?>href="/about-us/">About Us</a></li>
+				<li><?php echo active('Workshops');?>href="/workshops/">Workshops</a>
+				<li><?php echo active('Daily Log');?>href="/daily-log/">Daily Log</a>
+				<li><?php echo active('Sign Up');?>href="/signup/">Sign Up</a>
+				<li><?php echo active('Videos');?>href="/videos/">Videos</a></li>
+				<li><?php echo active('Pictures');?>href="/pics/">Pictures</a></li>
+				<li><?php echo active('Buy');?>href="/buy/">Buy</a></li>
+				<li><?php echo activeDrop('Sponsors');?>
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						Sponsors <span class="caret"/>
+					</a>
+					<ul class="dropdown-menu text-center" style="background-color:#183820;">
+						<?php echo active('Sponsors');?><a href="/sponsors/"><b>Sponsors</b></a></li>
+						<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
+						<?php echo active('Sponsors-4H');?><a href="/sponsors/4h">4H</a></li>
+						<?php echo active('Sponsors-First');?><a href="/sponsors/first">First Robotics</a></li>
+					</ul>
+				</li>
+				<?php echo activeDrop('Robots');?>
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						Robots <span class="caret"/>
+					</a>
+					<ul class="dropdown-menu text-center" style="background-color:#183820;">
+						<?php echo active('Robots');?><a href="/robots/"><b>Robots</b></a></li>
+						<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
+						<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
+					</ul>
+				</li>
+				<!--<?php echo activeDrop('Buy');?>
+					<a class="dropdown-toggle" data-toggle="dropdown">
+						Buy <span class="caret"/>
+					</a>
+					<ul class="dropdown-menu text-center" style="background-color:#183820;">
+						<?php echo active('Buy');?><a href="/buy"><b>Buy</b></a></li>
+						<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
+						<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>
+					</ul>
+				</li>-->
+			</ul>
+		</div>
 	</div>
 </nav>
