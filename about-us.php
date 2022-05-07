@@ -52,15 +52,15 @@ $doc = "About Us";
 		</p>
 		<h4>Liana:</h4>
 		<p id="liana">
-			I am the creative input for our website, a builder, and I also work on the engineering notebook/note taking. I joined in 2021 as a builder, and I worked on the robot. This year I want to learn more about building, and maybe learn about coding. The website is my first big project, and I’m very excited about it. 
+			I am the creative input for our website, a builder, and I also work on the engineering notebook/note-taking. I joined in 2021 as a builder, and I worked on the robot. This year I want to learn more about building, and maybe learn about coding. The website is my first big project, and I’m very excited about it.
 		</p>
 		<h4>Ismael:</h4>
 		<p id="ismael">
-			I am i can't type very well this is so bad and i am so sad too sad to be happy.
+			I’m Ismael and this is my first year in robotics. I am focusing on coding our robot’s teleop and doing cool stuff to put in there like PID and computer vision. I am really excited to learn how to do all this. I am in seventh grade and am running out of things to say but just to make it seem like mine is the longest I will put this in.
 		</p>
 		<h4>Dane:</h4>
 		<p id="dane">
-			I am Dane. I am our head builder and I joined in 2021. I have loved building things for all my life. I was also the lead builder for last year's robotics challenge (freight frenzy). Probably the biggest reason I joined was to pit my hard work against others who also love to build.
+			I am Dane. I am our head builder and I joined in 2021. I have loved building things all my life. I was also the lead builder for last year's robotics challenge (freight frenzy). Probably the biggest reason I joined was to pit my hard work against others who also love to build.
 		</p>
 		<h4>Vibhav:</h4>
 		<p id="vibhav">
@@ -68,7 +68,7 @@ $doc = "About Us";
 		</p>
 		<h4>Isaac:</h4>
 		<p id="isaac">
-			My name is Isaac and this is my second season of robotics in this club. I am one of our groups builders but i have been woorking in many areas of robotics this season. I have really enjoyed robotics and i want to show its greatness to anyone who wants it. My favorite color is orange, i like robotics and soccer, im in middle school and pizza is good. Goodbyeeeee. 
+			My name is Isaac and this is my second season of robotics in this club. I am one of our group's builders but I have been working in many areas of robotics this season. I have really enjoyed robotics and I want to show its greatness to anyone who wants it. My favorite color is orange, I like robotics and soccer, I'm in middle school and pizza is good. Goodbyeeeee. 
 		</p>
 		<h4>Grae:</h4>
 		<p id="grae">
@@ -80,11 +80,11 @@ $doc = "About Us";
 		</p>
 		<h4>Will:</h4>
 		<p id="will">
-			My name is Will I., programmer for team mechnosense. I was leader for one of the two sub-teams last year: team 13749 atlas. I am currently a midline programmer for mechnosense, as well as assistant coordinator for mechnosense.
+			My name is Will I., programmer for team mechnosense. I was the leader for one of the two sub-teams last year: team 13749 atlas. I am currently a midline programmer for mechnosense, as well as an assistant coordinator for mechnosense.
 		</p>
 		<h4>Linnaea:</h4>
 		<p id="linnaea">
-			I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket robotics and have been part of this for about 3 years now. I enjoy managing our repo, making plans and coding. Outside of robotics I like to Hike, camp and all things outdoors. I'm a team leader and am strong at long term planning and short term emergencies. And I really 
+			I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket robotics and have been part of this for about 3 years now. I enjoy managing our repo, making plans, and coding. Outside of robotics, I like to Hike, camp, and all things outdoors. I'm a team leader and am strong at long-term planning and short-term emergencies. And I really enjoy giving help whenever needed. I've enjoyed these 3 years and am stoked to have another amazing year with team 12110 Mechnosense.
 		</p>
 		<p id="email">
 			Our email is <a href="mailto:mechnosense@gmail.com">mechnosense@gmail.com</a>
