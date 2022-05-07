@@ -45,7 +45,7 @@ $subdoc = "Sponsors";
 			<p>
 				Dear HP Inc., we thank you for your enormous generosity with your donation to our club. We are extremely grateful towards your graciousness. Without your grant we would not have been able to continue our aspirations within robotics. The funds will help us in many ways. Some of the ways that it will help us is that we can order new supplies, which include, two new drive systems, many small parts, and three new computers. We can progress greatly and learn many new things with the funds that you have provided us. Here are some photos from our competition mentioned below, as well as how we did during the competition.
 			</p>
-			<img src="/pics/images/IMG_6502.png" />
+			<img src="/pics/images/IMG_6502.png" id="titansImage"/>
 			<p>
 				This is the photo of one of our robots on a subteam within Rocket Robotics which we call the “Titans”. This robot included many features such as a linear slide elevator which took our bucket up to the right level so we could drop off blocks and balls, which were some of the scoring elements in the competition. The bucket was printed using PLA filament. The robot also includes a spinner(red) which has been designed using OnShape software, and uses TPU filament, which makes it ideal for picking up cubes and balls with its bendable properties. Lastly it includes a carousel spinner which are just two gecko wheels from GoBuilda placed on top of each her and powered by a motor to turn the Carousel which is also one of the scoring elements within the competition.
 			</p>
