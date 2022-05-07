@@ -63,7 +63,7 @@ f="/robots/"><b>Robots</b></a></li>
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Dropdown
 					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
 						<li><a class="dropdown-item" href="#">Action</a></li>
 						<li><a class="dropdown-item" href="#">Another action</a></li>
 						<li><hr class="dropdown-divider"></li>
