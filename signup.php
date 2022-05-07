@@ -49,7 +49,6 @@ $doc = "Sign Up";
 		<?php } ?>
 		<form action="/signup_data.php" method="post">
 			<div class="input-group">
-				<div class="text">What is your name?</div><br />
 				<label for="first" class="text">First Name</label>
 				<input type="text" id="first" name="first" class="input-group" style="background-color: #185020;" required pattern="[^,<>]*" max="20"><br />
 				<label for="last" class="text">Last Name</label>
