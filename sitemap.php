@@ -1,6 +1,3 @@
-<?php
-$doc = "Home";
-?>
 <!DOCTYPE html>
 <html lang="en-us">
 
@@ -17,8 +14,6 @@ $doc = "Home";
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="MechNoSense Robotics Home Page">
-	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 	<link rel="icon" type="image/ico" href="/favicon.ico" />
 	<link rel="apple-touch-icon" href="/favicon.min.png">
 	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
