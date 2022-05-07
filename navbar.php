@@ -62,7 +62,7 @@ f="/robots/"><b>Robots</b></a></li>
 				<li class="nav-item"><?php active("Pictures");?>href="/pics/">Pictures</a></li>
 				<li class="nav-item"><?php active("Buy");?>href="/buy/">Buy</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Sponsors
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
