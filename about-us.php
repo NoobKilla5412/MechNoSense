@@ -34,7 +34,7 @@ $doc = "About Us";
 		<div class="jumbotron text-center">
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
-			<hr />
+			<br />
 			<h1 id="title123">
 				About Our Team
 			</h1>
