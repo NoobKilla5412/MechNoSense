@@ -52,7 +52,7 @@ a:hover {
 a.nav-link {
 	color: #638a67;
 }
-a.nav-link:hover,a.nav-link:focus {
+a.nav-link:hover, a.nav-link:focus {
 	color: #729e76;
 }
 a.dropdown-toggle {
@@ -82,4 +82,7 @@ img {
 .error {
 	color: #f00;
 	font-size:16pt;
+}
+.active {
+	color: #76a87b;
 }
