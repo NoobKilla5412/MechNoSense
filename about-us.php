@@ -32,14 +32,15 @@ $doc = "About Us";
 <body>
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
+			<!-- Navbar -->
+			<?php include '.\navbar.php';?>
+			<hr />
 			<h1 id="title123">
 				About Our Team
 			</h1>
 			<hr />
 			<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#liana" class="names-link">Liana</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:mechnosense@gmail.com" class="names-link">Our email</a></span>
 			<hr />
-			<!-- Navbar -->
-			<?php include '.\navbar.php';?>
 			</div>
 		<!-- <h2 style="font-size: 200pt;"> -->
 			<!-- This is our about page -->
