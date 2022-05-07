@@ -42,7 +42,19 @@ $subdoc = "Sponsors";
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 				<hr/>
 			</div>
-			<!-- add content here -->
+			<p>
+				Dear HP Inc., we thank you for your enormous generosity with your donation to our club. We are extremely grateful towards your graciousness. Without your grant we would not have been able to continue our aspirations within robotics. The funds will help us in many ways. Some of the ways that it will help us is that we can order new supplies, which include, two new drive systems, many small parts, and three new computers. We can progress greatly and learn many new things with the funds that you have provided us. Here are some photos from our competition mentioned below, as well as how we did during the competition.
+			</p>
+			<img src="/pics/images/IMG_6502.png" />
+			<p>
+				This is the photo of one of our robots on a subteam within Rocket Robotics which we call the “Titans”. This robot included many features such as a linear slide elevator which took our bucket up to the right level so we could drop off blocks and balls, which were some of the scoring elements in the competition. The bucket was printed using PLA filament. The robot also includes a spinner(red) which has been designed using OnShape software, and uses TPU filament, which makes it ideal for picking up cubes and balls with its bendable properties. Lastly it includes a carousel spinner which are just two gecko wheels from GoBuilda placed on top of each her and powered by a motor to turn the Carousel which is also one of the scoring elements within the competition.
+			</p>
+			<p>
+				This is a photo of the other robot from the counterpart to the subteam “Titans” called “Atlas”. This robot also includes a linear slide similar to the Titans robot. Rather than using a bucket we used a revolutionary fork design which in fact worked extremely well even though it faced extreme skepticism in the beginning. This allows it to pick up scoring elements such as the wiffle ball which has multiple holes where the fork can fit and also the cube which has holes in the button and top. The small and compact design won it the Most Unique Design Award in our competition. The unique design allows it to be very stealthy and can pass through small spaces very easily. One of the unorthodox techniques that was used during the building of this robot is that we put an extra motor on the linear slide as just a dummy weight to pull the linear slide back down using gravity
+			</p>
+			<p>
+				This is a photo from one of the competitions. We performed really well and also found out a lot about the problems within our robot and how to fix them. We learned from our mistakes and even though we weren't able to do many changes to the robot both mechanical and program wise, we just had to go with the flow and try to brainstorm out of the box ideas to try and solve our problems. We enjoyed this competition and that was our main goal. This particular photo shows the Titans robot and the Titans team. From left to right we have, Vibhav , our co-leader and programmer in our team, Ismael, one of our newest joinees to the programming team, Dane, who is our main builder, and finally Linnaea, the other co-leader, businessperson, engineering notebook person, and the programmer. To wrap it up, we sincerely thank you for providing us with the funds necessary to continue this team for the following season.
+			</p>
 		</div>
 	</body>
 </html>
