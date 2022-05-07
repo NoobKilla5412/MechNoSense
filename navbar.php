@@ -17,7 +17,7 @@ function activeDrop($doc1) {
 	}
 }
 ?>
-<!--
+<?php /*
 href="/buy/">Buy</a></li>
 ');?>href="/pics/">Pictures</a></li>
 ;?>href="/videos/">Videos</a></li>
@@ -44,7 +44,7 @@ f="/robots/"><b>Robots</b></a></li>
 ');?><a href="/buy#titans">Titans</a></li>
 );?><a href="/buy#atlas">Atlas</a></li>
 ########################################################
--->
+*/?>
 <nav class="navbar navbar-expand-lg navbar-inverse" style="background-color: #183820;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/">MechNoSense</a>
@@ -63,7 +63,7 @@ f="/robots/"><b>Robots</b></a></li>
 				<li class="nav-item"><?php active("Buy");?>href="/buy/">Buy</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Dropdown
+						Sponsors
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
 						<li><a class="dropdown-item" href="#">Action</a></li>
@@ -72,6 +72,28 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item" href="#">Something else here</a></li>
 					</ul>
 				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Robots
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
+					</ul>
+				</li>
+				<?php /*<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Dropdown
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
+					</ul>
+				</li>*/?>
 			</ul>
 		</div>
 	</div>
