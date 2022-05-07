@@ -49,8 +49,11 @@ a:hover {
 .navbar {
 	background-color: #183820;
 }
-.nav-link {
+a.nav-link {
 	color: #6F8F72;
+}
+a.nav-link:hover {
+	color: #6F9F7F;
 }
 a.dropdown-toggle {
 	cursor: default;
