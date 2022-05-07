@@ -11,9 +11,9 @@ function activeDrop($doc1) {
 	global $doc;
 	global $subdoc;
 	if ($doc === $doc1 || $subdoc === $doc1) {
-		echo "active\">";
+		echo "active";
 	}else {
-		echo "<li class=dropdown>";
+		echo "";
 	}
 }
 ?>
@@ -54,7 +54,7 @@ f="/robots/"><b>Robots</b></a></li>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>
-				<li class="nav-item"><?php active("About Us");?>href="/about-us">About Us</a></li>
+				<li class="nav-item"><?php active("About Us");?>href="/about-us/">About Us</a></li>
 				<li class="nav-item"><?php active("Workshops");?>href="/workshops/">Workshops</a></li>
 				<li class="nav-item"><?php active("Daily Log");?>href="/daily-log/">Daily Log</a></li>
 				<li class="nav-item"><?php active("Sign Up");?>href="/signup/">Sign Up</a></li>
@@ -62,25 +62,26 @@ f="/robots/"><b>Robots</b></a></li>
 				<li class="nav-item"><?php active("Pictures");?>href="/pics/">Pictures</a></li>
 				<li class="nav-item"><?php active("Buy");?>href="/buy/">Buy</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle <?php activeDrop("Sponsors");?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Sponsors
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Sponsors");?>" href="/sponsors/">Sponsors</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Sponsors-HP");?>" href="/sponsors/hp">HP</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Sponsors-4H");?>" href="/sponsors/hp">4H</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Sponsors-First");?>" href="/sponsors/first">First Robotics</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+					<a class="nav-link dropdown-toggle <?php activeDrop("Robots");?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Robots
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Robots");?>" href="/robots/">Robots</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Robots-Titans");?>" href="/robots/titans">Titans</a></li>
+						<li><a class="dropdown-item <?php activeDrop("Robots-Atlas");?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
 				<?php /*<li class="nav-item dropdown">
