@@ -19,7 +19,7 @@ function activeDrop($doc1) {
 function activeSubDrop($doc1) {
 	global $doc;
 	global $subdoc;
-	if ($subdoc === $doc1) {
+	if ($doc === $doc1) {
 		echo "active";
 	}else {
 		echo "";
