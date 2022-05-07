@@ -9,10 +9,10 @@ $doc = "Daily Log";
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-			gtag('config', 'G-VC2S111058');
+		gtag('config', 'G-H9Z681C9TH');
 	</script>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
