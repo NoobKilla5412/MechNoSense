@@ -17,54 +17,67 @@ function activeDrop($doc1) {
 	}
 }
 ?>
-<nav class="navbar navbar-expand-lg navbar-inverse">
+<!--
+href="/buy/">Buy</a></li>
+');?>href="/pics/">Pictures</a></li>
+;?>href="/videos/">Videos</a></li>
+);?>href="/signup/">Sign Up</a>
+g');?>href="/daily-log/">Daily Log</a>
+s');?>href="/workshops/">Workshops</a>
+');?>href="/about-us/">About Us</a></li>
+>href="/">Home</a></li>
+########################################################
+href="/sponsors/"><b>Sponsors</b></a></li>
+<a href="/sponsors/hp">HP</a></li>
+<a href="/sponsors/4h">4H</a></li>
+;?><a href="/sponsors/first">First Robotics</a></li>
+########################################################
+
+########################################################
+f="/robots/"><b>Robots</b></a></li>
+><a href="/robots/titans#titans">Titans</a></li>
+<a href="/robots/atlas#atlas">Atlas</a></li>
+########################################################
+
+########################################################
+ href="/buy"><b>Buy</b></a></li>
+');?><a href="/buy#titans">Titans</a></li>
+);?><a href="/buy#atlas">Atlas</a></li>
+########################################################
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container-fluid">
-		<a href="/" class="navbar-brand">MechNoSense</a>
+		<a class="navbar-brand" href="#">Navbar</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item"><?php echo active('Home');?>href="/">Home</a></li>
-				<li class="nav-item"><?php echo active('About Us');?>href="/about-us/">About Us</a></li>
-				<li class="nav-item"><?php echo active('Workshops');?>href="/workshops/">Workshops</a>
-				<li class="nav-item"><?php echo active('Daily Log');?>href="/daily-log/">Daily Log</a>
-				<li class="nav-item"><?php echo active('Sign Up');?>href="/signup/">Sign Up</a>
-				<li class="nav-item"><?php echo active('Videos');?>href="/videos/">Videos</a></li>
-				<li class="nav-item"><?php echo active('Pictures');?>href="/pics/">Pictures</a></li>
-				<li class="nav-item"><?php echo active('Buy');?>href="/buy/">Buy</a></li>
-				<li class="nav-item dropdown <?php echo activeDrop('Sponsors');?>
-					<a class="dropdown-toggle" data-toggle="dropdown">
-						Sponsors <span class="caret"/>
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Dropdown
 					</a>
-					<ul class="dropdown-menu text-center" style="background-color:#183820;">
-						<?php echo active('Sponsors');?><a href="/sponsors/"><b>Sponsors</b></a></li>
-						<?php echo active('Sponsors-HP');?><a href="/sponsors/hp">HP</a></li>
-						<?php echo active('Sponsors-4H');?><a href="/sponsors/4h">4H</a></li>
-						<?php echo active('Sponsors-First');?><a href="/sponsors/first">First Robotics</a></li>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li><a class="dropdown-item" href="#">Action</a></li>
+						<li><a class="dropdown-item" href="#">Another action</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="#">Something else here</a></li>
 					</ul>
 				</li>
-				<?php echo activeDrop('Robots');?>
-					<a class="dropdown-toggle" data-toggle="dropdown">
-						Robots <span class="caret"/>
-					</a>
-					<ul class="dropdown-menu text-center" style="background-color:#183820;">
-						<?php echo active('Robots');?><a href="/robots/"><b>Robots</b></a></li>
-						<?php echo active('Robots-Titans');?><a href="/robots/titans#titans">Titans</a></li>
-						<?php echo active('Robots-Atlas');?><a href="/robots/atlas#atlas">Atlas</a></li>
-					</ul>
+				<li class="nav-item">
+					<a class="nav-link disabled">Disabled</a>
 				</li>
-				<!--<?php echo activeDrop('Buy');?>
-					<a class="dropdown-toggle" data-toggle="dropdown">
-						Buy <span class="caret"/>
-					</a>
-					<ul class="dropdown-menu text-center" style="background-color:#183820;">
-						<?php echo active('Buy');?><a href="/buy"><b>Buy</b></a></li>
-						<?php echo active('Buy-Titans');?><a href="/buy#titans">Titans</a></li>
-						<?php echo active('Buy-Atlas');?><a href="/buy#atlas">Atlas</a></li>
-					</ul>
-				</li>-->
 			</ul>
+			<form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success" type="submit">Search</button>
+			</form>
 		</div>
 	</div>
 </nav>
