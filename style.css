@@ -50,10 +50,10 @@ a:hover {
 	background-color: #183820;
 }
 a.nav-link {
-	color: #6F8F72;
+	color: #638a67;
 }
 a.nav-link:hover,a.nav-link:focus {
-	color: #6F9F7F;
+	color: #729e76;
 }
 a.dropdown-toggle {
 	cursor: default;
