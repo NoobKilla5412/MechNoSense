@@ -16,6 +16,15 @@ function activeDrop($doc1) {
 		echo "";
 	}
 }
+function activeSubDrop($doc1) {
+	global $doc;
+	global $subdoc;
+	if ($subdoc === $doc1) {
+		echo "active";
+	}else {
+		echo "";
+	}
+}
 ?>
 <?php /*
 href="/buy/">Buy</a></li>
@@ -66,11 +75,11 @@ f="/robots/"><b>Robots</b></a></li>
 						Sponsors
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
-						<li><a class="dropdown-item <?php activeDrop("Sponsors");?>" href="/sponsors/">Sponsors</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Sponsors");?>" href="/sponsors/">Sponsors</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item <?php activeDrop("Sponsors-HP");?>" href="/sponsors/hp">HP</a></li>
-						<li><a class="dropdown-item <?php activeDrop("Sponsors-4H");?>" href="/sponsors/hp">4H</a></li>
-						<li><a class="dropdown-item <?php activeDrop("Sponsors-First");?>" href="/sponsors/first">First Robotics</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-HP");?>" href="/sponsors/hp">HP</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-4H");?>" href="/sponsors/hp">4H</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-First");?>" href="/sponsors/first">First Robotics</a></li>
 					</ul>
 				</li>
 				<li class="nav-item dropdown">
@@ -78,10 +87,10 @@ f="/robots/"><b>Robots</b></a></li>
 						Robots
 					</a>
 					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
-						<li><a class="dropdown-item <?php activeDrop("Robots");?>" href="/robots/">Robots</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Robots");?>" href="/robots/">Robots</a></li>
 						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item <?php activeDrop("Robots-Titans");?>" href="/robots/titans">Titans</a></li>
-						<li><a class="dropdown-item <?php activeDrop("Robots-Atlas");?>" href="/robots/atlas">Atlas</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Robots-Titans");?>" href="/robots/titans">Titans</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas");?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
 				<?php /*<li class="nav-item dropdown">
