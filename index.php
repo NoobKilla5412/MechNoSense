@@ -42,13 +42,13 @@ $doc = "Home";
 		<div class="jumbotron text-center">
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
+			<hr />
 
 			<h1 id="title123">
 				MechNoSense Robotics<br /><img src="favicon.svg" height="250px" alt="Logo"/>
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
-			<hr />
 		</div>
 		<h3 id="team">
 			About Our Team:
