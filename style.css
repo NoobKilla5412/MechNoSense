@@ -52,7 +52,7 @@ a:hover {
 a.nav-link {
 	color: #6F8F72;
 }
-a.nav-link:hover {
+a.nav-link:hover,a.nav-link:focus {
 	color: #6F9F7F;
 }
 a.dropdown-toggle {
