@@ -49,6 +49,7 @@ $doc = "Home";
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<hr />
 		</div>
 		<h3 id="team">
 			About Our Team:
