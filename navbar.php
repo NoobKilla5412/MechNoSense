@@ -55,10 +55,12 @@ f="/robots/"><b>Robots</b></a></li>
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>
 				<li class="nav-item"><?php active("About Us");?>href="/about-us">About Us</a></li>
-				<!--<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>
-				<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>
-				<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>
-				<li class="nav-item"><?php active("Home");?>href="/">Home</a></li>-->
+				<li class="nav-item"><?php active("Workshops");?>href="/workshops/">Workshops</a></li>
+				<li class="nav-item"><?php active("Daily Log");?>href="/daily-log/">Daily Log</a></li>
+				<li class="nav-item"><?php active("Sign Up");?>href="/signup/">Sign Up</a></li>
+				<li class="nav-item"><?php active("Videos");?>href="/videos/">Videos</a></li>
+				<li class="nav-item"><?php active("Pictures");?>href="/pics/">Pictures</a></li>
+				<li class="nav-item"><?php active("Buy");?>href="/buy/">Buy</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Dropdown
