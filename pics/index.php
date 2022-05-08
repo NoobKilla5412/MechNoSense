@@ -47,10 +47,10 @@ $doc = "Pictures";
 		</div>
 		<div class="row">
 			<div class="col-md-5">
-				<img width="750px"src="/pics/images/IMG_6502.png" />
-				<img width="750px"src="/pics/images/IMG_6503.png" />
-				<img width="750px"src="/pics/images/IMG_6510.png" />
-				<img width="750px"src="/pics/images/IMG_6511.png" />
+				<img width="100%"src="/pics/images/IMG_6502.png" />
+				<img width="100%"src="/pics/images/IMG_6503.png" />
+				<img width="100%"src="/pics/images/IMG_6510.png" />
+				<img width="100%"src="/pics/images/IMG_6511.png" />
 			</div>
 		</div>
 	</div>
