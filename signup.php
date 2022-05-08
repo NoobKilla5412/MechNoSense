@@ -60,7 +60,10 @@ $doc = "Sign Up";
 				<label for="phone" class="text">Enter your phone number:</label><br />
 				<input type="tel" class="input-group" id="phone" name="phone" style="background-color: #185020;" placeholder="123-456-7890" pattern="^[(]*([0-9]{3})[- .)]*[0-9]{3}[- .]*[0-9]{4}$" required><br/><br />
 			</div>
-			<input type="submit" value="Submit" class="btn btn-default" style="background-color: #185020;">
+			<br />
+			<div style="display: flex;flex-direction: column;">
+				<input type="submit" value="Submit" class="btn btn-default" style="background-color: #185020;">
+			</div>
 		</form>
 		<br />
 		<br />
