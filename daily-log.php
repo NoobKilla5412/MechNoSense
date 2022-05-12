@@ -47,7 +47,7 @@ $doc = "Daily Log";
 			<h3>
 				Daily Log:
 			</h3>
-			<p>6/23/2022:</p>
+			<p>2/23/2022:</p>
 			<p>
 				We discussed team plans including what we wanted in our engineering notebook such as google doc is what we are using to document the day today. We are going to scan handwritten things such as engineering designs and our notes in general. What we're going to use is a printer and adobe scan on our phones. We decided as a team Linnaea and Liana will focus on and commit the majority of their time to the engineering notebook and portfolio. We decided to have Linnaea and Liana create a template including team colors. For team colors, we have multiple Ideas but have decided to sleep on it and come back later.
 			</p>
