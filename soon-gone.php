@@ -30,6 +30,9 @@
 <body>
 	<div class="container-fluid">
 		<div class="jumbotron text-center">
+			<script>
+				Leaving.show();
+			</script>
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
 			<br />
@@ -56,9 +59,6 @@
 		<p class="text-center">
 			This Page is Leaving. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
-		<script>
-			show.bs.Leaving();
-		</script>
 	</div>
 </body>
 
