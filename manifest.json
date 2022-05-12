@@ -1,0 +1,21 @@
+{
+    "scope": "/",
+    "display": "browser",
+    "name": "MechNoSense",
+    "start_url": "/",
+    "id": "/",
+    "icons": [
+        {
+            "sizes": "16x16",
+            "src": "/favicon.ico",
+            "purpose": "any",
+            "type": "image/png"
+        },
+        {
+            "sizes": "144x144",
+            "src": "/apple-touch-icon",
+            "purpose": "icon",
+            "type": "image/png"
+        }
+    ]
+}
