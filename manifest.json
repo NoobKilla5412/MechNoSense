@@ -4,6 +4,7 @@
 	"short_name": "MechNoSense",
 	"start_url": "/",
 	"display": "standalone",
+	"id": "/",
 	"background_color": "#183820",
 	"description": "A MechNoSense app.",
 	"icons": [{
