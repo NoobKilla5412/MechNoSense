@@ -33,7 +33,7 @@
 			<!-- Navbar -->
 			<?php include '.\navbar.php';?>
 			<br />
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+			<div class="modal fade" id="Leaving" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
@@ -56,6 +56,9 @@
 		<p class="text-center">
 			This Page is Leaving. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
+		<script>
+			show.bs.Leaving();
+		</script>
 	</div>
 </body>
 
