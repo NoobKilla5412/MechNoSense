@@ -15,6 +15,7 @@ $doc = "Videos";
 		gtag('config', 'G-H9Z681C9TH');
 	</script>
 	<meta charset="utf-8">
+	<link rel="manifest" href="/manifest.json">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
