@@ -7,9 +7,9 @@
 	"background_color": "#183820",
 	"description": "A MechNoSense app.",
 	"icons": [{
-		"src": "/favicon.svg",
+		"src": "/apple-touch-icon.png",
 		"sizes": "any",
-		"type": "image/svg",
+		"type": "image/png",
 		"purpose": "any"
 	}]
 }
