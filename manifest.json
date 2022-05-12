@@ -1,21 +1,34 @@
 {
-    "scope": "/",
-    "display": "browser",
-    "name": "MechNoSense",
-    "start_url": "/",
-    "id": "/",
-    "icons": [
-        {
-            "sizes": "16x16",
-            "src": "/favicon.ico",
-            "purpose": "any",
-            "type": "image/png"
-        },
-        {
-            "sizes": "144x144",
-            "src": "/apple-touch-icon",
-            "purpose": "icon",
-            "type": "image/png"
-        }
-    ]
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "MechNoSense",
+  "short_name": "MechNoSense",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#183820",
+  "description": "A MechNoSense app.",
+  "icons": [{
+    "src": "/apple-touch-icon.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "/apple-touch-icon.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
 }
