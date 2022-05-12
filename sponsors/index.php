@@ -20,7 +20,7 @@ $doc = "Sponsors";
 		<meta name="description" content="MechNoSense Robotics Home Page">
 		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
 		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<link rel="apple-touch-icon" href="./favicon.png">
+		<link rel="apple-touch-icon" href="/favicon.png">
 		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<!-- Bootstrap CSS -->
