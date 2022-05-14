@@ -9,7 +9,7 @@
 	"description": "A MechNoSense app.",
 	"icons": [{
 		"src": "/apple-touch-icon.png",
-		"sizes": "1724x1724",
+		"sizes": "1723x1723",
 		"type": "image/png",
 		"purpose": "any"
 	}]
