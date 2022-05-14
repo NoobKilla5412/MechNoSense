@@ -16,7 +16,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/style.min.css" />
 	<!-- Custom CSS -->
-	<title>This is me messing around with adds &#8211; MechNoSense</title>
+	<title>This is me messing around with ads &#8211; MechNoSense</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 			<?php include '.\navbar.php';?>
 			<br />
 			<h1 id="title123">
-				This is me messing around with adds
+				This is me messing around with ads
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
@@ -36,7 +36,7 @@
 			It looks like you are lost. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
 		<p>
-			Add:
+			Ad:
 		</p>
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3053586612094756"
      crossorigin="anonymous"></script>
