@@ -10,6 +10,9 @@ body {
 }
 .jumbotron {
 	background-color: #185020;
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	border-radius: .3rem;
 }
 p {
 	font-size: 16pt;
@@ -85,4 +88,15 @@ img {
 }
 .active {
 	color: #76a87b;
+}
+
+@media (min-width:576px){
+	.jumbotron{
+		padding: 4rem 2rem
+		}
+	}
+.jumbotron-fluid{
+	padding-right: 0;
+	padding-left: 0;
+	border-radius:0
 }
