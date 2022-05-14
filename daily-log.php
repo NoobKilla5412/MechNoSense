@@ -47,7 +47,8 @@ $doc = "Daily Log";
 			<h3>
 				Daily Log:
 			</h3>
-			<div class="writing" style="display: flex; flex-direction: column-reverse;">
+			<div class="writing">
+				<p>2/23/2022:</p>
 				<p>
 					We discussed team plans including what we wanted in our engineering notebook such as google doc is what we are using to document the day today. We are going to scan handwritten things such as engineering designs and our notes in general. What we're going to use is a printer and adobe scan on our phones. We decided as a team Linnaea and Liana will focus on and commit the majority of their time to the engineering notebook and portfolio. We decided to have Linnaea and Liana create a template including team colors. For team colors, we have multiple Ideas but have decided to sleep on it and come back later.
 				</p>
@@ -60,7 +61,7 @@ $doc = "Daily Log";
 				<p>
 					We also want to make workshops for people to join in and learn/get interested in robotics. This means making a log of attendance and quality of outreach. We also have a lot of local options with Oregon State and the robotics program there. We plan on reaching out to professors and students in that program. When we broke off into smaller groups after discussing this Liana and Linnaea got to writing this while around 75%  of our team talked about our plans discussed above.
 				</p>
-				<p>2/23/2022:</p>
+				<p>2/25/2022:</p>
 				<p>
 					Today we gathered together and since Liana is gone I'll be logging today on my own. Today, build started designing our mini bots which will be in our CAD section of our engineering notebook and should aid our building process. Ben who’s talented at CAD has made some intake designs for our mini bots. The mini bots got very far along in this process today which allowed everyone to envision an end product on CAD that gave us a boost of confidence we really needed. Overall everyone on build was focused on a common goal and build has planned to continue creating mini bots next practice.
 				</p>
@@ -73,7 +74,7 @@ $doc = "Daily Log";
 				<p>
 					For the next meeting, we plan on further working on these robot designs that help us with outreach. In the engineering notebook, I plan on making a folder for loose papers and a binder to start with organization. I also plan on giving a workshop/seminar. I just need to plan stuff like date times and availability. But between times we didn't forget to goof off and have fun.
 				</p>
-				<p>2/25/2022:</p>
+				<p>3/2/2022:</p>
 				<p>
 					Today our group gathered and started by making a plan and goals list of what we wanted to get done today. This can be seen in our daily log portion of our notebook depicting what we as individuals want to do and what needs to get done. There’s a finite balance in robotics and by writing it down we find a balance that helps us be more productive and still learn/have a good time. What we as a team did is agree on a logo and color scheme for what we wanted to put in shirts, pamphlets, etc. You need to decide on this early to start doing outreach and get involved in our community. We hope to recruit a lot this year by making our club more accessible. That means putting it in a central location where all the middle school buses go. We have an area in mind but are still debating what needs to get done.
 				</p>
@@ -86,21 +87,21 @@ $doc = "Daily Log";
 				<p>
 					Today, Brandon and Ishmael worked especially hard on the website and were planning on including that in our pamphlets. With links to our website. Right now Brandon is teaching a younger member of our club Ishmael HTML. We wanted to make the website from scratch to have that option to learn if you wanted to. This will be sustainable because Ishmael should be fluent by next year and teach them so on and so forth. We also calculated costs for our team and how much it would be to host a server and domain name. We plan to put this on an excel spreadsheet called budget. This is so we can track costs and log what they were.
 				</p>
-				<p>3/2/2022:</p>
+				<p>3/9/2022:</p>
 				<p>
 					Today since it was a small group over spring break we had a more chillax meeting but still got work done. Ishmael and Brandon kept working on the website. Which is looking better than ever. It now has tabs and looks more aesthetically pleasing due to them focusing today on format and design. Liana aided them in this which made it easier and faster. They also planned their portion of the workshop. They broke it down into 3 sections and planned out what they would do with their hour and a half of their part of the workshop. I dread to think what would've happened if we wung it. They also spent time finalizing and finishing our team design which should be sent off and printed on shirts soon.
 				</p>
 				<p>
 					Today, Gray and Issac made a lot of progress on the youtube channel and are prepared to film when the rest of the pieces come together. That includes a final minibot design manual and final touches on our mini bots. I think as we're working in parallel it's going to be very fulfilling when it all comes together.
 				</p>
-				<p>3/9/2022:</p>
+				<p>3/18/2022:</p>
 				<p>
 					Today, Liana and I made a team master calendar that should last through the year and should be in our calendar part of our engineering notebook. This should aid us in managing the rest of the year. This would make it more streamlined and clear for the rest of the year. Ishmael worked on Vuforia and experimented with it. There were a lot of errors as there are with Vuforia. He enjoyed it but got stuck and one of our senior coders Vibhav helped him get back on his feet. Dane also helped him on the mechanical side with cameras and getting his camera setup configured.
 				</p>
 				<p>
 					Linnaea and Liana also sent out an email to the local FRC team at the high school CV. They reached out to us and so we emailed back and talked about it. Time for us to collaborate and share what we’ve been doing and what our future plans are. We also made a list of companies we plan on reaching out to some of those local in Corvallis like HP and some being in more far-off places like intel in portland.
 				</p>
-				<p>3/18/2022:</p>
+				<p>4/1/2022:</p>
 				<p>
 					Today we filmed our minibot song in which we perform and sing about minibots and what they do and have in their tool kit. Issac and Grey wrote the song and we're very excited to perform since they spent many hours pouring time into the song. This song helped the team feel more connected since we all sang it together. I had an amazing time singing, dancing, and performing this song we can show to future members. We're going to a competition in a week and it's going to be last year’s challenge. We plan to observe how we improved and what we could do better.
 				</p>
@@ -110,25 +111,24 @@ $doc = "Daily Log";
 				<p>
 					A point of tension is how we go about making a clear, easy-to-follow, and decisive manual that is beginner-friendly and we can hand it to someone with almost no experience with making these kinds of bots. As a compromise, we have decided to do a both video and a physical/paper guide on how to make them. So we split off into groups and delegated tasks to members of each party to make sure the manuals got done and finished. After getting past that hump we have been able to move forward freely getting to work on guides we are passionate about.
 				</p>
-				<p>4/1/2022:</p>
+				<p>4/8/2022:</p>
 				<p>
 					Today we worked on our cattle guard which keeps blocks from getting up and under our treads it will go next to the intake and under the treads. This will be a game-changer since the last competition our main issue was things getting stuck under our treads. By working on this we have made what feels like a new feel to our robot. This paired up with our start on PID loops will aid us in a new start to making a better robot even though we're running practice matches we are very much running many useful skills that would be lost in our off-season. I hope this gives us more of a competitive advantage when it comes to matches this season.
 				</p>
 				<p>
 					On the engineering notebook side, we have most of the days logged and put away so that when the time comes and we have to make our portfolio I hope to include things we have logged and done through the various sessions. This means giving more attention to outreach. We do a decent amount of outreach events but not enough to really qualify as a stable outreach schedule and we hope to get more in as we have rigorously tested and tried to keep events going. Our next event is a workshop coming up in the next few weeks. I believe I have mentioned it but the details have been lost on me since we had to put a pin in it a few months ago due to timing issues. You see where transferring facilities and since that has come up we have had to hit pause on many projects but are stoked to get moved into the new place that has more space and we can keep the field out each session. AND MOST IMPORTANTLY HEATING. This means we don't freeze to death on cold Oregon nights.
 				</p>
-				<p>4/8/2022:</p>
+				<p>4/27/2022:</p>
 				<p>
 					Today we were very productive and got a lot done today. Today we had a list passed around and we decided on an item on the list we would complete. Linnaea decided on making a video for HP and writing back to the CV Raiders, when I talked with them we set up an outreach event at the end of May at the library and are excited to work together with a team who used to be on our FTC team. And Dane picked fixing up the Titans robot for our future outreach events since we are only taking the Atlas robot to the Roseburg scrimmage.
 				</p>
 				<p>
 					Matthew opted to finish up the mini bot and start making upgrades to the Atlas Robot before the competition. Gray opted to help work on the video thank you to HP for the Imagine Grant.
 				</p>
-				<p>4/27/2022:</p>
+				<p>5/6/2022:</p>
 				<p>
 					In build today we worked on two drive bases, an x-drive and a v-drive that we decided was a cool idea and we had some extra parts. We drew some designs and decided these were the best ideas. We cleaned up early and finished on time. Ismael pushed the day's code to our git.
 				</p>
-				<p>5/6/2022:</p>
 			</div>
 		</div>
 	</body>
