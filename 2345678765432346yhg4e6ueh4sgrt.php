@@ -35,6 +35,21 @@
 		<p class="text-center">
 			It looks like you are lost. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
+		<p>
+			Add:
+		</p>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3053586612094756"
+     crossorigin="anonymous"></script>
+<!-- ??? -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3053586612094756"
+     data-ad-slot="9820429324"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	</div>
 </body>
 
