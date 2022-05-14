@@ -33,17 +33,16 @@ $subdoc = "Workshops";
 </head>
 
 <body>
-<div class="container-fluid">
-	<div class="jumbotron text-center">
+	<div class="container-fluid">
 		<!-- Navbar -->
 		<?php include '..\navbar.php';?>
-		<br />
-		<h1 id="title123">
-			Workshops
-		</h1>
-		<hr />
-		<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
-		<hr />
+		<div class="jumbotron text-center">
+			<h1 id="title123">
+				Workshops
+			</h1>
+			<hr />
+			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<hr />
 		</div>
 		<p>
 			Add it on 

@@ -21,10 +21,9 @@
 
 <body>
 	<div class="container-fluid">
+		<!-- Navbar -->
+		<?php include '.\navbar.php';?>
 		<div class="jumbotron text-center">
-			<!-- Navbar -->
-			<?php include '.\navbar.php';?>
-			<br />
 			<h1 id="title123">
 				This is me messing around with ads
 			</h1>

@@ -35,11 +35,9 @@ $doc = "Home";
 
 <body>
 	<div class="container-fluid">
+		<!-- Navbar -->
+		<?php include '.\navbar.php';?>
 		<div class="jumbotron text-center">
-			<!-- Navbar -->
-			<?php include '.\navbar.php';?>
-			<br />
-
 			<h1 id="title123">
 				MechNoSense Robotics<br /><img src="favicon.svg" height="250px" alt="Logo"/>
 			</h1>
