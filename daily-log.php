@@ -131,6 +131,7 @@ $doc = "Daily Log";
 					In build today we worked on two drive bases, an x-drive and a v-drive that we decided was a cool idea and we had some extra parts. We drew some designs and decided these were the best ideas. We cleaned up early and finished on time. Ismael pushed the day's code to our git.
 				</p>
 				<a href="#">Back to top</a>
+				<br />
 			</div>
 		</div>
 	</body>
