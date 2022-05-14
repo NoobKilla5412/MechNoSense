@@ -47,6 +47,7 @@ $doc = "Daily Log";
 			<h3>
 				Daily Log:
 			</h3>
+			<a href="#new">Go to the newest entry</a>
 			<div class="writing">
 				<p>2/23/2022:</p>
 				<p>
@@ -125,7 +126,7 @@ $doc = "Daily Log";
 				<p>
 					Matthew opted to finish up the mini bot and start making upgrades to the Atlas Robot before the competition. Gray opted to help work on the video thank you to HP for the Imagine Grant.
 				</p>
-				<p>5/6/2022:</p>
+				<p id="new">5/6/2022:</p>
 				<p>
 					In build today we worked on two drive bases, an x-drive and a v-drive that we decided was a cool idea and we had some extra parts. We drew some designs and decided these were the best ideas. We cleaned up early and finished on time. Ismael pushed the day's code to our git.
 				</p>
