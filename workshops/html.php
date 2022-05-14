@@ -47,7 +47,7 @@ $subdoc = "Workshops";
 		</div>
 		<p>
 			Add it on 
-			<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NXVkMnFubW41Ymp2MGtnMGVxdmF1Y3J0YWEgbWVjaG5vc2Vuc2VAbQ&amp;tmsrc=mechnosense%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+			<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NXVkMnFubW41Ymp2MGtnMGVxdmF1Y3J0YWEgbWVjaG5vc2Vuc2VAbQ&amp;tmsrc=mechnosense%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>.
 		</p>
 	</div>
 </body>
