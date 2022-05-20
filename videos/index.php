@@ -44,7 +44,7 @@ $doc = "Videos";
 			<hr/>
 		</div>
 		<a href="IMG_3118.mp4" target="_blank">View in new tab</a><br />
-		<video width="50%" controls>
+		<video width="100%" controls>
 			<source type="video/mov"src="IMG_3118.mov"/>
 			<source type="video/mp4"src="IMG_3118.mp4"/>
 		</video>
