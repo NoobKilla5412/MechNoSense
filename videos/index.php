@@ -28,6 +28,7 @@ $doc = "Videos";
 	<!-- Bootstrap JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/style.min.css"/>
+        <link rel="preload" href="IMG_3118.mp4">
 	<!-- Custom CSS -->
 	<title>Videos &#8211; MechNoSense</title>
 </head>
