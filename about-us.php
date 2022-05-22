@@ -48,7 +48,7 @@ $doc = "About Us";
 		<h3>Team Biographies:</h3>
 		<h4>Brandon:</h4>
 		<p id="brandon">
-			Hi, my name is Brandon. I do the coding of this webapge.
+			Hi, my name is Brandon. I do the coding of this webpage.
 		</p>
 		<h4>Liana:</h4>
 		<p id="liana">
