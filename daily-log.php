@@ -128,7 +128,10 @@ $doc = "Daily Log";
 				</p>
 				<p id="new">5/6/2022:</p>
 				<p>
-					In build today we worked on two drive bases, an x-drive and a v-drive that we decided was a cool idea and we had some extra parts. We drew some designs and decided these were the best ideas. We cleaned up early and finished on time. Ismael pushed the day's code to our git.
+					Today we worked on various projects and most of them revolve around getting geared up for Roseburg this upcoming weekend it was semi-productive and Ishmael worked on getting the teleop functional and getting that working is imperative to me starting autonomous because when I start auto I will have to work swiftly to get it done before the date of Roseburg and I really want to perform well since this is our last scrimmage of this season and our last chance to play freight frenzy in a competitive environment. While Ishamel did that for me, Linnaea worked on some business team things such as getting a slideshow presentation ready for outreach and more than that getting a pamphlet to give out at some upcoming outreaches we have planned. We have a lot planned with the CV team which is an FRC team called the CV Raiders.
+				</p>
+				<p>
+					On the build side, Mattew worked on getting our CAD design for the mini bot to make an example sheet and that was a slow start so he wasn't able to make much progress then Dane and Isacc worked on improvements to the Atlas bot which will aid it in making it a bigger force at Roseburg and the exact improvements were more on the reliability side to make a lesser chance of breaking down or getting shutdown during a round.
 				</p>
 				<a href="#">Back to top</a>
 				<br /><br /><br /><br />
