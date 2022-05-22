@@ -30,7 +30,7 @@
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '.\navbar.php';?>
+		<?php include '..\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				HAHA
