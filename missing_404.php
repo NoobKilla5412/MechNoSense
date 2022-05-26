@@ -40,7 +40,7 @@
 			<hr />
 		</div>
 		<p class="text-center">
-			It looks like you are lost. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
+			It looks like you are lost. Click this button to go back<br/><button onClick="window.history.back()" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Back</span></button>
 		</p>
 	</div>
 </body>
