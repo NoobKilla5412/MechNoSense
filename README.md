@@ -1,2 +1,2 @@
 # MechNoSense
-This is the website for the MechNoSense Robotics
+This is the website for the MechNoSense Robotics Team.
