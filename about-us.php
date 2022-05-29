@@ -46,9 +46,9 @@ $doc = "About Us";
 			<!-- This is our about page -->
 		<!-- </h2> -->
 		<h3>Team Biographies:</h3>
-		<h4>Brandon:</h4>
-		<p id="brandon">
-			Hi, my name is Brandon. I do the coding of this webpage.
+		<h4>Linnaea:</h4>
+		<p id="linnaea">
+			I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket robotics and have been part of this for about three years now. I enjoy managing our repo, making plans, and coding. Outside of robotics, I like to Hike, camp, and all things outdoors. I'm a team leader and am strong at long-term planning and short-term emergencies. And I really enjoy giving help whenever needed. I've enjoyed these three years and am stoked to have another amazing year with team 12110 Mechnosense.
 		</p>
 		<h4>Liana:</h4>
 		<p id="liana">
@@ -82,9 +82,9 @@ $doc = "About Us";
 		<p id="will">
 			My name is Will I., programmer for team mechnosense. I was the leader for one of the two sub-teams last year: team 13749 atlas. I am currently a midline programmer for mechnosense, as well as an assistant coordinator for mechnosense.
 		</p>
-		<h4>Linnaea:</h4>
-		<p id="linnaea">
-			I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket robotics and have been part of this for about 3 years now. I enjoy managing our repo, making plans, and coding. Outside of robotics, I like to Hike, camp, and all things outdoors. I'm a team leader and am strong at long-term planning and short-term emergencies. And I really enjoy giving help whenever needed. I've enjoyed these 3 years and am stoked to have another amazing year with team 12110 Mechnosense.
+		<h4>Brandon:</h4>
+		<p id="brandon">
+			Hi, my name is Brandon. I do the coding of this webpage. I drive the robot for the competitions.
 		</p>
 		<p id="email">
 			Our email is <a href="mailto:mechnosense@gmail.com">mechnosense@gmail.com</a>
