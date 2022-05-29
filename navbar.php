@@ -78,7 +78,7 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Sponsors");?>" href="/sponsors/">Sponsors</a></li>
 						<li><hr class="dropdown-divider"></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-HP");?>" href="/sponsors/hp">HP</a></li>
-						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-4H");?>" href="/sponsors/4h">4H</a></li>
+						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-4H");?>" href="/sponsors/4h">4-H</a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Sponsors-First");?>" href="/sponsors/first">First Robotics</a></li>
 					</ul>
 				</li>

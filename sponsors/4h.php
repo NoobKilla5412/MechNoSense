@@ -28,7 +28,7 @@ $subdoc = "Sponsors";
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="/style.min.css"/>
 		<!-- Custom CSS -->
-		<title>4H &#8211; Sponsors | MechNoSense</title>
+		<title>4-H &#8211; Sponsors | MechNoSense</title>
 	</head>
 	<body>
 		<div class="container-fluid">
@@ -36,13 +36,34 @@ $subdoc = "Sponsors";
 			<?php include '..\navbar.php';?>
 			<div class="jumbotron text-center">
 				<h1 id="title123">
-					4H
+					4-H
 				</h1>
 				<hr/>
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 				<hr/>
 			</div>
-			<!-- add content here -->
+			<p>
+				4-H’s mission is to give all people access to opportunity and our club will reflect this mission fully. 
+			</p>
+			<p>
+				4-H is America's largest youth development organization, helping nearly six million young people. 4-H also stands for many positive values and goals like:
+			</p>
+			<p>
+				<ul class="text">
+					<li>
+						Developing young people into empowering and strong people who will succeed in life
+					</li>
+					<li>
+						Meeting people wherever they are
+					</li>
+					<li>
+						Creating safe, diverse, and inclusive communities 
+					</li>
+				</ul>
+			</p>
+			<p>
+				And much more. We are so glad to be associated with 4-H and to be a 4-H club. 
+			</p>
 		</div>
 	</body>
 </html>
