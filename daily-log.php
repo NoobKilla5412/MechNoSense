@@ -235,7 +235,7 @@ $doc = "Daily Log";
             </p>
             <p>4/27/2022:</p>
             <p>
-                Today we were very productive and got a lot done today. Today we had a list passed around and we decided
+                We were very productive and got a lot done today. We had a list passed around and we decided
                 on an item on the list we would complete. Linnaea decided on making a video for HP and writing back to
                 the CV Raiders, when I talked with them we set up an outreach event at the end of May at the library and
                 are excited to work together with a team who used to be on our FTC team. And Dane picked fixing up the
@@ -249,19 +249,19 @@ $doc = "Daily Log";
             <p id="new">5/6/2022:</p>
             <p>
                 Today we worked on various projects and most of them revolve around getting geared up for Roseburg this
-                upcoming weekend. It was semi-productive and Ishmael worked on getting the teleop functional. and getting
-                that working is imperative to me starting autonomous because when I start auto I will have to work
-                swiftly to get it done before the date of Roseburg and I really want to perform well since this is our
+                upcoming weekend. It was semi-productive and Ishmael worked on getting the teleop functional. Getting
+                that working is imperative to me starting autonomous because when I start auto, I will have to work
+                swiftly to get it done before the date of Roseburg. I really want to perform well since this is our
                 last scrimmage of this season and our last chance to play freight frenzy in a competitive environment.
                 While Ishamel did that for me, Linnaea worked on some business team things such as getting a slideshow
                 presentation ready for outreach and more than that getting a pamphlet to give out at some upcoming
-                outreaches we have planned. We have a lot planned with the CV team which is an FRC team called the CV
+                outreaches we have planned. We have a lot planned with the Crescent Valley team which is an FRC team called the CV
                 Raiders.
             </p>
             <p>
-                On the build side, Matthew worked on getting our CAD design for the mini bot to make an example sheet and
-                that was a slow start so he wasn't able to make much progress then Dane and Isacc worked on improvements
-                to the Atlas bot which will aid it in making it a bigger force at Roseburg and the exact improvements
+                On the build side, Matthew worked on getting our CAD design for the mini bot to make an example sheet.
+                That was a slow start so he wasn't able to make much progress. Then Dane and Isacc worked on improvements
+                to the Atlas bot which will aid it in making it a bigger force at Roseburg. The exact improvements
                 were more on the reliability side to make a lesser chance of breaking down or getting shutdown during a
                 round.
             </p>
