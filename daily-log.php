@@ -197,7 +197,7 @@ $doc = "Daily Log";
                 everything was foolproof. Dane has been vigorously adding new mechanisms and parts that our programmers
                 have been trying to keep up with. Speaking of the programming side we have been retouching and going
                 over our autonomous which in my opinion usually makes or breaks a game. Because a lot of people have
-                problems with being autonomous more than any other periods. When that happened Mattew finished up the
+                problems with being autonomous more than any other periods. When that happened Matthew finished up the
                 last of our mini bot fleet and is starting on a beginner manual to put one together for other teams and
                 our team.
             </p>

@@ -74,7 +74,7 @@ $subdoc = "Sponsors";
             This is a photo of the other robot from the counterpart to the subteam “Titans” called “Atlas”. This robot
             also includes a linear slide similar to the Titans robot. Rather than using a bucket we used a revolutionary
             fork design which in fact worked extremely well even though it faced extreme skepticism in the beginning.
-            This allows it to pick up scoring elements such as the wiffle ball which has multiple holes where the fork
+            This allows it to pick up scoring elements such as the whiffle ball which has multiple holes where the fork
             can fit and also the cube which has holes in the button and top. The small and compact design won it the
             Most Unique Design Award in our competition. The unique design allows it to be very stealthy and can pass
             through small spaces very easily. One of the unorthodox techniques that was used during the building of this
