@@ -24,23 +24,23 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/style.min.css" />
 	<!-- Custom CSS -->
-	<title>404 &#8211; MechNoSense</title>
+	<title>403 &#8211; MechNoSense</title>
 </head>
 
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '.\navbar.php';?>
+		<?php include '..\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				404 Page not Found
+				403 Forbidden
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr />
 		</div>
 		<p class="text-center">
-			It looks like you are lost. Click this button to go back<br/><button onClick="window.history.back()" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Back</span></button>
+			It looks like you can not access this very awesome resource. Click this button to go back<br/><button onClick="window.history.back()" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Back</span></button>
 		</p>
 	</div>
 </body>
