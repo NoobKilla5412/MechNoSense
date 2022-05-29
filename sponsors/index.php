@@ -43,7 +43,6 @@ $doc = "Sponsors";
 				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 				<hr/>
 			</div>
-			<!-- add stuff here -->
 			<p>
 				We have various sponsors including <a href="hp">HP</a>, <a href="4h">4H</a>, and <a href="first">First Robotics</a>. We have used funds given by our sponsors to purchase various kinds of equipment for our teams including small parts, robot base kits, and our website upkeep. For HP we were awarded the imagine grant which is discussed more on our dedicated tab for them. This grant has allowed us to expand and grow at a larger rate than we ever have before and has aided us in our mission to share robotics with the world.
 			</p><br />
