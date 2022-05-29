@@ -62,8 +62,7 @@ $doc = "Daily Log";
                 designs and our notes in general. What we're going to use is a printer and adobe scan on our phones. We
                 decided as a team Linnaea and Liana will focus on and commit the majority of their time to the
                 engineering notebook and portfolio. We decided to have Linnaea and Liana create a template including
-                team colors. For team colors, we have multiple Ideas but have decided to sleep on it and come back
-                later.
+                team colors. For team colors, we have multiple Ideas but have decided to sleep on it and come back later.
             </p>
             <p>
                 For our strategic plan we know this year we want to include charts and do more testing. This means
@@ -166,8 +165,7 @@ $doc = "Daily Log";
             <p>
                 Today, Gray and Issac made a lot of progress on the youtube channel and are prepared to film when the
                 rest of the pieces come together. That includes a final minibot design manual and final touches on our
-                mini bots. I think as we're working in parallel it's going to be very fulfilling when it all comes
-                together.
+                mini bots. I think as we're working in parallel it's going to be very fulfilling when it all comes together.
             </p>
             <p>3/18/2022:</p>
             <p>
@@ -255,15 +253,14 @@ $doc = "Daily Log";
                 last scrimmage of this season and our last chance to play freight frenzy in a competitive environment.
                 While Ishamel did that for me, Linnaea worked on some business team things such as getting a slideshow
                 presentation ready for outreach and more than that getting a pamphlet to give out at some upcoming
-                outreaches we have planned. We have a lot planned with the Crescent Valley team which is an FRC team called the CV
-                Raiders.
+                outreaches we have planned. We have a lot planned with the Crescent Valley team which is an FRC team
+                called the CV Raiders.
             </p>
             <p>
                 On the build side, Matthew worked on getting our CAD design for the mini bot to make an example sheet.
                 That was a slow start so he wasn't able to make much progress. Then Dane and Isacc worked on improvements
                 to the Atlas bot which will aid it in making it a bigger force at Roseburg. The exact improvements
-                were more on the reliability side to make a lesser chance of breaking down or getting shutdown during a
-                round.
+                were more on the reliability side to make a lesser chance of breaking down or getting shutdown during a round.
             </p>
             <a href="#">Back to top</a>
             <br /><br /><br /><br />
