@@ -55,6 +55,9 @@
         var controlMethod = 0;
         let highScore = getCookie("highScore");
         var BlockSpeed = 1.5; // Speed for arrow use only
+        if (!highScore) {
+            setCookie("highScore", 0, 100); //set the highScore var to 0
+        }
         function startGame() { // Start the game using mouse
             myGamePiece = new component(30, 30, "red", 50, 120); // Spawn the player
             myScore = new component("30px", "Consolas", "black", 280, 40, "text"); // Score
