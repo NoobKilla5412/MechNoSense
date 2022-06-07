@@ -258,7 +258,7 @@
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
-            if (controlMethod == 0 && ((myObstacles.length / 2) - 100) >= 1) {
+            if (controlMethod == 0 && ((myObstacles.length / 2) - 1) >= 100) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
@@ -269,7 +269,7 @@
                 // document.getElementById('speed').innerHTML = "Speed: " + Math.round(10 * oBSSpeed) / 10;
                 myScore.update(); // update the scoreboard
             }
-            if (((myObstacles.length / 2) - 100) > (highScore + 5)) {
+            if (((myObstacles.length / 2) - 1) > (highScore + 5)) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
