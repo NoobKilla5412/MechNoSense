@@ -17,7 +17,7 @@
         arrows</button>
     <script>
         let version = 1.5;
-        let changes = { "v1_4": { "title": "v1.4: ", "content": "Make the obsticles thicker" }, "v1_5": { "title": "v1.5: ", "content": "Fix bugs" } };
+        let changes = { "v1_4": { "title": "v1.4: ", "content": "Make the obstacles thicker" }, "v1_5": { "title": "v1.5: ", "content": "Fix bugs" } };
         let changeLogTop = changes.v1_5.title + changes.v1_5.content + "<br>" + changes.v1_4.title + changes.v1_4.content;
         // let version += " Beta";
         // let version += " Alpha";
@@ -42,7 +42,7 @@
             }
             return "";
         }
-        // Declaring the varibals
+        // Declaring the variables
         var myGamePiece;
         var myObstacles = [];
         var myScore;
@@ -182,7 +182,7 @@
             if (lengthOfGap < 10) {
                 lengthOfGap = 10
             }
-            if (/*myGameArea.frameNo == 1 || */everyInterval(lengthOfGap)) { // genarte the obstacles
+            if (/*myGameArea.frameNo == 1 || */everyInterval(lengthOfGap)) { // generate the obstacles
                 x = myGameArea.canvas.width;
                 minHeight = 100;
                 maxHeight = 200;
@@ -244,6 +244,8 @@
                 }
                 if (controlMethod == 0) {
                     this.canvas.style.cursor = "none"; //hide the original cursor
+                } else if (controlMethod == 1) {
+                    console.log('');
                 }
             } else { // normal game
                 for (i = 0; i < myObstacles.length; i += 1) {
@@ -255,6 +257,8 @@
                 myGamePiece.newPos(); // move the player
                 if (controlMethod == 0) {
                     this.canvas.style.cursor = "default"; //show the original cursor
+                } else if (controlMethod == 1) {
+                    console.log('');
                 }
             }
             myGamePiece.update(); // redraw the player
