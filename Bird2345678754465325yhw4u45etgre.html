@@ -269,7 +269,7 @@
                 // document.getElementById('speed').innerHTML = "Speed: " + Math.round(10 * oBSSpeed) / 10;
                 myScore.update(); // update the scoreboard
             }
-            if (((myObstacles.length / 2) - 100) >= highScore) {
+            if (((myObstacles.length / 2) - 100) > (highScore + 5)) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
