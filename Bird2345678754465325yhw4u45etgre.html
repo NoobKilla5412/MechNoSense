@@ -108,8 +108,8 @@
                 if (controlMethod == 0) {
                     this.canvas.style.cursor = "default"; //Show the original cursor
                 }
-                if (highScore < ((myObstacles.length / 2) - 1)) {
-                    setCookie("highScore", ((myObstacles.length / 2) - 1), 100); // Try to set the highScore var
+                if (highScore < ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/)) {
+                    setCookie("highScore", ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/), 100); // Try to set the highScore var
                 }
                 clearInterval(this.interval); // Stop the game
             }
@@ -258,37 +258,37 @@
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
-            if (controlMethod == 0 && ((myObstacles.length / 2) - 1) >= 100) {
+            if (controlMethod == 0 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= 100) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
                 myGameArea.stop();
             } else { // normal
                 // update the text of the scoreboard:
-                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1) / 10)) + 1) + " HIGH SCORE: " + highScore;
+                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) / 10)) + 1) + " HIGH SCORE: " + highScore;
                 // document.getElementById('speed').innerHTML = "Speed: " + Math.round(10 * oBSSpeed) / 10;
                 myScore.update(); // update the scoreboard
             }
-            if (((myObstacles.length / 2) - 1) > (highScore + 5)) {
+            if (((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) > (highScore + 5)) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
                 myGameArea.stop();
             } else { // normal
                 // update the text of the scoreboard:
-                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1) / 10)) + 1) + " HIGH SCORE: " + highScore;
+                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) / 10)) + 1) + " HIGH SCORE: " + highScore;
                 // document.getElementById('speed').innerHTML = "Speed: " + Math.round(10 * oBSSpeed) / 10;
                 myScore.update(); // update the scoreboard
             }
             // win if using the arrows:
-            if (controlMethod == 1 && ((myObstacles.length / 2) - 1) >= 80) {
+            if (controlMethod == 1 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= 80) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
                 myGameArea.stop();
             } else { // normal
                 // update the text of the scoreboard:
-                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1) / 10)) + 1) + " HIGH SCORE: " + highScore;
+                myScore.text = "SCORE: " + ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) + " LEVEL: " + (Math.trunc((((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) / 10)) + 1) + " HIGH SCORE: " + highScore;
                 myScore.update(); // update the scoreboard
             }
         }
