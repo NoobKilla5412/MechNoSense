@@ -242,11 +242,6 @@
                     myObstacles[i].newPos();
                     myObstacles[i].update();
                 }
-                if (controlMethod == 0) {
-                    this.canvas.style.cursor = "none"; //hide the original cursor
-                } else if (controlMethod == 1) {
-                    console.log('');
-                }
                 myGamePiece.update(); // redraw the player
             } else { // normal game
                 for (i = 0; i < myObstacles.length; i += 1) {
@@ -257,11 +252,6 @@
                 myGameArea.frameNo += 1; // count the frames
                 myGamePiece.newPos(); // move the player
                 myGamePiece.update(); // redraw the player
-                if (controlMethod == 0) {
-                    this.canvas.style.cursor = "default"; //show the original cursor
-                } else if (controlMethod == 1) {
-                    console.log('');
-                }
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
