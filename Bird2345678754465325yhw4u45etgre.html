@@ -2,23 +2,23 @@
 <html>
 
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<style>
-		canvas {
-			border: 1px solid #d3d3d3;
-			background-color: #f1f1f1;
-		}
-	</style>
-	<title>Bird</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        canvas {
+            border: 1px solid #d3d3d3;
+            background-color: #f1f1f1;
+        }
+    </style>
+    <title>Bird</title>
 </head>
 
 <body>
-	<button onclick="startGame()" id="start">Use mouse</button><button onclick="useArrows();" id="controls">Use
+    <button onclick="startGame()" id="start">Use mouse</button><button onclick="useArrows();" id="controls">Use
         arrows</button>
-	<script>
-		let version = 1.5;
-        let changes = {"v1_4":{"title":"v1.4: ","content":"Make the obsticles thicker"},"v1_5":{"title":"v1.5: ","content":"Fix bugs"}};
-        let changeLogTop = changes.v1_5.title+changes.v1_5.content+"<br>"+changes.v1_4.title+changes.v1_4.content;
+    <script>
+        let version = 1.5;
+        let changes = { "v1_4": { "title": "v1.4: ", "content": "Make the obsticles thicker" }, "v1_5": { "title": "v1.5: ", "content": "Fix bugs" } };
+        let changeLogTop = changes.v1_5.title + changes.v1_5.content + "<br>" + changes.v1_4.title + changes.v1_4.content;
         // let version += " Beta";
         // let version += " Alpha";
         function setCookie(cname, cvalue, exdays) { // Try to set the cookie
@@ -56,7 +56,7 @@
         let highScore = getCookie("highScore");
         var BlockSpeed = 1.5; // Speed for arrow use only
         function startGame() { // Start the game using mouse
-            myGamePiece = new component(30, 30, "red", 50, 120); // Spwan the player
+            myGamePiece = new component(30, 30, "red", 50, 120); // Spawn the player
             myScore = new component("30px", "Consolas", "black", 280, 40, "text"); // Score
             winScore = new component("30px", "Consolas", "black", 450, 200, "text");
             myGameArea.start();
@@ -65,7 +65,7 @@
         }
         function useArrows() { // Start the game using arrows
             controlMethod = 1;
-            myGamePiece = new component(30, 30, "red", 50, 120); // Spwan the player
+            myGamePiece = new component(30, 30, "red", 50, 120); // Spawn the player
             myScore = new component("30px", "Consolas", "black", 280, 40, "text"); // Score
             winScore = new component("30px", "Consolas", "black", 450, 200, "text");
             myGameArea.start();
@@ -102,12 +102,12 @@
                 this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
             },
             stop: function () {
-                if(controlMethod == 0){
+                if (controlMethod == 0) {
                     this.canvas.style.cursor = "default"; //Show the original cursor
                 }
-                if(highScore<((myObstacles.length / 2) - 1)){
-					setCookie("highScore", ((myObstacles.length / 2) - 1), 100); // Try to set the highScore var
-				}
+                if (highScore < ((myObstacles.length / 2) - 1)) {
+                    setCookie("highScore", ((myObstacles.length / 2) - 1), 100); // Try to set the highScore var
+                }
                 clearInterval(this.interval); // Stop the game
             }
         }
@@ -171,7 +171,7 @@
             for (i = 0; i < myObstacles.length; i += 1) { // check if you have ran into an obstacle
                 if (myGamePiece.crashWith(myObstacles[i])) {
                     myGameArea.stop();
-                return;
+                    return;
                 }
             }
             myGameArea.clear(); // clear the canvas
@@ -242,6 +242,9 @@
                     myObstacles[i].newPos();
                     myObstacles[i].update();
                 }
+                if (controlMethod == 0) {
+                    this.canvas.style.cursor = "none"; //hide the original cursor
+                }
             } else { // normal game
                 for (i = 0; i < myObstacles.length; i += 1) {
                     myObstacles[i].speedX = oBSSpeed;
@@ -250,6 +253,9 @@
                 }
                 myGameArea.frameNo += 1; // count the frames
                 myGamePiece.newPos(); // move the player
+                if (controlMethod == 0) {
+                    this.canvas.style.cursor = "default"; //show the original cursor
+                }
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
@@ -282,34 +288,35 @@
             if ((myGameArea.frameNo / n) % 1 == 0) { return true; }
             return false;
         }
-	</script>
-	<!-- <p id="speed"></p> -->
-	<!-- <button onclick="oBSSpeed -=.2;lengthOfGap -= 20;">Get faster</button> -->
-	<div style="float: right; border: 1px black;">
-		<p>
-			How to play:
-		</p>
-		<p>
-			If you click the use mouse button, the red square will follow your mouse. Try to go into the hole in the
-			green
-			sticks. If you click use arrows button, use the arrows to control the red square.
-		</p>
-	</div>
-	<p id="version">
-		Version: -.-
-	</p>
-	<p id="currentVersion">
-		Current Version: -.-<!-- You need to be connected to the internet for this to work! -->
-	</p>
-	<p id="change">
-		Change Log:
-	</p>
-	<!-- <p>
+    </script>
+    <!-- <p id="speed"></p> -->
+    <!-- <button onclick="oBSSpeed -=.2;lengthOfGap -= 20;">Get faster</button> -->
+    <div style="float: right; border: 1px black;">
+        <p>
+            How to play:
+        </p>
+        <p>
+            If you click the use mouse button, the red square will follow your mouse. Try to go into the hole in the
+            green
+            sticks. If you click use arrows button, use the arrows to control the red square.
+        </p>
+    </div>
+    <p id="version">
+        Version: -.-
+    </p>
+    <p id="currentVersion">
+        Current Version: -.-
+        <!-- You need to be connected to the internet for this to work! -->
+    </p>
+    <p id="change">
+        Change Log:
+    </p>
+    <!-- <p>
 		<button onclick="/*location.reload();*/startGame()">Restart with mouse</button><button
             onclick="/*location.reload();*/useArrows();">Restart with arrows</button>
 	</p> -->
-	<script>
-		// this needs work:
+    <script>
+        // this needs work:
         document.getElementById('version').innerHTML = 'Version: ' + version;
         document.getElementById('change').innerHTML = 'Change Log: ' + changeLogTop;
         window.addEventListener("load", () => {
@@ -326,7 +333,7 @@
                     document.getElementById('currentVersion').innerHTML = data.Bird;
                 });
         });
-	</script>
+    </script>
 </body>
 
 </html>
