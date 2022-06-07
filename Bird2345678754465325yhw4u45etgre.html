@@ -258,7 +258,7 @@
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
-            if (controlMethod == 0 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= 100) {
+            if (controlMethod == 0 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= 121) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
@@ -308,7 +308,7 @@
         <p>
             If you click the use mouse button, the red square will follow your mouse. Try to go into the hole in the
             green sticks. If you click use arrows button, use the arrows to control the red square. To continue, push
-            this button: <a href="javascript:location.reload()">continue</a> or use the browser's reload button.
+            this button: <a href="javascript:location.reload()">try again</a> or use the browser's reload button.
         </p>
     </div>
     <p id="version">
