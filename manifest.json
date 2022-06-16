@@ -7,10 +7,12 @@
 	"id": "/",
 	"background_color": "#183820",
 	"description": "The MechNoSense app.",
-	"icons": [{
-		"src": "/apple-touch-icon.png",
-		"sizes": "1723x1723",
-		"type": "image/png",
-		"purpose": "any"
-	}]
+	"icons": [
+		{
+			"src": "/apple-touch-icon.png",
+			"sizes": "1723x1723",
+			"type": "image/png",
+			"purpose": "any"
+		}
+	]
 }
