@@ -54,10 +54,10 @@ $doc = "Workshops";
 			const data = {
 				"workshops": [
 					{
-						"title": "HTML",
-						"time": "10:09",
-						"date": "9465/436576/2345674",
-						"link": "/workshops/html"
+						"title": "",
+						"time": "",
+						"date": "",
+						"link": ""
 					},
 					{
 						"title": "",
@@ -81,7 +81,19 @@ $doc = "Workshops";
 			};
 			let tab = "";
 			for (let r = 0; r <= 100; r++) {
-				tab += `<div class="box"><h3>${data.workshops[r].title}</h3><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
+				tab += `
+				<div class="box">
+					<h3>
+						${data.workshops[r].title}
+					</h3>
+					<p>
+						Date: ${data.workshops[r].date}<br>
+						Time: ${data.workshops[r].time}
+					</p>
+					<a href="${data.workshops[r].link}">
+						${data.workshops[r].title}
+					</a>
+				</div>`;
 				document.getElementById("content").innerHTML = tab;
 			}
 		</script>
