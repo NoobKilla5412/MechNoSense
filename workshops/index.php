@@ -51,25 +51,39 @@ $doc = "Workshops";
 		</div>
 		<div id="content"></div>
 		<script>
-			window.addEventListener("load", () => {
-				// API URL
-				const base =
-					`https://mechnosense.org/workshops/workshops.json`
-
-				// Calling the API
-				fetch(base)
-					.then((response) => {
-						return response.json();
-					})
-					.then((data) => {
-						console.log(data);
-						let tab = "";
-						for (let r of data.workshops) {
-							tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
-							document.getElementById("content").innerHTML = tab;
-						}
-					});
-			});
+			const data = {
+				"workshops": [
+					{
+						"title": "HTML",
+						"time": "10:09",
+						"date": "9465/436576/2345674",
+						"link": "/workshops/html"
+					},
+					{
+						"title": "",
+						"time": "",
+						"date": "",
+						"link": ""
+					},
+					{
+						"title": "",
+						"time": "",
+						"date": "",
+						"link": ""
+					},
+					{
+						"title": "",
+						"time": "",
+						"date": "",
+						"link": ""
+					}
+				]
+			};
+			let tab = "";
+			for (let r of data.workshops) {
+				tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
+				document.getElementById("content").innerHTML = tab;
+			}
 		</script>
 	</div>
 </body>
