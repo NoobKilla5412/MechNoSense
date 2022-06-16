@@ -57,32 +57,32 @@ $doc = "Workshops";
 				"workshops": [
 					{
 						"title": "",
-						"time": "TBD",
-						"date": "TBD",
+						"time": "",
+						"date": "",
 						"link": "/workshops/"
 					},
 					{
 						"title": "",
-						"time": "TBD",
-						"date": "TBD",
+						"time": "",
+						"date": "",
 						"link": "/workshops/"
 					},
 					{
 						"title": "",
-						"time": "TBD",
-						"date": "TBD",
+						"time": "",
+						"date": "",
 						"link": "/workshops/"
 					},
 					{
 						"title": "",
-						"time": "TBD",
-						"date": "TBD",
+						"time": "",
+						"date": "",
 						"link": "/workshops/"
 					},
 					{
 						"title": "",
-						"time": "TBD",
-						"date": "TBD",
+						"time": "",
+						"date": "",
 						"link": "/workshops/"
 					}
 				]
