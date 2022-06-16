@@ -41,8 +41,8 @@
 			<hr />
 		</div>
 		<a href="http://www.mechnosense.org/">Home</a> <a href="http://mechnosense.org/about-us/">About Us</a> <a href="http://www.mechnosense.org/daily-log/">Daily Log</a> <a href="http://www.mechnosense.org/signup/">Sign Up</a> <a href="http://www.mechnosense.org/videos/">Videos</a> <a href="http://www.mechnosense.org/pics/">Pictures</a> <a href="http://www.mechnosense.org/buy/">Buy</a>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

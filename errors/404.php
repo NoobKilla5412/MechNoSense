@@ -42,8 +42,8 @@
 		<p class="text-center">
 			It looks like you are lost. Click this button to go back<br/><button onClick="window.history.back()" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Back</span></button>
 		</p>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

@@ -34,8 +34,8 @@ $doc = "Buy";
 			<hr />
 		</div>
 		<a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">The Merch</a>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

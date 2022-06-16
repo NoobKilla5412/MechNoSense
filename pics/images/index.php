@@ -42,8 +42,8 @@
 		<p class="text-center">
 			It looks like you can not access this very awesome resource. Click this button if you want to view another very cool resource<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

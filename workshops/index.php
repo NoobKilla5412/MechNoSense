@@ -105,8 +105,8 @@ $doc = "Workshops";
 				document.getElementById("content").innerHTML = tab;
 			}
 		</script>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

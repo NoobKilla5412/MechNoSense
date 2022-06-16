@@ -283,8 +283,8 @@ $doc = "Daily Log";
 			<a href="#">Back to top</a>
 			<br /><br /><br /><br />
 		</div>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

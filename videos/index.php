@@ -49,8 +49,8 @@ $doc = "Videos";
 			<source type="video/mov"src="IMG_3118.mov"/>
 			<source type="video/mp4"src="IMG_3118.mp4"/>
 		</video>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>

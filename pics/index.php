@@ -53,8 +53,8 @@ $doc = "Pictures";
 				<img width="100%"src="/pics/images/IMG_6511.png" />
 			</div>
 		</div>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>
