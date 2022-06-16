@@ -45,7 +45,7 @@ $doc = "Daily Log";
 				Daily Log
 			</h1>
 			<hr />
-			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr />
 		</div>
 		<h3>
@@ -169,7 +169,7 @@ $doc = "Daily Log";
 			</p>
 			<p>3/18/2022:</p>
 			<p>
-				Today, Liana and I made a team master calendar that should last through the year and should be in our
+				Today and I made a team master calendar that should last through the year and should be in our
 				calendar part of our engineering notebook. This should aid us in managing the rest of the year. This
 				would make it more streamlined and clear for the rest of the year. Ishmael worked on Vuforia and
 				experimented with it. There were a lot of errors as there are with Vuforia. He enjoyed it but got stuck

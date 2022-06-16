@@ -39,7 +39,7 @@ $subdoc = "Sponsors";
 					First Robotics
 				</h1>
 				<hr/>
-				<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+				<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 				<hr/>
 			</div>
 			<!-- add content here -->

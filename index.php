@@ -42,7 +42,7 @@ $doc = "Home";
 				MechNoSense Robotics<br /><img src="/favicon.svg" height="300px" alt="Logo"/>
 			</h1>
 			<hr />
-			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 		</div>
 		<h3 id="team">
 			About Our Team:

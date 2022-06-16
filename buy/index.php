@@ -30,7 +30,7 @@ $doc = "Buy";
 				Buy
 			</h1>
 			<hr />
-			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr />
 		</div>
 		<a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">The Merch</a>

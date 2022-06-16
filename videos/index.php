@@ -41,7 +41,7 @@ $doc = "Videos";
 				Videos
 			</h1>
 			<hr/>
-			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr/>
 		</div>
 		<a href="IMG_3118.mp4" target="_blank">View in new tab</a><br />
