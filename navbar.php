@@ -57,7 +57,7 @@ f="/robots/"><b>Robots</b></a></li>
 );?><a href="/buy#atlas">Atlas</a></li>
 ########################################################
 */ ?>
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0000;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0000; position: relative;">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/">MechNoSense</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
