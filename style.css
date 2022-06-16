@@ -146,4 +146,6 @@ img {
 .bottom-box {
 	margin-top: auto;
 	background-color: #000;
+	height: auto;
+	width: 100%;
 }
