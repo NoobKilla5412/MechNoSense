@@ -51,35 +51,25 @@ $doc = "Workshops";
 		</div>
 		<div id="content"></div>
 		<script>
-			// api url
-			const api_url =
-				"https://mechnosense.org/workshops/workshops.json";
+			window.addEventListener("load", () => {
+				// API URL
+				const base =
+					`https://mechnosense.org/workshops/workshops.json`
 
-			// Defining async function
-			async function getapi(url) {
-
-				// Storing response
-				const response = await fetch(url);
-
-				// Storing data in form of JSON
-				var data = await response.json();
-				console.log(data);
-				show(data);
-			}
-			// Calling that async function
-			getapi(api_url);
-
-			// Function to define innerHTML for HTML table
-			function show(data) {
-				let tab;
-
-				// Loop to access all rows 
-				for (let r of data.workshops) {
-					tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
-				}
-				// Setting innerHTML as tab variable
-				document.getElementById("content").innerHTML = tab;
-			}
+				// Calling the API
+				fetch(base)
+					.then((response) => {
+						return response.json();
+					})
+					.then((data) => {
+						console.log(data);
+						let tab = "";
+						for (let r of data.workshops) {
+							tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
+							document.getElementById("content").innerHTML = tab;
+						}
+					});
+			});
 		</script>
 	</div>
 </body>
