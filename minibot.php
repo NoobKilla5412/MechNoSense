@@ -1,5 +1,5 @@
 <?php
-$doc = "About Us";
+    $doc = "Mini-Bot";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
