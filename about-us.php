@@ -111,13 +111,6 @@ $doc = "About Us";
         <p id="brandon">
             Hi, my name is Brandon. I do the coding of this webpage. I drive the robot for the competitions.
         </p>
-        <p id="email">
-            Our email is <a href="mailto:contact@mechnosense.org">contact@mechnosense.org</a>
-        </p>
-        <p id="YouTube">
-            Our YouTube channel is <a href="https://www.youtube.com/channel/UCBLlVrpF1RP2r3pBj7l6z8Q">MechNoSense
-                Robotics</a>
-        </p>
     </div>
     <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
 </body>
