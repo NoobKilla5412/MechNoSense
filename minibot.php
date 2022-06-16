@@ -84,6 +84,7 @@ $doc = "Mini-Bot";
             brackets(<code>{}</code>).
         </p>
     </div>
+    <?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
 
 </html>
