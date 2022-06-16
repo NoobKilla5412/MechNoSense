@@ -35,7 +35,7 @@ $doc = "Videos";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				Videos
@@ -49,6 +49,7 @@ $doc = "Videos";
 			<source type="video/mov"src="IMG_3118.mov"/>
 			<source type="video/mp4"src="IMG_3118.mp4"/>
 		</video>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 

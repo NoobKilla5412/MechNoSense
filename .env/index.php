@@ -30,7 +30,7 @@
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				HAHA
@@ -42,6 +42,7 @@
 		<p class="text-center">
 			HAHA. Click this button for the home page<br/><a href="/" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Home</span></a>
 		</p>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 

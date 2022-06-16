@@ -50,6 +50,7 @@ $subdoc = "Workshops";
 		<p>
 			TEMPLATE
 		</p>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 

@@ -31,7 +31,7 @@
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				MechNoSense Sitemap
@@ -41,6 +41,7 @@
 			<hr />
 		</div>
 		<a href="http://www.mechnosense.org/">Home</a> <a href="http://mechnosense.org/about-us/">About Us</a> <a href="http://www.mechnosense.org/daily-log/">Daily Log</a> <a href="http://www.mechnosense.org/signup/">Sign Up</a> <a href="http://www.mechnosense.org/videos/">Videos</a> <a href="http://www.mechnosense.org/pics/">Pictures</a> <a href="http://www.mechnosense.org/buy/">Buy</a>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 

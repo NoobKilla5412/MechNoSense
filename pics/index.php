@@ -36,7 +36,7 @@ $doc = "Pictures";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				Pictures
@@ -53,6 +53,7 @@ $doc = "Pictures";
 				<img width="100%"src="/pics/images/IMG_6511.png" />
 			</div>
 		</div>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 
