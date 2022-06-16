@@ -56,10 +56,10 @@ $doc = "Workshops";
 			const data = {
 				"workshops": [
 					{
-						"title": "This is the title",
-						"time": "Time",
-						"date": "Date",
-						"link": "/workshops/this-is-the-title"
+						"title": "",
+						"time": "TBD",
+						"date": "TBD",
+						"link": "/workshops/"
 					},
 					{
 						"title": "",
