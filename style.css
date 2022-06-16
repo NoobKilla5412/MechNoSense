@@ -10,7 +10,7 @@
 /* body {
 	background: linear-gradient(to bottom, #183820, #142718);
 } */
-body{
+body {
 	background-color: #183820;
 }
 
@@ -134,6 +134,11 @@ img {
 	padding-left: 0;
 	border-radius: 0
 }
-.box{
+
+.box {
 	border: 1px black solid;
+	background: linear-gradient(to bottom, #185020, #17431c);
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+	border-radius: .3rem;
 }
