@@ -10,10 +10,13 @@ $subdoc = "Workshops";
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
 
-			gtag('config', 'G-H9Z681C9TH');
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-H9Z681C9TH');
 	</script>
 	<meta charset="utf-8">
 	<link rel="manifest" href="/manifest.json">
@@ -35,7 +38,7 @@ $subdoc = "Workshops";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include '..\navbar.php'; ?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				Workshops
@@ -45,8 +48,7 @@ $subdoc = "Workshops";
 			<hr />
 		</div>
 		<p>
-			Add it on 
-			<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NXVkMnFubW41Ymp2MGtnMGVxdmF1Y3J0YWEgbWVjaG5vc2Vuc2VAbQ&amp;tmsrc=mechnosense%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>.
+			TEMPLATE
 		</p>
 	</div>
 </body>
