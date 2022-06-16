@@ -1,4 +1,5 @@
 <div id="footer">
+    <?php include 'C:\wamp64\www\MechNoSense\navbar-bottom.php';?>
     <p class="text-center">
         <a class="btn" href="#" style="background-color: #000; color: #FFF;">^</a>
     </p>
@@ -8,5 +9,4 @@
         YouTube channel: <a
             href="https://www.youtube.com/channel/UCBLlVrpF1RP2r3pBj7l6z8Q">MechNoSense&nbsp;Robotics</a>
     </p>
-    <?php include 'C:\wamp64\www\MechNoSense\navbar-bottom.php';?>
 </div>
