@@ -49,7 +49,7 @@ $doc = "Workshops";
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
 			<hr />
 		</div>
-		<div id="content"></div>
+		<div id="content">No workshops</div>
 		<script>
 			const data = {
 				"workshops": [
