@@ -53,6 +53,7 @@ $doc = "Home";
 		<p>
 			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made improvements over that time and are excited to continue to learn and grow together. Depending on recruitment size we have around 1-3 teams a year. Our name has been recently changed but has been a constant in past years and with a team of dedicated mentors, we plan on expanding our team growth and size. We hope you'll give us a chance to expand your horizons no matter the skill level. And we want to send a big thank you from the team behind Mechnosense.
 		</p>
+		<?php include '/footer.php';?>
 	</div>
 </body>
 
