@@ -1,5 +1,5 @@
 <?php
-    $doc = "Mini-Bot";
+$doc = "Mini-Bot";
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -42,13 +42,47 @@
         <?php include '.\navbar.php'; ?>
         <div class="jumbotron text-center">
             <h1 id="title123">
-                How to <strike>Make</strike> (Code) a Mini-Bot:
+                Mini-Bot
             </h1>
             <hr />
             <span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
             <hr />
         </div>
-        <!-- content here! -->
+        <h3>
+            How to <strike>Make</strike> (Code) a Mini-Bot
+        </h3>
+        <p>
+            Hello and welcome to coding your very first robot, the first part is going to be dedicated to teaching you
+            the very basics of the language that you will be coding the robots you make in. The language that we will be
+            using is java, if you haven't heard about it just know that some guys made Minecraft using that language.
+        </p>
+        <p>
+            Before we start actually coding the robot we have decided that it would be best to teach you some important
+            things about the language and give you some practice on an online platform. There are a couple of things
+            that you need to know beforehand about this that I will cover briefly.
+        </p>
+        <p>
+            Java consists of a few things
+        </p>
+        <ul>
+            <li>
+                <b>Class:</b> a class is a big group of code, this is where all of your code will be written.
+            </li>
+            <li>
+                <b>Method:</b> a method is a small block of code that can be executed elsewhere in the code, this makes
+                it so your code is a lot more legible and efficient.
+            </li>
+            <li>
+                <b>Variable:</b> a variable is used for storing a value. Whether True or False, 17.5, or a complete
+                sentence.
+            </li>
+        </ul>
+        <p>
+            In java, you end every sentence with one of two things. At the end of every sentence to tell the computer
+            that the sentence is over you put a semicolon(<code>;</code>). However, if it is something that will contain
+            code, such as a method or a class you would encompass all of the code with squiggly
+            brackets(<code>{}</code>).
+        </p>
     </div>
 </body>
 
