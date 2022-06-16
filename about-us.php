@@ -8,14 +8,14 @@ $doc = "About Us";
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    gtag('config', 'G-H9Z681C9TH');
+        gtag('config', 'G-H9Z681C9TH');
     </script>
     <meta charset="utf-8">
     <link rel="manifest" href="/manifest.json">
@@ -30,7 +30,7 @@ $doc = "About Us";
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        </script>
     <link rel="stylesheet" href="/style.css" />
     <!-- Custom CSS -->
     <title>About Us &#8211; MechNoSense</title>
@@ -39,18 +39,19 @@ $doc = "About Us";
 <body>
     <div class="container-fluid">
         <!-- Navbar -->
-        <?php include '.\navbar.php';?>
+        <?php include '.\navbar.php'; ?>
         <div class="jumbotron text-center">
             <h1 id="title123">
                 About Our Team
             </h1>
             <hr />
-            <span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane"
-                    class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav"
-                    class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae"
-                    class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will"
-                    class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a
-                    href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>
+            <span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael"
+                    class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea"
+                    class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac"
+                    class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew"
+                    class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea"
+                    class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org"
+                    class="names-link">Our&nbsp;email</a></span>
             <hr />
         </div>
         <!-- <h2 style="font-size: 200pt;"> -->
