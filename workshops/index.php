@@ -53,7 +53,7 @@ $doc = "Workshops";
 		<script>
 			// api url
 			const api_url =
-				"https://employeedetails.free.beeceptor.com/my/api/path";
+				"https://mechnosense.org/workshops/workshops.json";
 
 			// Defining async function
 			async function getapi(url) {
@@ -78,25 +78,14 @@ $doc = "Workshops";
 			}
 			// Function to define innerHTML for HTML table
 			function show(data) {
-				let tab =
-					`<tr>
-          <th>Name</th>
-          <th>Office</th>
-          <th>Position</th>
-          <th>Salary</th>
-         </tr>`;
+				let tab;
 
 				// Loop to access all rows 
-				for (let r of data.list) {
-					tab += `<tr> 
-    <td>${r.name} </td>
-    <td>${r.office}</td>
-    <td>${r.position}</td> 
-    <td>${r.salary}</td>          
-</tr>`;
+				for (let r of data.workshops) {
+					tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
 				}
 				// Setting innerHTML as tab variable
-				document.getElementById("employees").innerHTML = tab;
+				document.getElementById("content").innerHTML = tab;
 			}
 		</script>
 	</div>
