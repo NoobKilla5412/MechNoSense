@@ -6,7 +6,7 @@
 	"display": "standalone",
 	"id": "/",
 	"background_color": "#183820",
-	"description": "A MechNoSense app.",
+	"description": "The MechNoSense app.",
 	"icons": [{
 		"src": "/apple-touch-icon.png",
 		"sizes": "1723x1723",
