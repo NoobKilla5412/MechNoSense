@@ -73,8 +73,8 @@ $doc = "Mini-Bot";
                 it so your code is a lot more legible and efficient.
             </li>
             <li>
-                <b>Variable:</b> a variable is used for storing a value. Whether True or False, 17.5, or a complete
-                sentence.
+                <b>Variable:</b> a variable is used for storing a value. Whether True, False or null, 17.5, or a
+                complete sentence.
             </li>
         </ul>
         <p>
