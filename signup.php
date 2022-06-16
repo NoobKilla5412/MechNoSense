@@ -68,7 +68,9 @@ $doc = "Sign Up";
 				<input type="submit" value="Submit" class="btn btn-default" style="background-color: #185020;">
 			</div>
 		</form>
-	</div><br><br><br>
+	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+	<br><br><br>
 </body>
 
 </html>

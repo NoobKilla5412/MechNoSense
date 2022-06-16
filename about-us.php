@@ -25,12 +25,10 @@ $doc = "About Us";
     <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="/style.css" />
     <!-- Custom CSS -->
     <title>About Us &#8211; MechNoSense</title>
@@ -45,13 +43,7 @@ $doc = "About Us";
                 About Our Team
             </h1>
             <hr />
-            <span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael"
-                    class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea"
-                    class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac"
-                    class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew"
-                    class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea"
-                    class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org"
-                    class="names-link">Our&nbsp;email</a></span>
+            <span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>
             <hr />
         </div>
         <!-- <h2 style="font-size: 200pt;"> -->
@@ -127,6 +119,7 @@ $doc = "About Us";
                 Robotics</a>
         </p>
     </div>
+    <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
 </body>
 
 </html>
