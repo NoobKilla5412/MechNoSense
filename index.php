@@ -29,7 +29,7 @@ $doc = "Home";
 	<!-- Bootstrap JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="/style.min.css" />
+	<link rel="stylesheet" href="/style.css" />
 	<title>MechNoSense</title>
 </head>
 
@@ -39,7 +39,7 @@ $doc = "Home";
 		<?php include '.\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				MechNoSense Robotics<br /><img src="/favicon.svg" height="250px" alt="Logo"/>
+				MechNoSense Robotics<br /><img src="/favicon.svg" height="300px" alt="Logo"/>
 			</h1>
 			<hr />
 			<span class="names">Brandon, Liana, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>

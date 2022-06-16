@@ -1,102 +1,133 @@
 #title123 {
 	color: #A48C38;
 }
+
 .names {
 	font-size: 24pt;
 	color: #6F8F72;
 }
+
 body {
-	background-color: #183820;
+	background: linear-gradient(to bottom, #183820, #142718);
 }
+
 .jumbotron {
-	background-color: #185020;
+	/* background-color: #185020; */
+	background: linear-gradient(to bottom, #185020, #17431c);
 	padding: 2rem 1rem;
 	margin-bottom: 2rem;
 	border-radius: .3rem;
 }
+
 p {
 	font-size: 16pt;
 	color: #6F8F72;
 }
+
 .text {
 	color: #6F8F72;
 }
+
 h3 {
 	font-size: 24pt;
 	color: #6F8F72;
 }
-h1, h2, h3, h4, h5, h6 {
-	color: #6F8F72;
-}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
 	color: #6F8F72;
 }
+
+h6 {
+	color: #6F8F72;
+}
+
 #team {
 	color: #A48C38;
 }
+
 h3 {
 	color: #A48C38;
 }
+
 .names-link {
 	color: #6F8F72;
 }
+
 a {
 	color: #6FBF72;
 }
+
 a:hover {
 	color: #6FFF72;
 }
+
 #head123 {
 	color: #A48C38;
 }
+
 .navbar {
 	background-color: #183820;
 }
+
 a.nav-link {
 	color: #638a67;
 }
-a.nav-link:hover, a.nav-link:focus {
+
+a.nav-link:hover,
+a.nav-link:focus {
 	color: #729e76;
 }
+
 a.dropdown-toggle {
 	cursor: default;
 }
+
 .forminput122 {
-	display:inline-block;
-	padding:6px 12px;
-	margin-bottom:3px;
-	font-weight:400;
-	line-height:1.42857143;
-	text-align:center;
-	white-space:nowrap;
-	vertical-align:middle;
-	-ms-touch-action:manipulation;
-	touch-action:manipulation;
-	cursor:text;
-	border:1px solid transparent;
-	border-radius:4px
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 3px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: text;
+	border: 1px solid transparent;
+	border-radius: 4px
 }
+
 ul.dropdown-menu li a {
 	color: #6F8F72;
 }
+
 img {
-	margin:5px;
+	margin: 5px;
 }
+
 .error {
 	color: #f00;
-	font-size:16pt;
+	font-size: 16pt;
 }
+
 .active {
 	color: #76a87b;
 }
 
-@media (min-width:576px){
-	.jumbotron{
+@media (min-width:576px) {
+	.jumbotron {
 		padding: 4rem 2rem
-		}
 	}
-.jumbotron-fluid{
+}
+
+.jumbotron-fluid {
 	padding-right: 0;
 	padding-left: 0;
-	border-radius:0
+	border-radius: 0
 }
