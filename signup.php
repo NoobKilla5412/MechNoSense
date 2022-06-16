@@ -41,7 +41,7 @@ $doc = "Sign Up";
 <body>
 	<div class="container-fluid" style="margin-bottom: 1rem;">
 		<!-- Navbar -->
-		<?php include '.\navbar.php'; ?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				Sign Up for Our Team

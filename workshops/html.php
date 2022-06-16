@@ -38,7 +38,7 @@ $subdoc = "Workshops";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php'; ?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				HTML
