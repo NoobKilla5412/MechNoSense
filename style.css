@@ -143,13 +143,12 @@ img {
 	border-radius: .3rem;
 }
 
-.bottom-box {
-	margin-top: auto;
-	background-color: #000;
-	height: 100%;
+#footer {
+	position: fixed;
+	padding: 10px 10px 0px 10px;
+	bottom: 0;
 	width: 100%;
-	padding-right: var(--bs-gutter-x, 0.75rem);
-	padding-left: var(--bs-gutter-x, 0.75rem);
-	margin-right: auto;
-	margin-left: auto;
+	/* Height of the footer*/
+	height: 40px;
+	background: grey;
 }
