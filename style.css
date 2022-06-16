@@ -7,8 +7,11 @@
 	color: #6F8F72;
 }
 
-body {
+/* body {
 	background: linear-gradient(to bottom, #183820, #142718);
+} */
+body{
+	background-color: #183820;
 }
 
 .jumbotron {
