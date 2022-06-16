@@ -55,26 +55,32 @@ $doc = "Workshops";
 				"workshops": [
 					{
 						"title": "",
-						"time": "",
-						"date": "",
+						"time": "TBD",
+						"date": "TBD",
 						"link": ""
 					},
 					{
 						"title": "",
-						"time": "",
-						"date": "",
+						"time": "TBD",
+						"date": "TBD",
 						"link": ""
 					},
 					{
 						"title": "",
-						"time": "",
-						"date": "",
+						"time": "TBD",
+						"date": "TBD",
 						"link": ""
 					},
 					{
 						"title": "",
-						"time": "",
-						"date": "",
+						"time": "TBD",
+						"date": "TBD",
+						"link": ""
+					},
+					{
+						"title": "",
+						"time": "TBD",
+						"date": "TBD",
 						"link": ""
 					}
 				]
@@ -94,7 +100,7 @@ $doc = "Workshops";
 						${data.workshops[r].title}
 					</a>
 				</div>`;
-				document.getElementById("content").innerHTML = tab;
+				// document.getElementById("content").innerHTML = tab;
 			}
 		</script>
 	</div>
