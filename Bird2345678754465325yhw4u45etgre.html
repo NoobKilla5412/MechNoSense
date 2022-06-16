@@ -171,12 +171,12 @@
 
         function updateGameArea() { // a function to update the game area
             var x, height, gap, minHeight, maxHeight, minGap, maxGap;
-            for (i = 0; i < myObstacles.length; i += 1) { // check if you have ran into an obstacle
-                if (myGamePiece.crashWith(myObstacles[i])) {
-                    myGameArea.stop();
-                    return;
-                }
-            }
+            // for (i = 0; i < myObstacles.length; i += 1) { // check if you have ran into an obstacle
+            //     if (myGamePiece.crashWith(myObstacles[i])) {
+            //         myGameArea.stop();
+            //         return;
+            //     }
+            // }
             myGameArea.clear(); // clear the canvas
             if (everyInterval(lengthOfGap * 10)) { // make it harder each level
                 oBSSpeed -= .1;
@@ -258,7 +258,7 @@
             }
             myGamePiece.update(); // redraw the player
             // see if you have won:
-            if (controlMethod == 0 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= 121) {
+            if (controlMethod == 0 && ((myObstacles.length / 2) - 1/*DO NOT CHANGE*/) >= /*121*/100000) {
                 winScore.text = "You Win! :D";
                 myGameArea.clear();
                 winScore.update();
