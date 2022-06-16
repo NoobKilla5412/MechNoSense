@@ -41,7 +41,7 @@ $subdoc = "Workshops";
 		<?php include '..\navbar.php'; ?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				Workshops
+				HTML
 			</h1>
 			<hr />
 			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
