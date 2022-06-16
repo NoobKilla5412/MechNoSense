@@ -88,7 +88,7 @@ $doc = "Workshops";
 				]
 			};
 			let tab = "";
-			for (let r = 0; r <= data.length; r++) {
+			for (let r = 0; r <= 100; r++) {
 				tab += `
 				<div class="box">
 					<h3>
