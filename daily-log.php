@@ -280,7 +280,6 @@ $doc = "Daily Log";
 				made so 3 minibots could be assembled. By making those changes finished we put the nail in the coffin to
 				set us up for an amazing off-season.
 			</p>
-			<a href="#">Back to top</a>
 			<br /><br /><br /><br />
 		</div>
 	</div>
