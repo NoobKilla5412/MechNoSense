@@ -1,3 +1,34 @@
+<?php
+function active($doc1)
+{
+	global $doc;
+	if ($doc === $doc1) {
+		echo "<a class=\"nav-link active\" aria-current=\"page\" ";
+	} else {
+		echo "<a class=\"nav-link\" ";
+	}
+}
+function activeDrop($doc1)
+{
+	global $doc;
+	global $subdoc;
+	if ($doc === $doc1 || $subdoc === $doc1) {
+		echo "active";
+	} else {
+		echo "";
+	}
+}
+function activeSubDrop($doc1)
+{
+	global $doc;
+	global $subdoc;
+	if ($doc === $doc1) {
+		echo "active";
+	} else {
+		echo "";
+	}
+}
+?>
 <div id="footer">
     <p class="text-center">
         <a class="btn" href="#" style="background-color: #000; color: #FFF;">^</a>

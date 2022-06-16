@@ -1,4 +1,4 @@
-<?php
+<?php /*
 function active($doc1)
 {
 	global $doc;
@@ -27,7 +27,7 @@ function activeSubDrop($doc1)
 	} else {
 		echo "";
 	}
-}
+}*/
 ?>
 <?php /*
 href="/buy/">Buy</a></li>
