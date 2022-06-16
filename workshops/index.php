@@ -59,31 +59,31 @@ $doc = "Workshops";
 						"title": "",
 						"time": "TBD",
 						"date": "TBD",
-						"link": ""
+						"link": "/workshops/"
 					},
 					{
 						"title": "",
 						"time": "TBD",
 						"date": "TBD",
-						"link": ""
+						"link": "/workshops/"
 					},
 					{
 						"title": "",
 						"time": "TBD",
 						"date": "TBD",
-						"link": ""
+						"link": "/workshops/"
 					},
 					{
 						"title": "",
 						"time": "TBD",
 						"date": "TBD",
-						"link": ""
+						"link": "/workshops/"
 					},
 					{
 						"title": "",
 						"time": "TBD",
 						"date": "TBD",
-						"link": ""
+						"link": "/workshops/"
 					}
 				]
 			};
@@ -102,7 +102,7 @@ $doc = "Workshops";
 						${data.workshops[r].title}
 					</a>
 				</div>`;
-				// document.getElementById("content").innerHTML = tab;
+				document.getElementById("content").innerHTML = tab;
 			}
 		</script>
 	</div>
