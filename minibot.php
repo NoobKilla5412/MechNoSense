@@ -64,7 +64,7 @@ $doc = "Mini-Bot";
         <p>
             Java consists of a few things
         </p>
-        <ul>
+        <ul class="text">
             <li>
                 <b>Class:</b> a class is a big group of code, this is where all of your code will be written.
             </li>
