@@ -53,7 +53,7 @@ $doc = "Workshops";
 			<p>No workshops</p>
 		</div>
 		<script>
-			const data = {
+			const data = {/*
 				"workshops": [
 					{
 						"title": "This is the title",
@@ -85,7 +85,7 @@ $doc = "Workshops";
 						"date": "TBD",
 						"link": "/workshops/"
 					}
-				]
+				]*/
 			};
 			let tab = "";
 			for (let r = 0; r <= 100; r++) {
