@@ -80,7 +80,7 @@ $doc = "Workshops";
 				]
 			};
 			let tab = "";
-			for (let r of data.workshops) {
+			for (let r = 0; r <= 3; r++) {
 				tab += `<div class="box"><h4>${data.workshops[r].title}</h4><br><p>${data.workshops[r].date} ${data.workshops[r].time}</p><a href="${data.workshops[r].link}">${data.workshops[r].title}</a></div>`;
 				document.getElementById("content").innerHTML = tab;
 			}
