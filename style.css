@@ -134,3 +134,6 @@ img {
 	padding-left: 0;
 	border-radius: 0
 }
+.box{
+	border: 1px black solid;
+}
