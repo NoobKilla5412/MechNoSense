@@ -142,3 +142,7 @@ img {
 	margin-bottom: 2rem;
 	border-radius: .3rem;
 }
+
+.bottom-box {
+	margin-top: auto;
+}
