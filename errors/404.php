@@ -30,7 +30,7 @@
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include '..\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				404 Page not Found
@@ -42,6 +42,7 @@
 		<p class="text-center">
 			It looks like you are lost. Click this button to go back<br/><button onClick="window.history.back()" class="btn btn-default" style="background-color: #185020;"><span style="color: #A48C38;">Back</span></button>
 		</p>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 	</div>
 </body>
 
