@@ -1,7 +1,7 @@
 <div id="footer">
     <?php include 'C:\wamp64\www\MechNoSense\navbar-bottom.php';?>
     <p class="text-center" style="color: #8c8989;">
-        <a class="btn" href="#" style="background-color: #000; color: #FFF;">^</a>
+        <a class="btn" href="#" style="background-color: #000; color: #FFF;">&#9650;</a>
     </p>
     <p style="color: #8c8989;">
         Phone number: <a href="tel:5410000000">(541) 000-0000</a>

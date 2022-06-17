@@ -101,7 +101,8 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
-				<?php /*<li class="nav-item dropdown">
+				<li class="nav-item"><a class="nav-link" href="#bottom">&#9660;</a></li>
+					<?php /*<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Dropdown
 					</a>
