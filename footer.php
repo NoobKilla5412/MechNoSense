@@ -1,9 +1,9 @@
-<div id="footer" style="color: #8c8989;">
+<div id="footer">
     <?php include 'C:\wamp64\www\MechNoSense\navbar-bottom.php';?>
-    <p class="text-center">
+    <p class="text-center" style="color: #8c8989;">
         <a class="btn" href="#" style="background-color: #000; color: #FFF;">^</a>
     </p>
-    <p>
+    <p style="color: #8c8989;">
         Phone number: <a href="tel:5410000000">(541) 000-0000</a>
         Email: <a href="mailto:contact@mechnosense.org">contact@mechnosense.org</a>
         YouTube channel: <a
