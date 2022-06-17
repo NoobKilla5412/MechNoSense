@@ -1,4 +1,4 @@
-<div id="footer">
+<div id="footer" style="color: #8c8989;">
     <?php include 'C:\wamp64\www\MechNoSense\navbar-bottom.php';?>
     <p class="text-center">
         <a class="btn" href="#" style="background-color: #000; color: #FFF;">^</a>
