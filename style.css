@@ -155,3 +155,9 @@ img {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
