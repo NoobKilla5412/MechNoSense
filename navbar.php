@@ -57,7 +57,7 @@ f="/robots/"><b>Robots</b></a></li>
 );?><a href="/buy#atlas">Atlas</a></li>
 ########################################################
 */ ?>
-<nav class="navbar navbar-expand-lg navbar-dark sticky" style="background-color: #0000; position: relative;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0000;" id="navbar">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/">MechNoSense</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,7 +102,7 @@ f="/robots/"><b>Robots</b></a></li>
 					</ul>
 				</li>
 				<!-- <li class="nav-item" style="float: right;"><a class="nav-link" href="#bottom">&#9660;</a></li> -->
-				<?php /*<li class="nav-item dropdown">
+					<?php /*<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Dropdown
 					</a>
