@@ -9,9 +9,9 @@ $doc = "Home";
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-H9Z681C9TH"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
+		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-		
+
 		gtag('config', 'G-H9Z681C9TH');
 	</script>
 	<meta charset="utf-8">
@@ -26,9 +26,12 @@ $doc = "Home";
 	<script src="/js.js"></script>
 
 	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Bootstrap JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="/style.css" />
 	<title>MechNoSense</title>
@@ -40,7 +43,7 @@ $doc = "Home";
 		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				MechNoSense Robotics<br /><img src="/favicon.svg" height="300px" alt="Logo"/>
+				MechNoSense Robotics<br /><img src="/favicon.svg" height="300px" alt="Logo" />
 			</h1>
 			<hr />
 			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
@@ -49,10 +52,18 @@ $doc = "Home";
 			About Our Team:
 		</h3>
 		<p>
-			Hello, we are MechNoSense, an FTC robotics team located in Benton County. We work on teaching robotics, business, and programming skills. We love all things robots! Our team is committed to equity and diversity and welcomes all no matter skill level, past experience, or current ability. We are made up of 6-8th graders but are flexible and excited to meet new members.
+			Hello, we are MechNoSense, an FTC robotics team located in Benton County. We work on teaching robotics,
+			business, and programming skills. We love all things robots! Our team is committed to equity and diversity
+			and welcomes all no matter skill level, past experience, or current ability. We are made up of 6-8th graders
+			but are flexible and excited to meet new members.
 		</p>
 		<p>
-			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made improvements over that time and are excited to continue to learn and grow together. Depending on recruitment size we have around 1-3 teams a year. Our name has been recently changed but has been a constant in past years and with a team of dedicated mentors, we plan on expanding our team growth and size. We hope you'll give us a chance to expand your horizons no matter the skill level. And we want to send a big thank you from the team behind Mechnosense.
+			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made
+			improvements over that time and are excited to continue to learn and grow together. Depending on recruitment
+			size we have around 1-3 teams a year. Our name has been recently changed but has been a constant in past
+			years and with a team of dedicated mentors, we plan on expanding our team growth and size. We hope you'll
+			give us a chance to expand your horizons no matter the skill level. And we want to send a big thank you from
+			the team behind Mechnosense.
 		</p>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
