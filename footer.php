@@ -4,7 +4,7 @@
         <a class="btn" href="#" style="background-color: #000; color: #FFF;">&#9650;</a>
     </p>
     <p style="color: #8c8989;">
-        Phone number: <a href="tel:5410000000">(541) 000-0000</a>
+        Phone number: <a href="tel:5555555555">(555) 555-5555</a>
         Email: <a href="mailto:contact@mechnosense.org">contact@mechnosense.org</a>
         YouTube channel: <a
             href="https://www.youtube.com/channel/UCBLlVrpF1RP2r3pBj7l6z8Q">MechNoSense&nbsp;Robotics</a>
