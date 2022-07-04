@@ -1,4 +1,10 @@
 <?php
+if($_GET['mode']==='edit'&&$_GET['pwd']==='feHKfBHyzvSHtGEdrgzyBWVxbQaS2m3wjfhusrBc6z7z6JXaBS9GkCnKFGnA3GTZFHhp3mP8yjvdZPPjb8NTyUTBA8mXNML2MHggxc46VB7g7BLpMx6ZCqgxynxg64gkHBwGW78X5kPsdkbERTHhYHBNpcqpjhGKvw7gCUVBPyypQBpWZynSLhwZ8RKW8WCYTyZY9EXmw6xpJJrdUfcyxgFVd6fjfjh2V3Ee8LtHfHnn4JNSrZUZZBRckW9Jy4b8xLgwhykrMfvjkfURMf84qYUyUWMnsapeZ6SvckdPyeNAew5hcEVQEv4YdceV4k4k2qTSmhXdpUPkEs8ASAtTFQHXjpxAkHPaPt8eAHP3NJzGra9Mw8Echtspqf3yu9VyrRh5Umz9AyRj3NjmFrvn5x2kBAJMxccj9yPAwFPSN2PqhH5jRsgRpbBDRqYJFRRc9xP4cg8mf5ekYpB9S9jMSFg7USAdZhXA27GU8L9yywwVTY8Q2MG4H84m5gNSNex6'){
+?>
+It works
+<?php }else{
+?>
+<?php
 $doc = "Workshops";
 $url = "localhost";
 $username = "root";
@@ -118,3 +124,6 @@ if (!$conn) {
 </body>
 
 </html>
+<?php
+}
+?>
