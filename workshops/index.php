@@ -3,7 +3,7 @@ $doc = "Workshops";
 $url = "localhost";
 $username = "root";
 $password = "!d[jAtFAb.!6!Wn";
-$conn = mysqli_connect($url, $username, $password, "crud");
+$conn = mysqli_connect($url, $username, $password, "MechNoSense");
 if (!$conn) {
 	die('Could not Connect My Sql');
 }
