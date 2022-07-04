@@ -3,29 +3,27 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 	if ($_GET['mode'] === 'edit' && $_GET['pwd'] === file_get_contents('C:\wamp64\www\editPWD.txt')) {
 ?>
 		<?php
-		if ($_SERVER['request_method'] === 'POST') {
-			$url = "localhost";
-			$username = "root";
-			$password = "!d[jAtFAb.!6!Wn";
-			$conn = mysqli_connect($url, $username, $password, "MechNoSense");
-			if (!$conn) {
-				die('Could not Connect My Sql');
-			}
-			if (isset($_POST['save'])) {
-				$title = $_POST['title'];
-				$date = $_POST['date'];
-				$time = $_POST['time'];
-				$link = $_POST['link'];
-				$sql = "INSERT INTO workshops (title,date,time,link)
+		$url = "localhost";
+		$username = "root";
+		$password = "!d[jAtFAb.!6!Wn";
+		$conn = mysqli_connect($url, $username, $password, "MechNoSense");
+		if (!$conn) {
+			die('Could not Connect My Sql');
+		}
+		if (isset($_POST['save'])) {
+			$title = $_POST['title'];
+			$date = $_POST['date'];
+			$time = $_POST['time'];
+			$link = $_POST['link'];
+			$sql = "INSERT INTO workshops (title,date,time,link)
 	 VALUES ('$first_name','$last_name','$city_name','$email')";
-				if (mysqli_query($conn, $sql)) {
-					echo "New record created successfully !";
-				} else {
-					echo "Error: " . $sql . "
+			if (mysqli_query($conn, $sql)) {
+				echo "New record created successfully !";
+			} else {
+				echo "Error: " . $sql . "
 " . mysqli_error($conn);
-				}
-				mysqli_close($conn);
 			}
+			mysqli_close($conn);
 		}
 		?>
 		<!DOCTYPE html>
