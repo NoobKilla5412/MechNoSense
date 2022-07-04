@@ -1,5 +1,4 @@
 <?php
-$doc = "Workshops";
 $url = "localhost";
 $username = "root";
 $password = "!d[jAtFAb.!6!Wn";
