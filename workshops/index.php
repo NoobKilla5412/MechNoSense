@@ -42,22 +42,22 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		<body>
 			<form method="post" action="">
 				Title:<br>
-				<input type="text" name="title">
+				<input type="text" name="title" required>
 				<br>
 				Info:<br>
 				<textarea name="info"></textarea>
 				<br>
 				Date:<br>
-				<input type="text" name="date">
+				<input type="text" name="date" required>
 				<br>
 				Time:<br>
-				<input type="text" name="time">
+				<input type="text" name="time" required>
 				<br>
 				Link:<br>
-				<input type="text" name="link">
+				<input type="text" name="link" required>
 				<br>
 				Password:<br>
-				<input type="password" name="password">
+				<input type="password" name="password" required>
 				<br><br>
 				<input type="submit" name="save" value="submit">
 			</form>
