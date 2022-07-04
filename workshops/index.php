@@ -49,18 +49,51 @@ $doc = "Workshops";
 		</div>
 		<div id="content">
 			<?php
-			$data = file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.php');
+			$data = [
+				"workshops" => [
+					[
+						"title" => "",
+						"time" => "",
+						"date" => "",
+						"link" => "/workshops/"
+					],
+					[
+						"title" => "",
+						"time" => "",
+						"date" => "",
+						"link" => "/workshops/"
+					],
+					[
+						"title" => "",
+						"time" => "",
+						"date" => "",
+						"link" => "/workshops/"
+					],
+					[
+						"title" => "",
+						"time" => "",
+						"date" => "",
+						"link" => "/workshops/"
+					],
+					[
+						"title" => "",
+						"time" => "",
+						"date" => "",
+						"link" => "/workshops/"
+					]
+				]
+			];
 			for ($r = 0; $r < 5; $r++) {
 				echo `
 				<div class="box">
 					<h3>
-						`.$data['workshops'][$r]['title'].`
+						` . $data['workshops'][$r]['title'] . `
 					</h3>
 					<p>
-					Date: `.$data['workshops'][$r]['date'].`<br>
-					Time: `.$data['workshops'][$r]['time'].`
-					<a href="`.$data['workshops'][$r]['link'].`">
-						`.$data['workshops'][$r]['title'].`
+					Date: ` . $data['workshops'][$r]['date'] . `<br>
+					Time: ` . $data['workshops'][$r]['time'] . `
+					<a href="` . $data['workshops'][$r]['link'] . `">
+						` . $data['workshops'][$r]['title'] . `
 					</a>
 				</div>
 				`;
