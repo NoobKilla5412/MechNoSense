@@ -27,12 +27,9 @@ $doc = "Workshops";
 	<script src="/js.js"></script>
 
 	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Bootstrap JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="/style.css" />
 	<!-- Custom CSS -->
 	<title>Workshops &#8211; MechNoSense</title>
@@ -41,7 +38,7 @@ $doc = "Workshops";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				Workshops
@@ -52,14 +49,26 @@ $doc = "Workshops";
 		</div>
 		<div id="content">
 			<?php
-				$data = file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.php');
-				foreach($data as &$content){
-					echo $content;
-				}
+			$data = file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.php');
+			for ($r = 0; $r < 5; $r++) {
+				echo `
+				<div class="box">
+					<h3>
+						{$data['workshops'][$r]['title']}
+					</h3>
+					<p>
+					Date: {$data['workshops'][$r]['date']}<br>
+					Time: {$data['workshops'][$r]['time']}
+					<a href="{$data['workshops'][$r]['link']}">
+						{$data['workshops'][$r]['title']}
+					</a>
+				</div>
+				`;
+			}
 			?>
 		</div>
 	</div>
-	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
 </body>
 
 </html>
