@@ -61,29 +61,28 @@ if (!$conn) {
 			<?php
 			if (mysqli_num_rows($result) > 0) {
 			?>
-				<table>
-					<?php
-					$i = 0;
-					while ($row = mysqli_fetch_array($result)) {
-					?>
-						<tr>
-							<td>
-								<h3><?= $row["title"]; ?></h3>
-							</td>
-							<td>
-								<p>Date: <?= $row["date"]; ?></p>
-							</td>
-							<td>
-								<p>Time: <?= $row["time"]; ?></p>
-							</td>
-							<td>
-								<p><a href="<?= $row["link"]; ?>"><?= $row["title"]; ?>
-							</td>
-						</tr>
-					<?php
-						$i++;
-					}
-					?>
+				<?php
+				$i = 0;
+				while ($row = mysqli_fetch_array($result)) {
+				?>
+					<div class="box">
+						<h3>
+							<?= $row["title"]; ?>
+						</h3>
+						<p>
+							Date: <?= $row["date"]; ?><br>
+							Time: <?= $row["time"]; ?>
+						</p>
+						<p>
+							<a href="<?= $row["link"]; ?>">
+								<?= $row["title"]; ?>
+							</a>
+						</p>
+					</div>
+				<?php
+					$i++;
+				}
+				?>
 				</table>
 			<?php
 			} else {
@@ -111,7 +110,7 @@ if (!$conn) {
 				';
 			}
 			mysql_close($connection); // Closing Connection with Server
-			*/?>
+			*/ ?>
 		</div>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
