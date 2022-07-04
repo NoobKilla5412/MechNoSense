@@ -93,9 +93,11 @@ $doc = "Workshops";
 						Date: '.$data['workshops'][$r]['date'].'<br>
 						Time: '.$data['workshops'][$r]['time'].'
 					</p>
-					<a href="'.$data['workshops'][$r]['link'].'">
-						'.$data['workshops'][$r]['title'].'
-					</a>
+					<p>
+						<a href="'.$data['workshops'][$r]['link'].'">
+							'.$data['workshops'][$r]['title'].'
+						</a>
+					</p>
 				</div>
 				';
 			}
