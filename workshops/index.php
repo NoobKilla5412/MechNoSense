@@ -86,7 +86,7 @@ if (!$conn) {
 				</table>
 			<?php
 			} else {
-				echo "No result found";
+				echo "";
 			}
 			?>
 			<?php /*
