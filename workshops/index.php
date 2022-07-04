@@ -31,12 +31,12 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		<html>
 
 		<head>
-			<link rel="stylesheet" href="/style.css">
+			<?php /*<link rel="stylesheet" href="/style.css">
 			<style>
 				body{
 					background-color: #FFF;
 				}
-			</style>
+			</style>*/?>
 		</head>
 
 		<body>
