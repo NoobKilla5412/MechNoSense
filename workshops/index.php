@@ -1,83 +1,8 @@
 <?php
-if (!isset($_GET['page'])) {
-	header('Location: /workshops/?page=home');
-} else {
-	$page = $_GET['page'];
-}
-if ($page === 'home') {
+if (isset($_GET['mode']) && isset($_GET['pwd'])) {
+	if ($_GET['mode'] === 'edit' && $_GET['pwd'] === file_get_contents('C:\wamp64\www\editPWD.txt')) {
 ?>
-	<?php
-	if (isset($_GET['mode']) && isset($_GET['pwd'])) {
-		if ($_GET['mode'] === 'edit' && $_GET['pwd'] === file_get_contents('C:\wamp64\www\editPWD.txt')) {
-	?>
-			<?php
-			$url = "localhost";
-			$username = "root";
-			$password = "!d[jAtFAb.!6!Wn";
-			$conn = mysqli_connect($url, $username, $password, "MechNoSense");
-			if (!$conn) {
-				die('Could not Connect My Sql');
-			}
-			if (isset($_POST['save']) && isset($_POST['password'])) {
-				if ($_POST['password'] === file_get_contents('C:\wamp64\www\editPWD1.txt')) {
-					$title = $_POST['title'];
-					$info = $_POST['info'];
-					$date = $_POST['date'];
-					$time = $_POST['time'];
-					$link = $_POST['link'];
-					$sql = "INSERT INTO workshops (title,info,date,time,link) VALUES ('$title','$info','$date','$time','$link')";
-					if (mysqli_query($conn, $sql)) {
-						echo "New record created successfully !";
-					} else {
-						echo "Error: " . $sql . "\n" . mysqli_error($conn);
-					}
-					mysqli_close($conn);
-				}
-			}
-			?>
-			<!DOCTYPE html>
-			<html>
-
-			<head>
-				<?php /*<link rel="stylesheet" href="/style.css">
-			<style>
-				body{
-					background-color: #FFF;
-				}
-			</style>*/ ?>
-			</head>
-
-			<body>
-				<form method="post" action="">
-					Title:<br>
-					<input type="text" name="title">
-					<br>
-					Info:<br>
-					<textarea name="info"></textarea>
-					<br>
-					Date:<br>
-					<input type="text" name="date">
-					<br>
-					Time:<br>
-					<input type="text" name="time">
-					<br>
-					Link:<br>
-					<input type="text" name="link">
-					<br>
-					Password:<br>
-					<input type="password" name="password">
-					<br><br>
-					<input type="submit" name="save" value="submit">
-				</form>
-				<a href="/workshops/">Back</a>
-			</body>
-
-			</html>
-		<?php }
-	} else {
-		?>
-<?php
-		$doc = "Workshops";
+		<?php
 		$url = "localhost";
 		$username = "root";
 		$password = "!d[jAtFAb.!6!Wn";
@@ -85,61 +10,125 @@ if ($page === 'home') {
 		if (!$conn) {
 			die('Could not Connect My Sql');
 		}
-	}
-}
-?>
-<!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		function gtag() {
-			dataLayer.push(arguments);
+		if (isset($_POST['save']) && isset($_POST['password'])) {
+			if ($_POST['password'] === file_get_contents('C:\wamp64\www\editPWD1.txt')) {
+				$title = $_POST['title'];
+				$info = $_POST['info'];
+				$date = $_POST['date'];
+				$time = $_POST['time'];
+				$link = $_POST['link'];
+				$sql = "INSERT INTO workshops (title,info,date,time,link) VALUES ('$title','$info','$date','$time','$link')";
+				if (mysqli_query($conn, $sql)) {
+					echo "New record created successfully !";
+				} else {
+					echo "Error: " . $sql . "\n" . mysqli_error($conn);
+				}
+				mysqli_close($conn);
+			}
 		}
-		gtag('js', new Date());
+		?>
+		<!DOCTYPE html>
+		<html>
 
-		gtag('config', 'G-H9Z681C9TH');
-	</script>
-	<meta charset="utf-8">
-	<link rel="manifest" href="/manifest.json">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
-	<link rel="icon" type="image/ico" href="/favicon.ico" />
-	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="/js.js"></script>
+		<head>
+			<?php /*<link rel="stylesheet" href="/style.css">
+			<style>
+				body{
+					background-color: #FFF;
+				}
+			</style>*/ ?>
+		</head>
 
-	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!-- Bootstrap JavaScript -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="/style.css" />
-	<!-- Custom CSS -->
-	<title>Workshops &#8211; MechNoSense</title>
-</head>
+		<body>
+			<form method="post" action="">
+				Title:<br>
+				<input type="text" name="title">
+				<br>
+				Info:<br>
+				<textarea name="info"></textarea>
+				<br>
+				Date:<br>
+				<input type="text" name="date">
+				<br>
+				Time:<br>
+				<input type="text" name="time">
+				<br>
+				Link:<br>
+				<input type="text" name="link">
+				<br>
+				Password:<br>
+				<input type="password" name="password">
+				<br><br>
+				<input type="submit" name="save" value="submit">
+			</form>
+			<a href="/workshops/">Back</a>
+		</body>
 
-<body>
-	<div class="container-fluid">
-		<!-- Navbar -->
-		<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
-		<div class="jumbotron text-center">
-			<h1 id="title123">
-				<?php if($page==='home'){echo 'Workshops';}elseif($page==='html'){echo 'HTML';}?>
-			</h1>
-			<hr />
-			<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/ ?>
-			<?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
-			<hr />
-		</div>
-		<div id="content">
-			<?php
-			if ($page === 'home') {
+		</html>
+	<?php }
+} else {
+	?>
+	<?php
+	$doc = "Workshops";
+	$url = "localhost";
+	$username = "root";
+	$password = "!d[jAtFAb.!6!Wn";
+	$conn = mysqli_connect($url, $username, $password, "MechNoSense");
+	if (!$conn) {
+		die('Could not Connect My Sql');
+	}
+	?>
+	<!DOCTYPE html>
+	<html lang="en-us">
+
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-H9Z681C9TH');
+		</script>
+		<meta charset="utf-8">
+		<link rel="manifest" href="/manifest.json">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
+		<link rel="icon" type="image/ico" href="/favicon.ico" />
+		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="/js.js"></script>
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- Bootstrap JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="/style.css" />
+		<!-- Custom CSS -->
+		<title>Workshops &#8211; MechNoSense</title>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<!-- Navbar -->
+			<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+			<div class="jumbotron text-center">
+				<h1 id="title123">
+					Workshops
+				</h1>
+				<hr />
+				<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/ ?>
+				<?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
+				<hr />
+			</div>
+			<div id="content">
+				<?php
 				$result = mysqli_query($conn, "SELECT * FROM workshops");
-			?>
+				?>
 				<?php
 				if (mysqli_num_rows($result) > 0) {
 				?>
@@ -174,7 +163,7 @@ if ($page === 'home') {
 					echo "";
 				}
 				?>
-			<?php /*
+				<?php /*
 			for ($id = 0; $id < 100; $id++) {
 				$query1 = mysql_query("select * from workshops where workshops_id=$id", $connection);
 				echo '
@@ -195,40 +184,13 @@ if ($page === 'home') {
 				';
 			}
 			mysql_close($connection); // Closing Connection with Server
-			*/ } ?>
-			<?php
-			if ($page === 'html') {
-			?>
-				<title>HTML &#8211; Workshops | MechNoSense</title>
-				<style>
-					pre {
-						background-color: dimgrey;
-					}
-				</style>
-				<p>
-					A template for HTML:
-				<pre>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-    &lt;title&gt;Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-</pre>
-				</p>
-				<p>
-					A <code>&lt;p&gt;</code> tag is a paragraph.
-				</p>
-			<?php } ?>
+			*/ ?>
+			</div>
 		</div>
-	</div>
-	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
-</body>
+		<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+	</body>
 
-</html>
+	</html>
+<?php
+}
+?>
