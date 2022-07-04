@@ -52,7 +52,7 @@ $doc = "Workshops";
 		</div>
 		<div id="content">
 			<?php
-				$data = file_get_contents('C:\wamp64\www\MechNoSense\data.php');
+				$data = file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.php');
 				foreach($data as &$content){
 					echo $content;
 				}
