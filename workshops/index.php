@@ -54,13 +54,13 @@ $doc = "Workshops";
 				echo `
 				<div class="box">
 					<h3>
-						{$data['workshops'][$r]['title']}
+						${data['workshops'][$r]['title']}
 					</h3>
 					<p>
-					Date: {$data['workshops'][$r]['date']}<br>
-					Time: {$data['workshops'][$r]['time']}
-					<a href="{$data['workshops'][$r]['link']}">
-						{$data['workshops'][$r]['title']}
+					Date: ${data['workshops'][$r]['date']}<br>
+					Time: ${data['workshops'][$r]['time']}
+					<a href="${data['workshops'][$r]['link']}">
+						${data['workshops'][$r]['title']}
 					</a>
 				</div>
 				`;
