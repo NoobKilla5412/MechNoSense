@@ -25,7 +25,7 @@ if (mysqli_num_rows($result) > 0) {
         }
         ?>
         <?php
-        echo implode(', ',$names);
+        echo implode(', ',$names). ' | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>';
         ?>
     </span>
 <?php
