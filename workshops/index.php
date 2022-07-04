@@ -52,9 +52,9 @@ $doc = "Workshops";
 			$data = [
 				"workshops" => [
 					[
-						"title" => "Test",
-						"time" => "10:09",
-						"date" => "00/00/0000",
+						"title" => "",
+						"time" => "",
+						"date" => "",
 						"link" => "/workshops/"
 					],
 					[
