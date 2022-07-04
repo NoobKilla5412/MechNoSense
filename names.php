@@ -12,15 +12,15 @@ $result = mysqli_query($conn, "SELECT * FROM members");
 if (mysqli_num_rows($result) > 0) {
 ?>
     <span class="names">
-    <?php
-    $i = 0;
-    while ($row = mysqli_fetch_array($result)) {
-    ?>
-    <?= rtrim('<?= $row["name"]?>, ',",");?>
-    <?php
-        $i++;
-    }
-    ?>
+        <?php
+        $i = 0;
+        while ($row = mysqli_fetch_array($result)) {
+        ?>
+        <?= $row["name"] ?>, 
+        <?php
+            $i++;
+        }
+        ?>
     </span>
 <?php
 } else {
