@@ -1,5 +1,8 @@
 <?php
 $doc = "Workshops";
+$connection = mysql_connect("localhost", "root", "!d[jAtFAb.!6!Wn");
+$db = mysql_select_db("MechNoSense", $connection);
+$query = mysql_query("select * from workshops", $connection);
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -49,58 +52,26 @@ $doc = "Workshops";
 		</div>
 		<div id="content">
 			<?php
-			$data = [
-				"workshops" => [
-					[
-						"title" => "",
-						"time" => "",
-						"date" => "",
-						"link" => "/workshops/"
-					],
-					[
-						"title" => "",
-						"time" => "",
-						"date" => "",
-						"link" => "/workshops/"
-					],
-					[
-						"title" => "",
-						"time" => "",
-						"date" => "",
-						"link" => "/workshops/"
-					],
-					[
-						"title" => "",
-						"time" => "",
-						"date" => "",
-						"link" => "/workshops/"
-					],
-					[
-						"title" => "",
-						"time" => "",
-						"date" => "",
-						"link" => "/workshops/"
-					]
-				]
-			];
-			for ($r = 0; $r < 5; $r++) {
-				echo '
+			for($id=0;$id<100;$id++){
+			$query1 = mysql_query("select * from workshops where workshops_id=$id", $connection);
+			echo '
 				<div class="box">
 					<h3>
-						'.$data['workshops'][$r]['title'].'
+						'.$row1['workshops_title'].'
 					</h3>
 					<p>
-						Date: '.$data['workshops'][$r]['date'].'<br>
-						Time: '.$data['workshops'][$r]['time'].'
+						Date: '. $row1['workshops_date'].'<br>
+						Time: '. $row1['workshops_time'].'
 					</p>
 					<p>
-						<a href="'.$data['workshops'][$r]['link'].'">
-							'.$data['workshops'][$r]['title'].'
+						<a href="'. $row1['workshops_link'].'">
+							'. $row1['workshops_title'].'
 						</a>
 					</p>
 				</div>
 				';
 			}
+			mysql_close($connection); // Closing Connection with Server
 			?>
 		</div>
 	</div>
