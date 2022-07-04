@@ -51,7 +51,7 @@ if (!$conn) {
 				Workshops
 			</h1>
 			<hr />
-			<?php /*<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>*/?>
+			<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/?>
 			<?php include 'C:\wamp64\www\MechNoSense\names.php';?>
 			<hr />
 		</div>

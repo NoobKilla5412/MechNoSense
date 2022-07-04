@@ -38,7 +38,7 @@
 				MechNoSense Sitemap
 			</h1>
 			<hr />
-			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<?php include 'C:\wamp64\www\MechNoSense\names.php';?>
 			<hr />
 		</div>
 		<a href="http://www.mechnosense.org/">Home</a> <a href="http://mechnosense.org/about-us/">About Us</a> <a href="http://www.mechnosense.org/daily-log/">Daily Log</a> <a href="http://www.mechnosense.org/signup/">Sign Up</a> <a href="http://www.mechnosense.org/videos/">Videos</a> <a href="http://www.mechnosense.org/pics/">Pictures</a> <a href="http://www.mechnosense.org/buy/">Buy</a>

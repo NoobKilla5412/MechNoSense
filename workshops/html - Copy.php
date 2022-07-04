@@ -42,7 +42,7 @@ $subdoc = "Workshops";
 				Workshops
 			</h1>
 			<hr />
-			<span class="names">Brandon, Ismael, Dane, Linnaea, Vibhav, Isaac, Grae, Matthew, Will</span>
+			<?php include 'C:\wamp64\www\MechNoSense\names.php';?>
 			<hr />
 		</div>
 		<p>
