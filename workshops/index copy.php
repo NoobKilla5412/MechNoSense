@@ -51,13 +51,28 @@ $doc = "Workshops";
 			<hr />
 		</div>
 		<div id="content">
-			<?php
-				$data = file_get_contents('C:\wamp64\www\MechNoSense\data.php');
-				foreach($data as &$content){
-					echo $content;
-				}
-			?>
+			<p>No workshops</p>
 		</div>
+		<script>
+			const data = <?=file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.json');?>;
+			let tab = "";
+			for (let r = 0; r <= 100; r++) {
+				tab += `
+				<div class="box">
+					<h3>
+						${data.workshops[r].title}
+					</h3>
+					<p>
+						Date: ${data.workshops[r].date}<br>
+						Time: ${data.workshops[r].time}
+					</p>
+					<a href="${data.workshops[r].link}">
+						${data.workshops[r].title}
+					</a>
+				</div>`;
+				document.getElementById("content").innerHTML = tab;
+			}
+		</script>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
 </body>
