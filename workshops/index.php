@@ -128,7 +128,7 @@ if ($page === 'home') {
 		<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
-				Workshops
+				<?php if($page==='home'){echo 'Workshops';}elseif($page==='html'){echo 'HTML';}?>
 			</h1>
 			<hr />
 			<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/ ?>
