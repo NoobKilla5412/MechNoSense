@@ -13,10 +13,11 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		if (isset($_POST['save']) && isset($_POST['password'])) {
 			if ($_POST['password'] === file_get_contents('C:\wamp64\www\editPWD1.txt')) {
 				$title = $_POST['title'];
+				$info = $_POST['info'];
 				$date = $_POST['date'];
 				$time = $_POST['time'];
 				$link = $_POST['link'];
-				$sql = "INSERT INTO workshops (title,date,time,link) VALUES ('$title','$date','$time','$link')";
+				$sql = "INSERT INTO workshops (title,info,date,time,link) VALUES ('$title','$info','$date','$time','$link')";
 				if (mysqli_query($conn, $sql)) {
 					echo "New record created successfully !";
 				} else {
@@ -34,6 +35,8 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				Title:<br>
 				<input type="text" name="title">
 				<br>
+				Info:<br>
+				<textarea name="info"></textarea>
 				Date:<br>
 				<input type="text" name="date">
 				<br>
