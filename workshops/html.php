@@ -68,8 +68,10 @@ $subdoc = "Workshops";
 
 &lt;/body&gt;
 &lt;/html&gt;
-		</pre>
-		A <code>&lt;p&gt;</code> tag is a paragraph.
+</pre>
+		</p>
+		<p>
+			A <code>&lt;p&gt;</code> tag is a paragraph.
 		</p>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
