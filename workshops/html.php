@@ -49,20 +49,20 @@ $subdoc = "Workshops";
 			<hr />
 		</div>
 		<p>
-			<code>
-				&lt;!DOCTYPE html&gt;<br>
-				&lt;html lang="en"&gt;<br>
-				&lt;head&gt;<br>
-					&lt;meta charset="UTF-8"&gt;<br>
-					&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;<br>
-					&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;<br>
-				&lt;title&gt;Document&lt;/title&gt;<br>
-				&lt;/head&gt;<br>
-				&lt;body&gt;<br>
-				<br>
-				&lt;/body&gt;<br>
-				&lt;/html&gt;
-			</code>
+		<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+	&lt;meta charset="UTF-8"&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+	&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+		</pre>
 		</p>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
