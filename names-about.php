@@ -18,7 +18,7 @@ if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_array($result)) {
         ?>
         <?php
-        $names[] = `<a href="#{$row["name"]}" class="names-link">{$row["name"]}</a>`;
+        $names[] = '<a href="#'.$row["name"].'" class="names-link">'.$row["name"].'</a>';
         ?>
         <?php
             $i++;
