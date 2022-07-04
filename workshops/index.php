@@ -37,6 +37,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				<br>
 				Info:<br>
 				<textarea name="info"></textarea>
+				<br>
 				Date:<br>
 				<input type="text" name="date">
 				<br>
