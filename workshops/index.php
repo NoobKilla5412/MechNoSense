@@ -45,6 +45,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				<br><br>
 				<input type="submit" name="save" value="submit">
 			</form>
+			<a href="/workshops/">Back</a>
 		</body>
 
 		</html>
