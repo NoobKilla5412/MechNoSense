@@ -42,6 +42,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				<br>
 				Link:<br>
 				<input type="text" name="link">
+				<br>
 				Password:<br>
 				<input type="password" name="password">
 				<br><br>
