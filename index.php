@@ -55,7 +55,7 @@ $doc = "Home";
 			Hello, we are MechNoSense, an FTC robotics team located in Benton County. We work on teaching robotics,
 			business, and programming skills. We love all things robots! Our team is committed to equity and diversity
 			and welcomes all no matter skill level, past experience, or current ability. We are made up of 6-8th graders
-			but are flexible and excited to meet new members.
+			but are flexible and excited to meet new members. (Sign up here: <a href="/signup">Sign Up</a>)
 		</p>
 		<p>
 			We have a relatively big and diverse bunch and have been in session for 5+ years. We have constantly made
