@@ -34,6 +34,11 @@ $subdoc = "Workshops";
 	<link rel="stylesheet" href="/style.css" />
 	<!-- Custom CSS -->
 	<title>HTML &#8211; Workshops | MechNoSense</title>
+	<style>
+		pre {
+			background-color: dimgrey;
+		}
+	</style>
 </head>
 
 <body>
@@ -49,7 +54,8 @@ $subdoc = "Workshops";
 			<hr />
 		</div>
 		<p>
-		<pre style="background-color: dimgrey">
+			A template for HTML:
+		<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
@@ -63,6 +69,7 @@ $subdoc = "Workshops";
 &lt;/body&gt;
 &lt;/html&gt;
 		</pre>
+		A <pre>&lt;p&gt;</pre> tag is a paragraph.
 		</p>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
