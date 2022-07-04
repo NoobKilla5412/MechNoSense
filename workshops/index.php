@@ -131,6 +131,9 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 								<?= $row["title"]; ?>
 							</h3>
 							<p>
+								<?= $row["info"]; ?>
+							</p>
+							<p>
 								Date: <?= $row["date"]; ?><br>
 								Time: <?= $row["time"]; ?>
 							</p>
