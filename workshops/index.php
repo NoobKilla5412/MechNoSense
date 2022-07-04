@@ -1,8 +1,9 @@
 <?php
+if(isset($_GET['mode'])&& isset($_GET['pwd'])){
 if($_GET['mode']==='edit'&&$_GET['pwd']===file_get_contents('C:\wamp64\www\editPWD.txt')){
 ?>
 It works
-<?php }else{
+<?php }}else{
 ?>
 <?php
 $doc = "Workshops";
