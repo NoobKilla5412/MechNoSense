@@ -16,7 +16,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 			$time = $_POST['time'];
 			$link = $_POST['link'];
 			$sql = "INSERT INTO workshops (title,date,time,link)
-	 VALUES ('$first_name','$last_name','$city_name','$email')";
+	 VALUES ('$title','$date','$time','$link')";
 			if (mysqli_query($conn, $sql)) {
 				echo "New record created successfully !";
 			} else {
