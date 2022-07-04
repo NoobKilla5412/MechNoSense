@@ -44,7 +44,8 @@ $doc = "About Us";
                 About Our Team
             </h1>
             <hr />
-            <span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>
+            <?php /*<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>*/?>
+            <?php include 'C:\wamp64\www\MechNoSense\names-about.php';?>
             <hr />
         </div>
         <!-- <h2 style="font-size: 200pt;"> -->
