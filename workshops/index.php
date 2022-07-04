@@ -1,8 +1,12 @@
 <?php
 $doc = "Workshops";
-$connection = mysql_connect("localhost", "root", "!d[jAtFAb.!6!Wn");
-$db = mysql_select_db("MechNoSense", $connection);
-$query = mysql_query("select * from workshops", $connection);
+$url = "localhost";
+$username = "root";
+$password = "!d[jAtFAb.!6!Wn";
+$conn = mysqli_connect($url, $username, $password, "crud");
+if (!$conn) {
+	die('Could not Connect My Sql');
+}
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
@@ -52,27 +56,62 @@ $query = mysql_query("select * from workshops", $connection);
 		</div>
 		<div id="content">
 			<?php
-			for($id=0;$id<100;$id++){
-			$query1 = mysql_query("select * from workshops where workshops_id=$id", $connection);
-			echo '
+			$result = mysqli_query($conn, "SELECT * FROM workshops");
+			?>
+			<?php
+			if (mysqli_num_rows($result) > 0) {
+			?>
+				<table>
+					<?php
+					$i = 0;
+					while ($row = mysqli_fetch_array($result)) {
+					?>
+						<tr>
+							<td>
+								<h3><?= $row["title"]; ?></h3>
+							</td>
+							<td>
+								<p>Date: <?= $row["date"]; ?></p>
+							</td>
+							<td>
+								<p>Time: <?= $row["time"]; ?></p>
+							</td>
+							<td>
+								<p><a href="<?= $row["link"]; ?>"><?= $row["title"]; ?>
+							</td>
+						</tr>
+					<?php
+						$i++;
+					}
+					?>
+				</table>
+			<?php
+			} else {
+				echo "No result found";
+			}
+			?>
+			<?php /*
+			for ($id = 0; $id < 100; $id++) {
+				$query1 = mysql_query("select * from workshops where workshops_id=$id", $connection);
+				echo '
 				<div class="box">
 					<h3>
-						'.$row1['workshops_title'].'
+						' . $row1['workshops_title'] . '
 					</h3>
 					<p>
-						Date: '. $row1['workshops_date'].'<br>
-						Time: '. $row1['workshops_time'].'
+						Date: ' . $row1['workshops_date'] . '<br>
+						Time: ' . $row1['workshops_time'] . '
 					</p>
 					<p>
-						<a href="'. $row1['workshops_link'].'">
-							'. $row1['workshops_title'].'
+						<a href="' . $row1['workshops_link'] . '">
+							' . $row1['workshops_title'] . '
 						</a>
 					</p>
 				</div>
 				';
 			}
 			mysql_close($connection); // Closing Connection with Server
-			?>
+			*/?>
 		</div>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
