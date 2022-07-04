@@ -1,4 +1,12 @@
 <?php
+if(!isset($_GET['page'])){
+	header('Location: /workshops/?page=home');
+}else{
+	$page = $_GET['page'];
+}
+if($page==='home'){
+?>
+<?php
 if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 	if ($_GET['mode'] === 'edit' && $_GET['pwd'] === file_get_contents('C:\wamp64\www\editPWD.txt')) {
 ?>
@@ -77,6 +85,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 	if (!$conn) {
 		die('Could not Connect My Sql');
 	}
+	}
 	?>
 	<!DOCTYPE html>
 	<html lang="en-us">
@@ -127,6 +136,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 			</div>
 			<div id="content">
 				<?php
+				if($page==='home'){
 				$result = mysqli_query($conn, "SELECT * FROM workshops");
 				?>
 				<?php
@@ -184,7 +194,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				';
 			}
 			mysql_close($connection); // Closing Connection with Server
-			*/ ?>
+			*/ }?>
 			</div>
 		</div>
 		<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
