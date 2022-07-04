@@ -25,7 +25,7 @@ if (mysqli_num_rows($result) > 0) {
         }
         ?>
         <?php
-        echo implode(', ',$names).'_';
+        echo implode(', ',$names);
         ?>
     </span>
 <?php
