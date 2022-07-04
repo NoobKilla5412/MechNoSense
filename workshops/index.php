@@ -10,20 +10,20 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		if (!$conn) {
 			die('Could not Connect My Sql');
 		}
-		if (isset($_POST['save'])) {
-			$title = $_POST['title'];
-			$date = $_POST['date'];
-			$time = $_POST['time'];
-			$link = $_POST['link'];
-			$sql = "INSERT INTO workshops (title,date,time,link)
-	 VALUES ('$title','$date','$time','$link')";
-			if (mysqli_query($conn, $sql)) {
-				echo "New record created successfully !";
-			} else {
-				echo "Error: " . $sql . "
-" . mysqli_error($conn);
+		if (isset($_POST['save']) && isset($_POST['password'])) {
+			if ($_POST['password'] === file_get_contents('C:\wamp64\www\editPWD1.txt')) {
+				$title = $_POST['title'];
+				$date = $_POST['date'];
+				$time = $_POST['time'];
+				$link = $_POST['link'];
+				$sql = "INSERT INTO workshops (title,date,time,link) VALUES ('$title','$date','$time','$link')";
+				if (mysqli_query($conn, $sql)) {
+					echo "New record created successfully !";
+				} else {
+					echo "Error: " . $sql . "\n" . mysqli_error($conn);
+				}
+				mysqli_close($conn);
 			}
-			mysqli_close($conn);
 		}
 		?>
 		<!DOCTYPE html>
@@ -42,6 +42,8 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				<br>
 				Link:<br>
 				<input type="text" name="link">
+				Password:<br>
+				<input type="password" name="password">
 				<br><br>
 				<input type="submit" name="save" value="submit">
 			</form>
