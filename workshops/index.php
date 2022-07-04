@@ -30,6 +30,10 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		<!DOCTYPE html>
 		<html>
 
+		<head>
+			<link rel="stylesheet" href="/style.css">
+		</head>
+
 		<body>
 			<form method="post" action="">
 				Title:<br>
