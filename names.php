@@ -7,6 +7,7 @@ $conn = mysqli_connect($url, $username, $password, "MechNoSense");
 if (!$conn) {
     die('Could not Connect My Sql');
 }
+$names = [];
 $result = mysqli_query($conn, "SELECT * FROM members");
 
 if (mysqli_num_rows($result) > 0) {
@@ -16,10 +17,15 @@ if (mysqli_num_rows($result) > 0) {
         $i = 0;
         while ($row = mysqli_fetch_array($result)) {
         ?>
-        <?= $row["name"] ?>, 
+        <?php
+        $names[] = $row["name"];
+        ?>
         <?php
             $i++;
         }
+        ?>
+        <?php
+        echo implode(', ',$names);
         ?>
     </span>
 <?php
