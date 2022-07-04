@@ -39,21 +39,33 @@ $subdoc = "Workshops";
 <body>
 	<div class="container-fluid">
 		<!-- Navbar -->
-		<?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
 		<div class="jumbotron text-center">
 			<h1 id="title123">
 				HTML
 			</h1>
 			<hr />
-			<?php include 'C:\wamp64\www\MechNoSense\names.php';?>
+			<?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
 			<hr />
 		</div>
 		<p>
-			Add it on
-			<a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NXVkMnFubW41Ymp2MGtnMGVxdmF1Y3J0YWEgbWVjaG5vc2Vuc2VAbQ&amp;tmsrc=mechnosense%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>.
+			<code>
+				&lt;!DOCTYPE html&gt;
+				&lt;html lang="en"&gt;
+				&lt;head&gt;
+				&lt;meta charset="UTF-8"&gt;
+				&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+				&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+				&lt;title&gt;Document&lt;/title&gt;
+				&lt;/head&gt;
+				&lt;body&gt;
+
+				&lt;/body&gt;
+				&lt;/html&gt;
+			</code>
 		</p>
 	</div>
-	<?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
 </body>
 
 </html>
