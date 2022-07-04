@@ -54,40 +54,7 @@ $doc = "Workshops";
 			<p>No workshops</p>
 		</div>
 		<script>
-			const data = {
-				"workshops": [
-					{
-						"title": "",
-						"time": "",
-						"date": "",
-						"link": "/workshops/"
-					},
-					{
-						"title": "",
-						"time": "",
-						"date": "",
-						"link": "/workshops/"
-					},
-					{
-						"title": "",
-						"time": "",
-						"date": "",
-						"link": "/workshops/"
-					},
-					{
-						"title": "",
-						"time": "",
-						"date": "",
-						"link": "/workshops/"
-					},
-					{
-						"title": "",
-						"time": "",
-						"date": "",
-						"link": "/workshops/"
-					}
-				]
-			};
+			const data = <?=file_get_contents('C:\wamp64\www\MechNoSense\workshops\data.json');?>;
 			let tab = "";
 			for (let r = 0; r <= 100; r++) {
 				tab += `
