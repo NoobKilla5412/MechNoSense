@@ -49,7 +49,7 @@ $subdoc = "Workshops";
 			<hr />
 		</div>
 		<p>
-		<pre>
+		<pre style="background-color: dimgrey">
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
