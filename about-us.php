@@ -84,7 +84,7 @@ $doc = "About Us";
         } else {
             echo "";
         }
-        ?>
+        ?><!--
         <h4>Linnaea:</h4>
         <p id="linnaea">
             I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket
@@ -145,7 +145,7 @@ $doc = "About Us";
         <h4>Brandon:</h4>
         <p id="brandon">
             Hi, my name is Brandon. I do the coding of this webpage. I drive the robot for the competitions.
-        </p>
+        </p>-->
     </div>
     <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
 </body>
