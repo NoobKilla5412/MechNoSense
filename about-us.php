@@ -69,7 +69,7 @@ $doc = "About Us";
                 $i = 0;
                 while ($row = mysqli_fetch_array($result)) {
                 ?>
-                    <h4><?= $row['name'] ?></h4>
+                    <h4><?= $row['name'] ?>:</h4>
                     <p id="<?= strtolower($row["name"]) ?>">
                         <?= $row['bio']; ?>
                     </p>
