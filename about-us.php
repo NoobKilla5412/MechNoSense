@@ -75,8 +75,7 @@ $doc = "About Us";
                     </p>
                     <h5>Contact:</h5>
                     <p>
-                        Phone: <a href="tel:<?= $row['phone']; ?>"><?= $row['phone']; ?></a>
-                        <br>
+                        <?php /* Phone: <a href="tel:<?= $row['phone']; ?>"><?= $row['phone']; ?></a> */ ?>
                         Email: <a href="mailto:<?= $row['email']; ?>"><?= $row['email']; ?></a>
                     </p>
                     <hr>
