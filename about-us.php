@@ -23,7 +23,7 @@ $doc = "About Us";
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/ico" href="/favicon.ico" />
     <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="/js.js"></script>
+    <script src="/js.js"></script>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -38,20 +38,53 @@ $doc = "About Us";
 <body>
     <div class="container-fluid">
         <!-- Navbar -->
-        <?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
+        <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
         <div class="jumbotron text-center">
             <h1 id="title123">
                 About Our Team
             </h1>
             <hr />
-            <?php /*<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>*/?>
-            <?php include 'C:\wamp64\www\MechNoSense\names-about.php';?>
+            <?php /*<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>*/ ?>
+            <?php include 'C:\wamp64\www\MechNoSense\names-about.php'; ?>
             <hr />
         </div>
         <!-- <h2 style="font-size: 200pt;"> -->
         <!-- This is our about page -->
         <!-- </h2> -->
         <h3>Team Biographies:</h3>
+        <?php
+        $url = "localhost";
+        $username = "root";
+        $password = "!d[jAtFAb.!6!Wn";
+        $conn = mysqli_connect($url, $username, $password, "MechNoSense");
+        if (!$conn) {
+            die('Could not Connect My Sql');
+        }
+        $result = mysqli_query($conn, "SELECT * FROM members");
+
+        if (mysqli_num_rows($result) > 0) {
+        ?>
+            <span class="names">
+                <?php
+                $i = 0;
+                while ($row = mysqli_fetch_array($result)) {
+                ?>
+                    <h4><?= $row['name'] ?></h4>
+                    <p id="<?= strtolower($row["name"]) ?>">
+                        <?= $row['bio']; ?>
+                    </p>
+                <?php
+                    $i++;
+                }
+                ?>
+                <?php
+                ?>
+            </span>
+        <?php
+        } else {
+            echo "";
+        }
+        ?>
         <h4>Linnaea:</h4>
         <p id="linnaea">
             I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket
