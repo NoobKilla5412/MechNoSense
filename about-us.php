@@ -73,6 +73,7 @@ $doc = "About Us";
                     <p id="<?= strtolower($row["name"]) ?>">
                         <?= $row['bio']; ?>
                     </p>
+                    <hr>
                 <?php
                     $i++;
                 }
