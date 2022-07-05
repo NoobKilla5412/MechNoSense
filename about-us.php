@@ -69,8 +69,8 @@ $doc = "About Us";
                 $i = 0;
                 while ($row = mysqli_fetch_array($result)) {
                 ?>
-                    <h4><?= $row['name'] ?>:</h4>
-                    <p id="<?= strtolower($row["name"]) ?>">
+                    <h4 id="<?= strtolower($row["name"]) ?>"><?= $row['name'] ?>:</h4>
+                    <p>
                         <?= $row['bio']; ?>
                     </p>
                     <hr>
@@ -85,7 +85,8 @@ $doc = "About Us";
         } else {
             echo "";
         }
-        ?><!--
+        ?>
+        <!--
         <h4>Linnaea:</h4>
         <p id="linnaea">
             I'm the team lead this year and am excited to start off this year with a blast. I'm part of team rocket
