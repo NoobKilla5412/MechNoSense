@@ -71,7 +71,8 @@ $subdoc = "Workshops";
 </pre>
 		</p>
 		<p>
-			A <code>&lt;p&gt;</code> tag is a paragraph.
+			A <code>&lt;p&gt;</code> tag is a paragraph.<br>
+			The <code>&lt;title&gt;</code> tag is for the title of the webpage.
 		</p>
 	</div>
 	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
