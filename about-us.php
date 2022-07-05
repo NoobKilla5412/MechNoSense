@@ -73,6 +73,11 @@ $doc = "About Us";
                     <p>
                         <?= $row['bio']; ?>
                     </p>
+                    <h5>Contact:</h5>
+                    <p>
+                        Phone: <?= $row['phone']; ?>
+                        Email:<?= $row['email']; ?>
+                    </p>
                     <hr>
                 <?php
                     $i++;
