@@ -21,7 +21,7 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 				if (mysqli_query($conn, $sql)) {
 					echo "New record created successfully !";
 				} else {
-					echo "Error: " . $sql . "\n" . mysqli_error($conn);
+					echo "Error: " . htmlspecialchars($sql) . "\n" . mysqli_error($conn);
 				}
 				mysqli_close($conn);
 			}
