@@ -1,5 +1,4 @@
 <?php
-$doc = "Home";
 if (isset($_GET['q']) && !empty($_GET['q'])) {
     $search = htmlspecialchars($_GET['q']);
 }
