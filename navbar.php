@@ -103,7 +103,7 @@ f="/robots/"><b>Robots</b></a></li>
 				</li>
 			</ul>
 			<form class="d-flex" action="/search" method="GET">
-				<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search">
+				<input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
 				<button class="btn btn-outline-success" type="submit">Go</button>
 			</form>
 		</div>
