@@ -36,7 +36,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/style.css" />
-    <title>Search results for <?php ?> &#8211; MechNoSense</title>
+    <title><?php if (isset($_GET['q']) && !empty($_GET['q'])) {echo 'Search results for ' . $search;}else{echo 'Search';} ?> &#8211; MechNoSense</title>
 </head>
 
 <body>
