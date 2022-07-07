@@ -101,10 +101,6 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
-				<form class="d-flex" style="width:100%">
-					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-					<button class="btn btn-outline-success" type="submit">Search</button>
-				</form>
 				<?php /*<li class="nav-item dropdown">
 					<!-- <li class="nav-item" style="float: right;"><a class="nav-link" href="#bottom">&#9660;</a></li> -->
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
