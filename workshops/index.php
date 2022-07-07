@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET['mode']) && isset($_GET['pwd'])) {
+/*if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 	if ($_GET['mode'] === 'edit' && $_GET['pwd'] === file_get_contents('C:\wamp64\www\editPWD.txt')) {
 ?>
 		<?php
@@ -31,12 +31,12 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		<html>
 
 		<head>
-			<?php /*<link rel="stylesheet" href="/style.css">
+			<?php <link rel="stylesheet" href="/style.css">
 			<style>
 				body{
 					background-color: #FFF;
 				}
-			</style>*/ ?>
+			</style> ?>
 		</head>
 
 		<body>
@@ -67,103 +67,103 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 		</html>
 	<?php }
 } else {
-	?>
-	<?php
-	$doc = "Workshops";
-	$url = "localhost";
-	$username = "root";
-	$password = "!d[jAtFAb.!6!Wn";
-	$conn = mysqli_connect($url, $username, $password, "MechNoSense");
-	if (!$conn) {
-		die('Could not Connect My Sql');
-	}
-	?>
-	<!DOCTYPE html>
-	<html lang="en-us">
+	*/ ?>
+<?php
+$doc = "Workshops";
+$url = "localhost";
+$username = "root";
+$password = "!d[jAtFAb.!6!Wn";
+$conn = mysqli_connect($url, $username, $password, "MechNoSense");
+if (!$conn) {
+	die('Could not Connect My Sql');
+}
+?>
+<!DOCTYPE html>
+<html lang="en-us">
 
-	<head>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VC2S111058"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag('js', new Date());
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
 
-			gtag('config', 'G-H9Z681C9TH');
-		</script>
-		<meta charset="utf-8">
-		<link rel="manifest" href="/manifest.json">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
-		<link rel="icon" type="image/ico" href="/favicon.ico" />
-		<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-		<script src="/js.js"></script>
+		gtag('config', 'G-H9Z681C9TH');
+	</script>
+	<meta charset="utf-8">
+	<link rel="manifest" href="/manifest.json">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
+	<link rel="icon" type="image/ico" href="/favicon.ico" />
+	<script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="/js.js"></script>
 
-		<!-- Bootstrap CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<!-- Bootstrap JavaScript -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="/style.css" />
-		<!-- Custom CSS -->
-		<title>Workshops &#8211; MechNoSense</title>
-	</head>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- Bootstrap JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/style.css" />
+	<!-- Custom CSS -->
+	<title>Workshops &#8211; MechNoSense</title>
+</head>
 
-	<body>
-		<div class="container-fluid">
-			<!-- Navbar -->
-			<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
-			<div class="jumbotron text-center">
-				<h1 id="title123">
-					Workshops
-				</h1>
-				<hr />
-				<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/ ?>
-				<?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
-				<hr />
-			</div>
-			<div id="content">
+<body>
+	<div class="container-fluid">
+		<!-- Navbar -->
+		<?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+		<div class="jumbotron text-center">
+			<h1 id="title123">
+				Workshops
+			</h1>
+			<hr />
+			<?php /*<?php include 'C:\wamp64\www\MechNoSense\names.php';?>*/ ?>
+			<?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
+			<hr />
+		</div>
+		<div id="content">
+			<?php
+			$result = mysqli_query($conn, "SELECT * FROM workshops");
+			?>
+			<?php
+			if (mysqli_num_rows($result) > 0) {
+			?>
 				<?php
-				$result = mysqli_query($conn, "SELECT * FROM workshops");
+				$i = 0;
+				while ($row = mysqli_fetch_array($result)) {
 				?>
-				<?php
-				if (mysqli_num_rows($result) > 0) {
-				?>
-					<?php
-					$i = 0;
-					while ($row = mysqli_fetch_array($result)) {
-					?>
-						<div class="box">
-							<h3>
+					<div class="box">
+						<h3>
+							<?= $row["title"]; ?>
+						</h3>
+						<p>
+							<?= $row["info"]; ?>
+						</p>
+						<p>
+							Date: <?= $row["date"]; ?><br>
+							Time: <?= $row["time"]; ?>
+						</p>
+						<p>
+							<a href="<?= $row["link"]; ?>">
 								<?= $row["title"]; ?>
-							</h3>
-							<p>
-								<?= $row["info"]; ?>
-							</p>
-							<p>
-								Date: <?= $row["date"]; ?><br>
-								Time: <?= $row["time"]; ?>
-							</p>
-							<p>
-								<a href="<?= $row["link"]; ?>">
-									<?= $row["title"]; ?>
-								</a>
-							</p>
-						</div>
-					<?php
-						$i++;
-					}
-					?>
-					</table>
+							</a>
+						</p>
+					</div>
 				<?php
-				} else {
-					echo "";
+					$i++;
 				}
 				?>
-				<?php /*
+				</table>
+			<?php
+			} else {
+				echo "";
+			}
+			?>
+			<?php /*
 			for ($id = 0; $id < 100; $id++) {
 				$query1 = mysql_query("select * from workshops where workshops_id=$id", $connection);
 				echo '
@@ -185,12 +185,9 @@ if (isset($_GET['mode']) && isset($_GET['pwd'])) {
 			}
 			mysql_close($connection); // Closing Connection with Server
 			*/ ?>
-			</div>
 		</div>
-		<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
-	</body>
+	</div>
+	<?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+</body>
 
-	</html>
-<?php
-}
-?>
+</html>
