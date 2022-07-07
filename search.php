@@ -1,6 +1,8 @@
 <?php
 $doc = "Home";
-$search = htmlspecialchars($_GET['q']);
+if (isset($_GET['q']) && !empty($_GET['q'])) {
+    $search = htmlspecialchars($_GET['q']);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en-us">
