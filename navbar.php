@@ -101,7 +101,7 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
-				<form>
+				<form class="flex">
 					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
 					<button class="btn btn-outline-success" type="submit">Search</button>
 				</form>
