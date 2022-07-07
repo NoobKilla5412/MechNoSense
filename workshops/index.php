@@ -5,7 +5,7 @@
 		<?php
 		$url = "localhost";
 		$username = "root";
-		$password = "!d[jAtFAb.!6!Wn";
+		$password = file_get_contents('C:\wamp64\www\SQLpwd.txt');
 		$conn = mysqli_connect($url, $username, $password, "MechNoSense");
 		if (!$conn) {
 			die('Could not Connect My Sql');
@@ -72,7 +72,7 @@
 $doc = "Workshops";
 $url = "localhost";
 $username = "root";
-$password = "!d[jAtFAb.!6!Wn";
+$password = file_get_contents('C:\wamp64\www\SQLpwd.txt');
 $conn = mysqli_connect($url, $username, $password, "MechNoSense");
 if (!$conn) {
 	die('Could not Connect My Sql');
