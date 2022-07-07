@@ -56,7 +56,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
             <button class="btn btn-outline-success" type="submit">Go</button>
         </form>
         <h3>
-            Results for <?php if (isset($_GET['q']) && !empty($_GET['q'])) echo $search; ?>:
+            Results for <?php if (isset($_GET['q']) && !empty($_GET['q'])) echo 'Results for :' . $search; ?>:
         </h3>
     </div>
     <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
