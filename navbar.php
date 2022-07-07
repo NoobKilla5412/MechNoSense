@@ -66,14 +66,14 @@ f="/robots/"><b>Robots</b></a></li>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item"><?php active("Home"); ?>href="/">Home</a></li>
-				<li class="nav-item"><?php active("About Us"); ?>href="/about-us/">About Us</a></li>
+				<li class="nav-item"><?php active("About Us"); ?>href="/about-us/">About&nbsp;Us</a></li>
 				<li class="nav-item"><?php active("Workshops"); ?>href="/workshops/">Workshops</a></li>
-				<li class="nav-item"><?php active("Daily Log"); ?>href="/daily-log/">Daily Log</a></li>
-				<li class="nav-item"><?php active("Sign Up"); ?>href="/signup/">Sign Up</a></li>
+				<li class="nav-item"><?php active("Daily Log"); ?>href="/daily-log/">Daily&nbsp;Log</a></li>
+				<li class="nav-item"><?php active("Sign Up"); ?>href="/signup/">Sign&nbsp;Up</a></li>
 				<li class="nav-item"><?php active("Videos"); ?>href="/videos/">Videos</a></li>
 				<li class="nav-item"><?php active("Pictures"); ?>href="/pics/">Pictures</a></li>
 				<?php /*<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a></li> */ ?>
-				<li class="nav-item"><?php active("Mini-Bot"); ?>href="/minibot">Code Mini-Bots</a></li>
+				<li class="nav-item"><?php active("Mini-Bot"); ?>href="/minibot">Code&nbsp;Mini-Bots</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle <?php activeDrop("Sponsors"); ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 						Sponsors
