@@ -72,7 +72,7 @@ f="/robots/"><b>Robots</b></a></li>
 				<li class="nav-item"><?php active("Sign Up"); ?>href="/signup/">Sign Up</a></li>
 				<li class="nav-item"><?php active("Videos"); ?>href="/videos/">Videos</a></li>
 				<li class="nav-item"><?php active("Pictures"); ?>href="/pics/">Pictures</a></li>
-				<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a></li>
+				<?php /*<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a></li> */?>
 				<li class="nav-item"><?php active("Mini-Bot"); ?>href="/minibot">Code Mini-Bots</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle <?php activeDrop("Sponsors"); ?>" href="#" id="navbarDropdown-Sponsors-bottom" role="button" data-bs-toggle="dropdown" aria-expanded="false">

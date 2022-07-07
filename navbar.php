@@ -72,7 +72,7 @@ f="/robots/"><b>Robots</b></a></li>
 				<li class="nav-item"><?php active("Sign Up"); ?>href="/signup/">Sign Up</a></li>
 				<li class="nav-item"><?php active("Videos"); ?>href="/videos/">Videos</a></li>
 				<li class="nav-item"><?php active("Pictures"); ?>href="/pics/">Pictures</a></li>
-				<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a></li>
+				<?php /*<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a></li> */ ?>
 				<li class="nav-item"><?php active("Mini-Bot"); ?>href="/minibot">Code Mini-Bots</a></li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle <?php activeDrop("Sponsors"); ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -101,18 +101,6 @@ f="/robots/"><b>Robots</b></a></li>
 						<li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="/robots/atlas">Atlas</a></li>
 					</ul>
 				</li>
-				<?php /*<li class="nav-item dropdown">
-					<!-- <li class="nav-item" style="float: right;"><a class="nav-link" href="#bottom">&#9660;</a></li> -->
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Dropdown
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #183820;">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
-						<li><hr class="dropdown-divider"></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
-					</ul>
-				</li>*/ ?>
 			</ul>
 		</div>
 	</div>
