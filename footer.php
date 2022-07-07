@@ -7,7 +7,7 @@
         Text&nbsp;number:&nbsp;(541)&nbsp;286-7974
         Email:&nbsp;<a href="mailto:contact@mechnosense.org">contact@mechnosense.org</a>
         YouTube&nbsp;channel:&nbsp;<a href="https://www.youtube.com/channel/UCBLlVrpF1RP2r3pBj7l6z8Q" target="_blank">MechNoSense&nbsp;Robotics</a>
-        <a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a>
+        Buy:&nbsp;<a href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">MechNoSense</a>
     </p>
     <br><br id="bottom">
 </div>
