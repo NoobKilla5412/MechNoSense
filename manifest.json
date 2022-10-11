@@ -1,18 +1,19 @@
 {
-	"$schema": "https://json.schemastore.org/web-manifest-combined.json",
-	"name": "MechNoSense",
-	"short_name": "MechNoSense",
-	"start_url": "/",
-	"display": "standalone",
-	"id": "/",
-	"background_color": "#183820",
-	"description": "The MechNoSense app.",
-	"icons": [
-		{
-			"src": "/apple-touch-icon.png",
-			"sizes": "1723x1723",
-			"type": "image/png",
-			"purpose": "any"
-		}
-	]
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "MechNoSense",
+  "short_name": "MechNoSense",
+  "start_url": "/",
+  "display": "standalone",
+  "id": "/",
+  "background_color": "#183820",
+  "theme_color": "#183820",
+  "description": "The MechNoSense app.",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "1723x1723",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }

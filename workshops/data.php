@@ -1,4 +1,5 @@
-[
+<?php include 'C:\wamp64\www\MechNoSense\errors\403.php' ?>
+<!-- [
     "workshops" => [
         [
             "title" => "",
@@ -31,4 +32,4 @@
             "link" => "/workshops/"
         ]
     ]
-]
+] -->

@@ -1,39 +1,39 @@
 #title123 {
-	color: #A48C38;
+  color: #A48C38;
 }
 
 .names {
-	font-size: 24pt;
-	color: #6F8F72;
+  font-size: 24pt;
+  color: #6F8F72;
 }
 
 /* body {
-	background: linear-gradient(to bottom, #183820, #142718);
+  background: linear-gradient(to bottom, #183820, #142718);
 } */
 body {
-	background-color: #183820;
+  background-color: #183820;
 }
 
 .jumbotron {
-	/* background-color: #185020; */
-	background: linear-gradient(to bottom, #185020, #17431c);
-	padding: 2rem 1rem;
-	margin-bottom: 2rem;
-	border-radius: .3rem;
+  /* background-color: #185020; */
+  background: linear-gradient(to bottom, #185020, #17431c);
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
 }
 
 p {
-	font-size: 16pt;
-	color: #6F8F72;
+  font-size: 16pt;
+  color: #6F8F72;
 }
 
 .text {
-	color: #6F8F72;
+  color: #6F8F72;
 }
 
 h3 {
-	font-size: 24pt;
-	color: #6F8F72;
+  font-size: 24pt;
+  color: #6F8F72;
 }
 
 h1,
@@ -42,122 +42,136 @@ h3,
 h4,
 h5,
 h6 {
-	color: #6F8F72;
-}
-
-h6 {
-	color: #6F8F72;
+  color: #6F8F72;
+  font-weight: bold;
 }
 
 #team {
-	color: #A48C38;
+  color: #A48C38;
 }
 
 h3 {
-	color: #A48C38;
+  color: #A48C38;
 }
 
 .names-link {
-	color: #6F8F72;
+  color: #6F8F72;
 }
 
 a {
-	color: #6FBF72;
+  color: #6FBF72;
 }
 
 a:hover {
-	color: #6FFF72;
+  color: #6FFF72;
 }
 
 #head123 {
-	color: #A48C38;
+  color: #A48C38;
 }
 
 .navbar {
-	background-color: #183820;
+  background-color: #183820;
+  align-items: left;
+  justify-content: start;
 }
 
 a.nav-link {
-	color: #638a67;
+  color: #638a67;
 }
 
 a.nav-link:hover,
 a.nav-link:focus {
-	color: #729e76;
+  color: #729e76;
 }
 
 a.dropdown-toggle {
-	cursor: default;
+  cursor: default;
 }
 
 .forminput122 {
-	display: inline-block;
-	padding: 6px 12px;
-	margin-bottom: 3px;
-	font-weight: 400;
-	line-height: 1.42857143;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	cursor: text;
-	border: 1px solid transparent;
-	border-radius: 4px
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 3px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: text;
+  border: 1px solid transparent;
+  border-radius: 4px
 }
 
-ul.dropdown-menu li a {
-	color: #6F8F72;
-}
+/* ul.dropdown-menu li a {
+  color: #6F8F72;
+} */
 
 img {
-	margin: 5px;
+  margin: 5px;
 }
 
 .error {
-	color: #f00;
-	font-size: 16pt;
-}
-
-.active {
-	color: #76a87b;
+  color: #f00;
+  font-size: 16pt;
 }
 
 @media (min-width:576px) {
-	.jumbotron {
-		padding: 4rem 2rem
-	}
+  .jumbotron {
+    padding: 4rem 2rem
+  }
 }
 
 .jumbotron-fluid {
-	padding-right: 0;
-	padding-left: 0;
-	border-radius: 0
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0
 }
 
 .box {
-	border: 1px black solid;
-	background: linear-gradient(to bottom, #185020, #17431c);
-	padding: 2rem 1rem;
-	margin-bottom: 2rem;
-	border-radius: .3rem;
+  border: 1px black solid;
+  background: linear-gradient(to bottom, #185020, #17431c);
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
 }
 
 #footer {
-	overflow: hidden;
-	position: relative;
-	padding-top: 8px;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	background: #363839;
-	color: #8c8989;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+  overflow: hidden;
+  position: relative;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background: #363839;
+  color: #8c8989;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.form-control {
+  border: 1px solid transparent;
+}
+
+.nav-item .nav-link.active {
+  /* color: #76a87b; */
+  color: #fff;
+}
+
+.writing {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+code#code {
+  font-family: monospace;
+  color: lightgray;
 }
