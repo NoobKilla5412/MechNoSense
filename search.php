@@ -54,8 +54,6 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
       <h1 id="title123">
         Search
       </h1>
-      <hr />
-      <?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
     </div>
     <form class="d-flex" action="/search" method="GET">
       <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off" value="<?php if (isset($_GET['q'])) {
