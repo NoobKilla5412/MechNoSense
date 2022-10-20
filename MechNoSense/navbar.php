@@ -70,7 +70,7 @@ function activeSubDrop($doc1)
         MechNoSense
       </a>
     </h5>
-    <div style="float: right;">
+    <div style="margin-left: auto;">
       <form class="d-flex" action="/search" method="GET" style="display: block;">
         <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
         <button class="btn btn-outline-success" type="submit">Go</button>
