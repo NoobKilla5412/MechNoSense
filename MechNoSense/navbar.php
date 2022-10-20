@@ -72,7 +72,7 @@ function activeSubDrop($doc1)
     </h5>
     <div style="margin-left: auto;">
       <form class="d-flex" action="/search" method="GET" style="display: block;">
-        <input class="form-control me-5" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+        <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off" width="20%" >
         <button class="btn btn-outline-success" type="submit">Go</button>
       </form>
     </div>
