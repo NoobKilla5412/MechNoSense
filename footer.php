@@ -1,5 +1,5 @@
 <div id="footer">
-  <?php // include 'C:\wamp64\www\MechNoSense\navbar-bottom.php'; 
+  <?php // include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar-bottom.php'; 
   ?>
   <script>
     function offCanvasColor() {

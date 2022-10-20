@@ -37,7 +37,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
   <title><?php if (isset($_GET['q']) && !empty($_GET['q'])) {
             echo 'Search results for ' . $search;
@@ -49,7 +49,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
 <body>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         Search
@@ -88,6 +88,11 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
 
         $query = mysqli_real_escape_string($conn, $query);
         // makes sure nobody uses SQL injection
+        $path = "../../searches.csv";
+        $fh = fopen($path, "a+");
+        $string = "\n\"" . $query . "\"";
+        fwrite($fh, $string); // Write information to the file
+        fclose($fh); // Close the file
 
         $raw_results = mysqli_query($conn, "SELECT * FROM pages
       WHERE (`title` LIKE '%" . $query . "%') OR (`info` LIKE '%" . $query . "%') OR (`text` LIKE '%" . $query . "%')") or die;
@@ -117,7 +122,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
     }
     ?>
   </div>
-  <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+  <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php'; ?>
 </body>
 
 </html>

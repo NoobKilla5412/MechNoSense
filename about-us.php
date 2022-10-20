@@ -21,7 +21,7 @@ $doc = "About Us";
   <link rel="manifest" href="/manifest.json">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/ico" href="/favicon.ico" />
+  <link rel="icon" type="image/ico" href="https://mechnosense.org/favicon.ico" />
   <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script async src="/js.js"></script>
 
@@ -30,7 +30,7 @@ $doc = "About Us";
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
   <!-- Custom CSS -->
   <title>About Us &#8211; MechNoSense</title>
@@ -39,14 +39,14 @@ $doc = "About Us";
 <body>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         About Our Team
       </h1>
       <hr />
       <?php /*<span class="names"><a href="#brandon" class="names-link">Brandon</a>, <a href="#ismael" class="names-link">Ismael</a>, <a href="#dane" class="names-link">Dane</a>, <a href="#linnaea" class="names-link">Linnaea</a>, <a href="#vibhav" class="names-link">Vibhav</a>, <a href="#isaac" class="names-link">Isaac</a>, <a href="#grae" class="names-link">Grae</a>, <a href="#matthew" class="names-link">Matthew</a>, <a href="#will" class="names-link">Will</a>, <a href="#linnaea" class="names-link">Linnaea</a> | <a href="mailto:contact@mechnosense.org" class="names-link">Our&nbsp;email</a></span>*/ ?>
-      <?php include 'C:\wamp64\www\MechNoSense\names-about.php'; ?>
+      <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\names-about.php'; ?>
       <hr />
     </div>
     <!-- <h2 style="font-size: 200pt;"> -->
@@ -155,7 +155,7 @@ $doc = "About Us";
             Hi, my name is Brandon. I do the coding of this webpage. I drive the robot for the competitions.
         </p>-->
   </div>
-  <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+  <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php'; ?>
 </body>
 
 </html>

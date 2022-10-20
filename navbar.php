@@ -65,11 +65,15 @@ function activeSubDrop($doc1)
       <span class="navbar-toggler-icon"></span>
     </button>
     <h5 style="display: inline;">
-      <a class="navbar-brand" href="/" style="color: #6fbf72;">
-        <img src="/apple-touch-icon.png" height="40">
+      <a class="navbar-brand" href="https://mechnosense.org/" style="color: #6fbf72;">
+        <img src="https://uploads.mechnosense.org/images/apple-touch-icon-min.png" height="40px" width="40px">
         MechNoSense
       </a>
     </h5>
+    <form class="d-flex" action="/search" method="GET" style="float: right; display: block;">
+      <input class="form-control me-2" name="q" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+      <button class="btn btn-outline-success" type="submit">Go</button>
+    </form>
   </div>
 </nav>
 
@@ -81,30 +85,30 @@ function activeSubDrop($doc1)
   <div class="offcanvas-body">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item">
-        <?php active("Home"); ?>href="/">Home</a>
+        <?php active("Home"); ?>href="https://mechnosense.org/">Home</a>
       </li>
       <li class="nav-item">
-        <?php active("About Us"); ?>href="/about-us/">About&nbsp;Us</a>
+        <?php active("About Us"); ?>href="https://mechnosense.org/about-us/">About&nbsp;Us</a>
       </li>
       <li class="nav-item">
-        <?php active("Workshops"); ?>href="/workshops/">Workshops</a>
+        <?php active("Workshops"); ?>href="https://workshops.mechnosense.org/">Workshops</a>
       </li>
       <li class="nav-item">
-        <?php active("Daily Log"); ?>href="/daily-log/">Daily&nbsp;Log</a>
+        <?php active("Daily Log"); ?>href="https://mechnosense.org/daily-log/">Daily&nbsp;Log</a>
       </li>
       <li class="nav-item">
-        <?php active("Sign Up"); ?>href="/signup/">Sign&nbsp;Up</a>
+        <?php active("Sign Up"); ?>href="https://mechnosense.org/signup/">Sign&nbsp;Up</a>
       </li>
       <li class="nav-item">
-        <?php active("Videos"); ?>href="/videos/">Videos</a>
+        <?php active("Videos"); ?>href="https://mechnosense.org/videos/">Videos</a>
       </li>
       <li class="nav-item">
-        <?php active("Pictures"); ?>href="/pics/">Pictures</a>
+        <?php active("Pictures"); ?>href="https://mechnosense.org/pics/">Pictures</a>
       </li>
       <?php /*<li class="nav-item"><?php active("Buy"); ?>href="https://www.redbubble.com/shop/ap/109276834?ref=studio-promote">Buy</a>
       </li> */ ?>
       <li class="nav-item">
-        <?php active("Mini-Bot"); ?>href="/minibot/">Code&nbsp;Mini&#8209;Bots</a>
+        <?php active("Mini-Bot"); ?>href="https://mechnosense.org/minibot/">Code&nbsp;Mini&#8209;Bots</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle collapsed <?php activeDrop("Sponsors"); ?>" href="#" id="navbarDropdown" role="button" data-bs-toggle="collapse" data-bs-target="#sponsorsDropdown" aria-expanded="false">
@@ -112,13 +116,13 @@ function activeSubDrop($doc1)
         </a>
         <div class="collapse" id="sponsorsDropdown">
           <ul class="dropdown-menu show" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item <?php activeSubDrop("Sponsors"); ?>" href="/sponsors/">Sponsors</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Sponsors"); ?>" href="https://mechnosense.org/sponsors/">Sponsors</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-HP"); ?>" href="/sponsors/hp">HP</a></li>
-            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-4H"); ?>" href="/sponsors/4h">4-H</a></li>
-            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-First"); ?>" href="/sponsors/first">First
+            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-HP"); ?>" href="https://mechnosense.org/sponsors/hp">HP</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-4H"); ?>" href="https://mechnosense.org/sponsors/4h">4-H</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Sponsors-First"); ?>" href="https://mechnosense.org/sponsors/first">First
                 Robotics</a></li>
           </ul>
         </div>
@@ -129,12 +133,12 @@ function activeSubDrop($doc1)
         </a>
         <div class="collapse" id="robotsDropdown">
           <ul class="dropdown-menu show" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item <?php activeSubDrop("Robots"); ?>" href="/robots/">Robots</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Robots"); ?>" href="https://mechnosense.org/robots/">Robots</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item <?php activeSubDrop("Robots-Titans"); ?>" href="/robots/titans">Titans</a></li>
-            <li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="/robots/atlas">Atlas</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Robots-Titans"); ?>" href="https://mechnosense.org/robots/titans">Titans</a></li>
+            <li><a class="dropdown-item <?php activeSubDrop("Robots-Atlas"); ?>" href="https://mechnosense.org/robots/atlas">Atlas</a></li>
           </ul>
         </div>
       </li>

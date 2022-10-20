@@ -18,7 +18,7 @@ if (!empty($_POST["first"]) && !empty($_POST["last"]) && !empty($_POST["email"])
   if ($length_name > 2 && $length_name < 100) {
     $first = $_POST["first"];
   }
-  
+
   $fh = fopen($path, "a+");
   $string = "\n\"" . strip_tags($first) . "\",\"" . strip_tags($_POST["last"]) . "\",\"" . strip_tags(filter_var($_POST["email"], FILTER_SANITIZE_EMAIL)) . "\",\"" . strip_tags($_POST['phone']) . "\"";
   fwrite($fh, $string); // Write information to the file

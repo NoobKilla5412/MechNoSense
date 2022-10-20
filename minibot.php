@@ -21,7 +21,7 @@ $doc = "Mini-Bot";
   <link rel="manifest" href="/manifest.json">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/ico" href="/favicon.ico" />
+  <link rel="icon" type="image/ico" href="https://mechnosense.org/favicon.ico" />
   <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="/js.js"></script>
 
@@ -32,7 +32,7 @@ $doc = "Mini-Bot";
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
   <!-- Custom CSS -->
   <title>Mini-Bot &#8211; MechNoSense</title>
@@ -52,7 +52,7 @@ $doc = "Mini-Bot";
   </script>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         Mini-Bot
@@ -97,7 +97,7 @@ $doc = "Mini-Bot";
   <script>
     styleCodeTags()
   </script>
-  <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+  <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php'; ?>
 </body>
 
 </html>

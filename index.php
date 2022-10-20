@@ -33,7 +33,7 @@ $doc = "Home";
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
   <title>MechNoSense</title>
 </head>
@@ -41,16 +41,16 @@ $doc = "Home";
 <body>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         <div style="display: flex; justify-content: center; align-content: center; align-items: center; flex-wrap: wrap;">
-          <img src="/favicon.svg" height="300px" alt="Logo" />
+          <img src="https://uploads.mechnosense.org/images/favicon-min.png" height="300px" width="208px" alt="Logo" />
           MechNoSense <br>Robotics
         </div>
       </h1>
       <hr>
-      <?php include 'C:\wamp64\www\MechNoSense\names.php'; ?>
+      <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\names.php'; ?>
       <hr>
     </div>
     <h3 id="team">
@@ -71,7 +71,7 @@ $doc = "Home";
       the team behind MechNoSense.
     </p>
   </div>
-  <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+  <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php'; ?>
 </body>
 
 </html>

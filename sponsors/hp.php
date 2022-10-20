@@ -23,7 +23,7 @@ $subdoc = "Sponsors";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
-    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <link rel="icon" type="image/ico" href="https://mechnosense.org/favicon.ico" />
     <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script async src="/js.js"></script>
 
@@ -32,7 +32,7 @@ $subdoc = "Sponsors";
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
     <!-- Custom CSS -->
     <title>HP &#8211; Sponsors | MechNoSense</title>
@@ -41,7 +41,7 @@ $subdoc = "Sponsors";
 <body>
     <div class="container-fluid">
         <!-- Navbar -->
-        <?php include 'C:\wamp64\www\MechNoSense\navbar.php'; ?>
+        <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php'; ?>
         <div class="jumbotron text-center">
             <h1 id="title123">
                 HP
@@ -55,7 +55,7 @@ $subdoc = "Sponsors";
             computers. We can progress greatly and learn many new things with the funds that you have provided us. Here
             are some photos from our competition mentioned below, as well as how we did during the competition.
         </p>
-        <img src="/pics/images/IMG_6502.png" width="50%" />
+        <img src="https://uploads.mechnosense.org/images/IMG_6502-min.png" width="50%" />
         <p>
             This is the photo of one of our robots on a subteam within Rocket Robotics which we call the “Titans”. This
             robot included many features such as a linear slide elevator which took our bucket up to the right level so
@@ -66,7 +66,7 @@ $subdoc = "Sponsors";
             top of each her and powered by a motor to turn the Carousel which is also one of the scoring elements within
             the competition.
         </p>
-        <img src="/pics/images/atlas.jpg" width="50%" />
+        <img src="https://uploads.mechnosense.org/images/atlas.jpg" width="50%" />
         <p>
             This is a photo of the other robot from the counterpart to the subteam “Titans” called “Atlas”. This robot
             also includes a linear slide similar to the Titans robot. Rather than using a bucket we used a revolutionary
@@ -78,7 +78,7 @@ $subdoc = "Sponsors";
             robot is that we put an extra motor on the linear slide as just a dummy weight to pull the linear slide back
             down using gravity
         </p>
-        <img src="/pics/images/team.jpg" width="100%" />
+        <img src="https://uploads.mechnosense.org/images/team.jpg" width="100%" />
         <p>
             This is a photo from one of the competitions. We performed really well and also found out a lot about the
             problems within our robot and how to fix them. We learned from our mistakes and even though we weren't able
@@ -91,7 +91,7 @@ $subdoc = "Sponsors";
             necessary to continue this team for the following season.
         </p>
     </div>
-    <?php include 'C:\wamp64\www\MechNoSense\footer.php'; ?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php'; ?>
 </body>
 
 </html>

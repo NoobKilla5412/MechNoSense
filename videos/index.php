@@ -19,7 +19,7 @@ $doc = "Videos";
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="MechNoSense mechnosense robots robotics robot">
-  <link rel="icon" type="image/ico" href="/favicon.ico" />
+  <link rel="icon" type="image/ico" href="https://mechnosense.org/favicon.ico" />
   <link rel="apple-touch-icon" href="/favicon.png">
   <script src="https://ajax.GOOGLEAPIS.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script async src="/js.js"></script>
@@ -36,7 +36,7 @@ $doc = "Videos";
 <body>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\MechNoSense\navbar.php';?>
+    <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\navbar.php';?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         Videos
@@ -48,7 +48,7 @@ $doc = "Videos";
       <source type="video/mp4"src="IMG_3118.mp4"/>
     </video>
   </div>
-  <?php include 'C:\wamp64\www\MechNoSense\footer.php';?>
+  <?php include 'C:\wamp64\www\MechNoSense-Website\MechNoSense\footer.php';?>
 </body>
 
 </html>
