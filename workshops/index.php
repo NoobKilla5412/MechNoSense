@@ -153,6 +153,7 @@ if (!$conn) {
         <?php
           $i++;
         }
+        mysqli_close($connection);
         ?>
         </table>
       <?php
