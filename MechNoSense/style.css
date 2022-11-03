@@ -12,7 +12,7 @@
 } */
 body {
   /* background-color: #183820; */
-  background-color: cyan;
+  background-color: black;
 }
 
 .jumbotron {
@@ -25,7 +25,8 @@ body {
 
 p {
   font-size: 16pt;
-  color: #6F8F72;
+  /* color: #6F8F72; */
+  color: cyan;
 }
 
 .text {
