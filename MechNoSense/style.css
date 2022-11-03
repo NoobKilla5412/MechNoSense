@@ -11,8 +11,8 @@
   background: linear-gradient(to bottom, #183820, #142718);
 } */
 body {
-  /* background-color: #183820; */
-  background-color: black;
+  background-color: #183820;
+  /* background-color: black; */
 }
 
 .jumbotron {
@@ -25,8 +25,8 @@ body {
 
 p {
   font-size: 16pt;
-  /* color: #6F8F72; */
-  color: cyan;
+  color: #6F8F72;
+  /* color: cyan; */
 }
 
 .text {
